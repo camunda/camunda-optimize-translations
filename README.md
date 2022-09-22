@@ -2,6 +2,8 @@
 
 This project provides translations for Camunda Optimize. While the English and German language files will be updated by the Optimize team with each release, other language files will not be officially supported by Camunda. We encourage others to create PRs to keep these updated and aligned with the latest language files.
 
+Please read more about Optimize localization here: https://docs.camunda.io/docs/next/self-managed/optimize-deployment/configuration/localization/
+
 Note that any language files that are missing a given key will cause Optimize to crash if used.
 
 ### List of available translations
