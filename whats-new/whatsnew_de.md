@@ -4,7 +4,7 @@ Sobald mehr als 15 unterschiedliche Prozesse existieren, stellt sich die Frage, 
 
 ## Process KPI Überischt
 
-Mit Optimize 3.8 wurde die Möglichkeit eingeführt Ziele basierend auf Metriken zu definieren. In diesem Release werden die Ziele in KPIs (Key Performance Indicator) umbenannte und können für fast alle Reports definiert werden.
+Mit Optimize 3.8 wurde die Möglichkeit eingeführt, Ziele basierend auf Metriken zu definieren. In diesem Release werden die Ziele in KPIs (Key Performance Indicator) umbenannt und können für fast alle Berichte, welche als Nummer visualisiert sind, definiert werden.
 
 ## Process Onboarding UX (C8SaaS only)
 
