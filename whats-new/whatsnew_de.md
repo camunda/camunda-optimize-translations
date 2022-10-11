@@ -18,6 +18,6 @@ Alarme sind sinnvoll zum Monitoring wichtiger KPIs, um direkt eingreifen zu kön
 
 Bisher war es für alle Nutzer möglich, Berichte und Outlier Analysen als CSV Datei herunterzuladen. Ab diesem Release ist es möglich, den Download für einzelne Nutzer einzuschränken oder nur den Superusern zu erlauben. Dies erlaubt die volle Kontrolle über die Daten.
 
-## Report und Dashboard Erstellung auf Collections einschränken (C7 Enterprise only)
+## Bericht und Dashboard Erstellung auf Sammlungen einschränken (C7 Enterprise only)
 
 Optimize erlaubt es, zur Strukturierung Berichte und Dashboards innerhalb und außerhalb von Sammlungen zu erzeugen. Mit einer steigenden Anzahl an Nutzen kann die Verwaltung dadurch erschwert werden. Mit diesem Release besteht die Möglichkeit, "entity-authorized-editors" zu definieren. Nur diesen Nutzern ist es explizit gestattet, Berichte und Dashboards außerhalb von Sammlungen zu erstellen.
