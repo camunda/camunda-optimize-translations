@@ -20,4 +20,4 @@ Bisher war es für alle Nutzer möglich Reports und Outlier Analyses als CSV fil
 
 ## Report und Dashboard Erstellung auf Collections einschränken (C7 Enterprise only)
 
-Optimize erlaubt es zur Struktuiering Reports und Dashboards inerhalb und außerhalb von Collections zu erzeugen. Mit einer steigenden Anzahl an Nutzen kann die Verwaltung dadurch erschwert werden. Mit diesem Release besteht die Möglichekeit "entity-authorized-editors" zu definieren. Diesen Nutzern ist es expliziet gestattet, Reports und Dashboards außerhalb von Collections zu erstellen.
+Optimize erlaubt es, zur Strukturierung Berichte und Dashboards innerhalb und außerhalb von Sammlungen zu erzeugen. Mit einer steigenden Anzahl an Nutzen kann die Verwaltung dadurch erschwert werden. Mit diesem Release besteht die Möglichkeit, "entity-authorized-editors" zu definieren. Nur diesen Nutzern ist es explizit gestattet, Berichte und Dashboards außerhalb von Sammlungen zu erstellen.
