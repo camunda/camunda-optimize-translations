@@ -16,7 +16,7 @@ Alarme sind sinnvoll zum Monitoring wichtiger KPIs, um direkt eingreifen zu kön
 
 ## Einschränken des Datenexports (C7 Enterprise only)
 
-Bisher war es für alle Nutzer möglich Reports und Outlier Analyses als CSV file herunterzuladen. Ab diesem Release ist es möglich, den Eport für einzelne Nutzer einzuschränken oder nur den Super Usern zu erlauben. Dies erlaubt die volle Kontrolle über die Daten.
+Bisher war es für alle Nutzer möglich, Berichte und Outlier Analysen als CSV Datei herunterzuladen. Ab diesem Release ist es möglich, den Download für einzelne Nutzer einzuschränken oder nur den Superusern zu erlauben. Dies erlaubt die volle Kontrolle über die Daten.
 
 ## Report und Dashboard Erstellung auf Collections einschränken (C7 Enterprise only)
 
