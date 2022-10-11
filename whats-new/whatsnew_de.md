@@ -1,6 +1,6 @@
 ## Prozess Übersicht
 
-Sobald mehr als 15 unterschiedliche Prozesse existieren, stellt sich die Frage, wo fokusiert man für weitere Verbesserungen? Die Lösung ist das Management Dashboard. Ein Dashboard das die Daten aller Prozesse aggregiert.
+Sobald mehr als 15 unterschiedliche Prozesse existieren, stellt sich die Frage: wo fokussiert man für weitere Verbesserungen? Wie erhält man ein ganzheitliches Bild von allen relevanten Daten? Die Lösung ist das Management Dashboard, welches die Daten aller Prozesse aggregiert.
 
 ## Process KPI Übersicht
 
