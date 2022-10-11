@@ -21,4 +21,4 @@ Prior to this release, all users have been able to export Reports and Outlier An
 
 ## Restrict report and dashboard creation to collections (C7 Enterprise only)
 
-Optimize is structured with entities like reports and dashboards that are created inside and outside of collections. With more and more users creating these entities, this can get messy and hard to govern. With this release, it is now possible to limit “entity-authorized-editors”. These users are the only ones which are authorized to Create, Edit, Copy and Delete Optimize entities, outside of a collection.
+Optimize is structured with entities like reports and dashboards that are created inside and outside of collections. With more and more users creating these entities, this can get messy and hard to govern. With this release, it is now possible to limit “entity-authorized-editors”. These users are the only ones which are authorized to create, edit, copy and delete Optimize entities outside of a collection.
