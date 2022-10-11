@@ -8,7 +8,7 @@ Mit Optimize 3.8 wurde die Möglichkeit eingeführt, Ziele basierend auf Metrike
 
 ## Process Onboarding UX (C8SaaS only)
 
-Nachdem die erste Porzess Instanz einer Prozess Definition ausgeführt wurde, erhält der Prozess Owner eine Einladung zum Erstellen eines Default Dashboards in Optimize.
+Nachdem die erste Porzess Instanz einer Prozess Definition ausgeführt wurde, erhält der Prozesseigentümer eine Einladung zum Erstellen eines Default Dashboards in Optimize.
 
 ## Process Digest (C8Saas & C7 Enterprise only)
 
