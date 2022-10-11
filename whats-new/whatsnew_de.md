@@ -2,7 +2,7 @@
 
 Sobald mehr als 15 unterschiedliche Prozesse existieren, stellt sich die Frage, wo fokusiert man für weitere Verbesserungen? Die Lösung ist das Management Dashboard. Ein Dashboard das die Daten aller Prozesse aggregiert.
 
-## Process KPI Überischt
+## Process KPI Übersicht
 
 Mit Optimize 3.8 wurde die Möglichkeit eingeführt, Ziele basierend auf Metriken zu definieren. In diesem Release werden die Ziele in KPIs (Key Performance Indicator) umbenannt und können für fast alle Berichte, welche als Nummer visualisiert sind, definiert werden.
 
