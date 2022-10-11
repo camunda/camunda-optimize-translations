@@ -17,7 +17,7 @@ Alerts are useful if you want to monitor critical KPIs for immediate interventio
 
 ## Limiting who can export (C7 Enterprise only)
 
-Prior to this release, all users have been able to export Reports and Outlier Analyses as CSV files. Now Optimize allows you to restrict this option, or to only allow this for superusers, giving you full control over which users can export data from Optimize. You can find out more about how to configure this here.
+Prior to this release, all users have been able to export Reports and Outlier Analyses as CSV files. Now Optimize allows you to restrict this option, or to only allow this for superusers, giving you full control over which users can export data from Optimize.
 
 ## Restrict report and dashboard creation to collections (C7 Enterprise only)
 
