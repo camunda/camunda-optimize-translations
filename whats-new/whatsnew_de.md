@@ -12,7 +12,7 @@ Nachdem die erste Porzess Instanz einer Prozess Definition ausgeführt wurde, er
 
 ## Process Digest (C8Saas & C7 Enterprise only)
 
-Alarme sind sinnvoll zum Monitoring wichtiger KPIs, um direkte Eingreifen zu können. Jedoch gibt es auch viele KPIs die verfolgt und mit anderen Stakeholdern geteilt werden sollen. Dies ist nun mit einer wöchentlichen Email, die alle KPIs enthält möglich.
+Alarme sind sinnvoll zum Monitoring wichtiger KPIs, um direkt eingreifen zu können. Jedoch gibt es auch viele KPIs die verfolgt und mit anderen Stakeholdern geteilt werden sollen. Dies ist nun mit einer wöchentlichen Email, die alle KPIs eines Prozesses enthält, möglich.
 
 ## Einschränken des Datenexports (C7 Enterprise only)
 
