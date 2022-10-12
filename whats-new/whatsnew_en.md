@@ -11,7 +11,7 @@ Optimize 3.8 introduced the ability to set business goals on a limited number of
 
 Whenever the first process instance of a new process definition is deployed, the user will receive an email with an invitation to create a first default dashboard in Optimize.
 
-## Process Digest (C8Saas & C7 Enterprise only)
+## Process Digest (C8SaaS & C7 Enterprise only)
 
 Alerts are useful if you want to monitor critical KPIs for immediate intervention. However, how do you track all your KPIs and share them with stakeholders? The new process digest feature gives you a weekly email.
 

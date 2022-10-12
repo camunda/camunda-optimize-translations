@@ -10,7 +10,7 @@ Mit Optimize 3.8 wurde die Möglichkeit eingeführt, Ziele basierend auf Metrike
 
 Nachdem die erste Porzess Instanz einer Prozess Definition ausgeführt wurde, erhält der Prozesseigentümer eine Einladung zum Erstellen eines Default Dashboards in Optimize.
 
-## Process Digest (C8Saas & C7 Enterprise only)
+## Process Digest (C8SaaS & C7 Enterprise only)
 
 Alarme sind sinnvoll zum Monitoring wichtiger KPIs, um direkt eingreifen zu können. Jedoch gibt es auch viele KPIs die verfolgt und mit anderen Stakeholdern geteilt werden sollen. Dies ist nun mit einer wöchentlichen Email, die alle KPIs eines Prozesses enthält, möglich.
 
