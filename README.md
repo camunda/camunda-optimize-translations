@@ -10,10 +10,11 @@ Note that any language files that are missing a given key will cause Optimize to
 
 If you update or add a new language file, please also update the below table with the Optimize version that it is compatible with.
 
-| Language | Version | Contributor   |
-|----------|---------|---------------|
-| German   | 3.9.0   | Optimize Team |
-| English  | 3.9.0   | Optimize Team |
+| Language      | Version | Contributor                                                     |
+|---------------|---------|-----------------------------------------------------------------|
+| German        | 3.9.0   | Optimize Team                                                   |
+| English       | 3.9.0   | Optimize Team                                                   |
+| French | 3.9.0   | Fullfifax (what's new) / pierre-yves-monnet (French dictionary) |
 
 ### Contributing
 
