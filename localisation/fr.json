@@ -924,13 +924,13 @@
       "subEntity": "Ce {entityType} contient 1 rapport. Il sera également copié."
     },
     "createBtn": {
-      "collection": "Nouvelle collection",
-      "dashboard": "Nouveau tableau de bord",
+      "collection": "Collection",
+      "dashboard": "Tableau de bord",
       "default": "Créer un nouveau",
       "report": {
         "combined": "Rapport de processus combiné",
         "decision": "Rapport de décision",
-        "default": "Nouveau rapport",
+        "default": "Rapport",
         "process": "Rapport de processus"
       }
     },
