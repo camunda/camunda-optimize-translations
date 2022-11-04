@@ -341,7 +341,7 @@
       },
       "dropdownInfo": {
         "instance": "Instances filtré par...",
-        "view": "Flow node filtré par",
+        "view": "Flow node filtré par"
       },
       "dropdownLabel": {
         "decision": "Filtrer les évaluations de décision",
@@ -519,7 +519,7 @@
       "label-plural": "Nœuds de flux"
     },
     "for": "pour",
-    "goToHome": "Aller à la maison",
+    "goToHome": "Aller à l'acceuil",
     "here": "ici",
     "id": "Identifiant",
     "importJSON": "Importer JSON",
@@ -989,7 +989,7 @@
     },
     "userGroupsTitle": "Utilisateurs et groupes d'utilisateurs",
     "userTitle": "Utilisateurs",
-    "welcome": "Accueillir"
+    "welcome": "Bonjour"
   },
   "license": {
     "contactSales": "contacter le service commercial",
@@ -1016,8 +1016,8 @@
     "analysis": "Analyse",
     "configLoadingError": "Une erreur s'est produite lors du chargement des configurations de l'interface utilisateur",
     "events": "Processus basés sur les événements",
-    "help": "Aider",
-    "homepage": "Maison",
+    "help": "Aide",
+    "homepage": "Acceuil",
     "logout": "Déconnection",
     "logoutFailed": "La déconnexion a échoué.",
     "logoutSuccess": "Vous vous êtes déconnecté avec succès.",
