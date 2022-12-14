@@ -1,24 +1,25 @@
-## Management Dashboard
+## Tablero de Gestión
 
-When you have 15 different processes, where do you focus your efforts? How do you gain a holistic picture? Do you look at 15 different dashboards, or do you create and manage a full set of multi-process dashboards?
-We’re offering a solution for this problem with the Management Dashboard. It’s a standard dashboard that integrates data from all your processes.
+Cuando tiene 15 procesos diferentes, ¿dónde enfoca sus esfuerzos?, ¿Cómo obtener una visión holística?, ¿Revisa 15 tableros diferentes?, o ¿crea y administra un grupo completo de tableros multi-proceso? Le ofrecemos una solución
+para este problema con el Tablero de Gestión. Este es un tablero estándar que integra datos de todos sus procesos.
 
-## KPI Overview
+## Vista de Indicadores Clave de Rendimiento o KPI(Key Performance Indicators) por sus siglas en inglés
 
-Optimize 3.8 introduced the ability to set business goals on a limited number of metrics. This release renames business goals to KPIs and lets you create a KPI based on almost any report visualized as a number (variable number reports aren’t supported yet).
+Optimize 3.8 introdujo la habilidad de establecer metas de negocio en un número limitado de métricas. Con esta nueva versión renombra las metas de negocio a Indicadores Clave de Rendimiento (KPIs) y le permite crearlos en casi todos los reportes que se visualizan como un
+número (reportes de número variables no están soportados aún).
 
-## Process Onboarding UX (C8SaaS only)
+## Nueva experiencia de usuario al agregar nuevos procesos (Únicamente C8SaaS)
 
-Whenever the first process instance of a new process definition is deployed, the user will receive an email with an invitation to create a first default dashboard in Optimize.
+Cuandio la primera instancia de una nueva definición de proceso se despliega,  el usuario recibirá un correo electrónico con una invitación a crear un tablero inicial por defecto en Optimize.
 
-## Process Digest (C8SaaS & C7 Enterprise only)
+## Digestión de Procesos (Únicamente C7 versión Empresarial y C8SaaS)
 
-Alerts are useful if you want to monitor critical KPIs for immediate intervention. However, how do you track all your KPIs and share them with stakeholders? The new process digest feature gives you a weekly email.
+Las alertas son de utilidad si desea monitorear Indicadores Clave de Rendimiento críticos para atención inmediata. Sin embargo,¿cómo reastrea todos sus Indicadores Clave de Rendimiento y los comparté con las personas interesadas? El nuevo proceso de digestión le da un correo electrónico semanal.
 
-## Limiting who can export (C7 Enterprise only)
+## Limitación de quíen puede exportar (Únicamente C7 versión Empresarial)
 
-Prior to this release, all users have been able to export Reports and Outlier Analyses as CSV files. Now Optimize allows you to restrict this option, or to only allow this for superusers, giving you full control over which users can export data from Optimize.
+Previo a esta versión, todos los usuarios han tenido la capacidad de exportar reportes y análisis de valores atípicos como archivos CSV. Ahora Optimize le permite restringir esta opción, o permitirla únicamente a superusuarios, dandole control absoluto sobre cuáles usuarios pueden exportar datos desde Optimize.
 
-## Restrict report and dashboard creation to collections (C7 Enterprise only)
+## Restringir la creación de reportes y tableros en las colecciones (Únicamente C7 versión Empresarial)
 
-Optimize is structured with entities like reports and dashboards that are created inside and outside of collections. With more and more users creating these entities, this can get messy and hard to govern. With this release, it is now possible to limit “entity-authorized-editors”. These users are the only ones which are authorized to create, edit, copy and delete Optimize entities outside of a collection.
+Optimize está estructurado con elementos como reportes y tableros que se crean dentro y afuuera de las colecciones. Mientras más usuarios crean estas entidades, se puede volver complicado y difícil de governar. Con esta versión, es posible limitar los "editores de entidades autorizados". Estos usuarios son los únicos que están autorizados a crear, editar, copiar y borrar entidades en Optimize afuera de una colección.
