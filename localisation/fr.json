@@ -7,7 +7,7 @@
     "createNew": "Créer une nouvelle alerte",
     "description": "\"{name}\" a une valeur {aboveOrBelow} {thresholdValue}",
     "edit": "Modifier l'alerte",
-    "emailWarning": "Le service de notification par e-mail n'est pas configuré. Optimize ne pourra pas vous informer des valeurs critiques. Veuillez consulter la \u003ca href\u003d'{docsLink}'\u003edocumentation d'Optimize\u003c/a\u003e pour savoir comment activer le service de notification.",
+    "emailWarning": "Le service de notification par e-mail n'est pas configuré. Optimize ne pourra pas vous informer des valeurs critiques. Veuillez consulter la <a href\u003d'{docsLink}'>documentation d'Optimize</a> pour savoir comment activer le service de notification.",
     "existingAlerts": "Alertes existantes",
     "form": {
       "email": "Envoyer un e-mail à",
@@ -39,15 +39,15 @@
   },
   "analysis": {
     "branchAnalysis": "Analyse de branche",
-    "branchDistribution": "\u003cb\u003e{count}\u003c/b\u003e ({branchPercentage}%) a pris le\u003ci class\u003d\"branchName\"\u003e\u003c/i\u003e branche, \u003cb\u003e{reached}\u003c/b\u003e ({reachedEndPercentage}%) de ceux qui ont ensuite continué à atteindre l'événement final\u003ci class\u003d\"endEventName\"\u003e\u003c/i\u003e",
+    "branchDistribution": "<b>{count}</b> ({branchPercentage}%) a pris le<i class\u003d\"branchName\"></i> branche, <b>{reached}</b> ({reachedEndPercentage}%) de ceux qui ont ensuite continué à atteindre l'événement final<i class\u003d\"endEventName\"></i>",
     "emptySelectionLabel": {
       "endEvent": "Sélectionnez l'événement de fin",
       "gateway": "Sélectionnez la passerelle"
     },
     "endEventLabel": "affecte la probabilité qu'une instance atteigne",
-    "endEventProbability": "Probabilité d'atteindre l'événement final\u003ci class\u003d\"endEventName\"\u003e\u003c/i\u003e après avoir pris une branche :",
-    "gatewayDistribution": "Répartition des instances au niveau de la passerelle\u003ci class\u003d\"gatewayName\"\u003e\u003c/i\u003e :",
-    "gatewayInstances": "De toutes \u003cb\u003eles instances {totalGateway}\u003c/b\u003e qui ont passées la passerelle\u003ci class\u003d\"gatewayName\"\u003e\u003c/i\u003e",
+    "endEventProbability": "Probabilité d'atteindre l'événement final<i class\u003d\"endEventName\"></i> après avoir pris une branche :",
+    "gatewayDistribution": "Répartition des instances au niveau de la passerelle<i class\u003d\"gatewayName\"></i> :",
+    "gatewayInstances": "De toutes <b>les instances {totalGateway}</b> qui ont passées la passerelle<i class\u003d\"gatewayName\"></i>",
     "gatewayLabel": "analyser comment les branches de",
     "instructionMessage": "Veuillez sélectionner une définition de processus, une passerelle et un événement de fin pour effectuer l'analyse.",
     "noInstances": "Aucune instance du filtre actuel n'a dépassé la passerelle sélectionnée.",
@@ -161,7 +161,7 @@
     "creating": "Créer...",
     "csvLimit": {
       "Warning": "Attention : le CSV ne contiendra pas toutes les données demandées",
-      "exportApi": "Vous pouvez également utiliser l' \u003ca href\u003d'{docsLink}'\u003eAPI\u003c/a\u003e d'exportation de données pour exporter de plus grandes quantités de données à partir d'Optimize.",
+      "exportApi": "Vous pouvez également utiliser l' <a href\u003d'{docsLink}'>API</a> d'exportation de données pour exporter de plus grandes quantités de données à partir d'Optimize.",
       "info": "Ce téléchargement contiendra le premier {exportLimit} de {totalCount} enregistrements. Filtrez vos données ou demandez à votre administrateur d'augmenter la limite du système pour résoudre ce problème."
     },
     "dataSource": "Source de données",
@@ -301,9 +301,9 @@
       "dateModal": {
         "endDateWarning": "Les rapports avec un filtre de date de fin actif n'afficheront que les instances terminées.",
         "info": {
-          "evaluationDateTime": "Instances de décision \u003cb\u003eévaluées\u003c/b\u003e",
-          "instanceEndDate": "Instances de processus \u003cb\u003eterminées\u003c/b\u003e",
-          "instanceStartDate": "Instances de processus \u003cb\u003edémarrées\u003c/b\u003e"
+          "evaluationDateTime": "Instances de décision <b>évaluées</b>",
+          "instanceEndDate": "Instances de processus <b>terminées</b>",
+          "instanceStartDate": "Instances de processus <b>démarrées</b>"
         },
         "invalidDate": "Entrez une date valide",
         "last": "dernière",
@@ -410,9 +410,9 @@
         }
       },
       "state": {
-        "flowNodesOnly": "\u003cb\u003e{type}\u003c/b\u003e Nœuds de flux uniquement",
-        "incidents": "\u003cb\u003e{type}\u003c/b\u003e Incidents",
-        "instancesOnly": "\u003cb\u003e{type}\u003c/b\u003e Instances uniquement",
+        "flowNodesOnly": "<b>{type}</b> Nœuds de flux uniquement",
+        "incidents": "<b>{type}</b> Incidents",
+        "instancesOnly": "<b>{type}</b> Instances uniquement",
         "modalLabels": {
           "canceledFlowNodesOnly": "Annulé",
           "canceledInstancesOnly": "Annulé",
@@ -498,8 +498,8 @@
         "customValue": "Ajouter une valeur de variable personnalisée",
         "enterMultipleValues": "Ajouter plusieurs valeurs en les séparant par une tabulation",
         "enterValue": "Ajouter une seule valeur",
-        "excludeUndefined": "Exclure les instances où la variable sélectionnée est \u003cb\u003enulle\u003c/b\u003e ou \u003cb\u003eindéfinie\u003c/b\u003e",
-        "includeUndefined": "Inclure les instances où la variable sélectionnée est \u003cb\u003enulle\u003c/b\u003e ou \u003cb\u003eindéfinie\u003c/b\u003e",
+        "excludeUndefined": "Exclure les instances où la variable sélectionnée est <b>nulle</b> ou <b>indéfinie</b>",
+        "includeUndefined": "Inclure les instances où la variable sélectionnée est <b>nulle</b> ou <b>indéfinie</b>",
         "info": "N'afficher que les instances où...",
         "inputLabel": "Nom de variable",
         "inputPlaceholder": "Sélectionnez ou recherchez une variable ici",
@@ -997,7 +997,7 @@
     "licenseKey": "Clé de license",
     "licensedFor": "Licence pour",
     "nonProduction": "Licence de non-production",
-    "redirectMessage": "Vous serez redirigé vers la page de connexion sous peu. \u003ca href\u003d\"./\"\u003eCliquez ici pour accéder immédiatement à la page de connexion\u003c/a\u003e",
+    "redirectMessage": "Vous serez redirigé vers la page de connexion sous peu. <a href\u003d\"./\">Cliquez ici pour accéder immédiatement à la page de connexion</a>",
     "referTo": "Si vous souhaitez des informations sur l'utilisation de la production, veuillez vous référer à notre",
     "submit": "Soumettre",
     "terms": "termes et conditions",
@@ -1008,7 +1008,7 @@
     "btn": "Connexion",
     "error": "Une erreur s'est produite. Impossible de vous connecter.",
     "password": "Mot de passe",
-    "telemetry": "En vous connectant, vous acceptez nos \u003ca href\u003d\"https://camunda.com/legal/terms/\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003eCGU\u003c/a\u003e et \u003ca href\u003d\"https://camunda.com/legal/privacy/\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ePolitique de confidentialité\u003c/a\u003e",
+    "telemetry": "En vous connectant, vous acceptez nos <a href\u003d\"https://camunda.com/legal/terms/\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\">CGU</a> et <a href\u003d\"https://camunda.com/legal/privacy/\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\">Politique de confidentialité</a>",
     "timeout": "Votre session a expiré. Veuillez vous reconnecter pour terminer l'action.",
     "username": "Nom de l'utilisateur"
   },
@@ -1026,7 +1026,7 @@
     "userGuide": "Mode d'emploi"
   },
   "processes": {
-    "analysing": "Analyse de \u003cb\u003e{count}\u003c/b\u003e {label}.",
+    "analysing": "Analyse de <b>{count}</b> {label}.",
     "configureKpis": "En savoir plus sur les KPI",
     "configureProcess": "Configurer le processus",
     "digestConfigured": "Votre résumé de processus a été configuré avec succès. Un e-mail a été envoyé à {name}.",
@@ -1226,7 +1226,7 @@
       "year": "Année"
     },
     "heatTarget": {
-      "actualDuration": "\u003cb\u003e{durée}\u003c/b\u003e\u003cbr/\u003e {percentage} % de la valeur cible",
+      "actualDuration": "<b>{durée}</b><br/> {percentage} % de la valeur cible",
       "duration": {
         "avg": "Durée moyenne:",
         "max": "Durée maximale :",
@@ -1237,7 +1237,7 @@
       "exceededInstances": "Dépassement-instances-{nom}",
       "invalidValue": "Tous les champs doivent avoir une valeur numérique",
       "label": "Valeur cible",
-      "noValueAvailable": "Aucune valeur réelle disponible.\u003cbr/\u003e Impossible de comparer la valeur cible et la valeur réelle.",
+      "noValueAvailable": "Aucune valeur réelle disponible.<br/> Impossible de comparer la valeur cible et la valeur réelle.",
       "table": {
         "activity": "Activité",
         "target": "Valeur cible",
@@ -1274,13 +1274,13 @@
     "new": "Nouveau rapport",
     "noDataNotice": "Pas de données",
     "noDefinitionMessage": {
-      "decision": "Sélectionnez une \u003cb\u003edéfinition de décision\u003c/b\u003e .",
-      "process": "Sélectionnez une \u003cb\u003edéfinition de processus\u003c/b\u003e ."
+      "decision": "Sélectionnez une <b>définition de décision</b> .",
+      "process": "Sélectionnez une <b>définition de processus</b> ."
     },
-    "noGroupByMessage": "Sélectionnez les éléments à \u003cb\u003eregrouper par\u003c/b\u003e .",
+    "noGroupByMessage": "Sélectionnez les éléments à <b>regrouper par</b> .",
     "noSources": "Aucune source de données",
-    "noViewMessage": "Sélectionnez une option pour \u003cb\u003eAfficher\u003c/b\u003e .",
-    "noVisualizationMessage": "Sélectionnez une option pour la \u003cb\u003evisualisation\u003c/b\u003e ci-dessus.",
+    "noViewMessage": "Sélectionnez une option pour <b>Afficher</b> .",
+    "noVisualizationMessage": "Sélectionnez une option pour la <b>visualisation</b> ci-dessus.",
     "nonExistingFlowNode": "Le ou les nœuds de flux n'existent pas",
     "nonExistingVariable": "La variable n'existe pas",
     "percentageOfInstances": "% du nombre total d'instances correspondant au filtre",
@@ -1311,7 +1311,7 @@
     },
     "setupNotice": "Configurez votre rapport",
     "table": {
-      "info": "Affichage de \u003cb\u003e{firstRowIndex}\u003c/b\u003e à \u003cb\u003e{lastRowIndex}\u003c/b\u003e sur \u003cb\u003e{totalRows}\u003c/b\u003e",
+      "info": "Affichage de <b>{firstRowIndex}</b> à <b>{lastRowIndex}</b> sur <b>{totalRows}</b>",
       "noData": "Vous devez activer au moins une colonne de tableau",
       "of": "de",
       "page": "page",
@@ -1353,8 +1353,8 @@
       "table": "Tableau de données : Nombre de tâches utilisateur"
     },
     "totalCount": {
-      "evaluation": "Évaluation totale\u003c/br\u003e Compte : \u003cb\u003e{compte}\u003c/b\u003e",
-      "instance": "Nombre total d'instances\u003c/br\u003e Compte : \u003cb\u003e{compte}\u003c/b\u003e"
+      "evaluation": "Évaluation totale</br> Compte : <b>{compte}</b>",
+      "instance": "Nombre total d'instances</br> Compte : <b>{compte}</b>"
     },
     "variables": {
       "default": "Variables",
@@ -1400,7 +1400,7 @@
     "enable": "Activer les statistiques d'utilisation",
     "header": "Paramètres de télémétrie",
     "info": "Autoriser Camunda Optimize à envoyer des statistiques d'utilisation anonymes. Nous utilisons ces informations pour vous offrir une expérience produit stable et améliorée dans l'environnement que vous utilisez. Cela permet à Camunda de collecter des informations sur la version du produit et l'environnement technique que vous utilisez, et sur la manière dont vous l'utilisez.",
-    "orView": "ou consultez notre \u003ca href\u003d'{link}' target\u003d'_blank' rel\u003d'noopener noreferrer'\u003e{politique}\u003c/a\u003e .",
+    "orView": "ou consultez notre <a href\u003d'{link}' target\u003d'_blank' rel\u003d'noopener noreferrer'>{politique}</a> .",
     "personalData": "Aucune de vos informations personnelles ou données stockées ne sera soumise. Pour en savoir plus, lisez notre",
     "privacyPolicy": "politique de confidentialité",
     "respectPrivacy": "Nous respectons votre vie privée.",
