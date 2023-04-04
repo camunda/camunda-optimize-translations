@@ -1,9 +1,9 @@
 {
+  "companyName": "Camunda",
   "appName": "Optimize",
+  "appFullName": "Camunda Optimize",
   "navigation": {
-    "homepage": "Home",
     "analysis": "Analyse",
-    "processes": "Prozesse",
     "events": "Eventbasierte Prozesse",
     "telemetry": "Telemetrie-Einstellungen",
     "logout": "Abmelden",
@@ -11,9 +11,28 @@
     "logoutSuccess": "Sie haben sich erfolgreich abgemeldet.",
     "configLoadingError": "Beim Laden der UI-Konfigurationen ist ein Fehler aufgetreten",
     "userGuide": "Benutzerhandbuch",
-    "help": "Hilfe"
+    "help": "Hilfe",
+    "profile": "Profil",
+    "appSwitcher": "App Switcher",
+    "dashboards": "Dashboards",
+    "collections": "Sammlungen",
+    "apps": {
+      "zeebe": "Zeebe",
+      "operate": "Operate",
+      "console": "Console",
+      "tasklist": "Tasklist",
+      "optimize": "Optimize",
+      "modeler": "Modeler"
+    },
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfUse": "Bedingungen für die Nutzung",
+    "imprint": "Impressum",
+    "academy": "Camunda Academy",
+    "feedback": "Feedback und Support",
+    "slack": "Slack-Community-Kanal"
   },
   "login": {
+    "label": "Einloggen",
     "appName": "Optimize",
     "username": "Nutzername",
     "password": "Passwort",
@@ -31,6 +50,7 @@
     "timezone": "Datum und Uhrzeit werden in der lokalen Zeitzone angezeigt:"
   },
   "license": {
+    "label": "Lizenz",
     "licensedFor": "Lizenziert für",
     "validUntil": "Gültig bis",
     "redirectMessage": "Sie werden in Kürze zur Anmeldeseite weitergeleitet. <a href=\"./\">Klicken Sie hier, um sofort zur Anmeldeseite zu gelangen</a> ",
@@ -137,7 +157,6 @@
       "manager-description": "Volle Rechte beim Bearbeiten von Sammlungen und Benutzern",
       "existing-identity": "Ein Benutzer oder eine Gruppe mit dieser ID existiert schon",
       "inCollection": "in dieser Sammlung",
-      "missingAuthorizationsWarning": "Einige Daten können aufgrund fehlender Berechtigungen für Benutzer ausgeblendet sein.",
       "deleteWarning": "'{name}' {type} wird von der Sammlung entfernt."
     },
     "sources": {
@@ -162,12 +181,17 @@
     "empty": "Es wurde noch nichts erstellt",
     "contactEditor": "Bitte wenden Sie sich an einen Optimize editor, um neue Artikel zu erstellen",
     "contactManager": "Bitte wenden Sie sich an den Sammelmanager, um neue Artikel zu erstellen",
-    "welcome": "Willkommen"
+    "welcome": "Willkommen",
+    "emptyState": {
+      "title": "Beginnen Sie mit der Erstellung eines Dashboards",
+      "description": "Klicken Sie auf Neues Dashboard Erstellen, um Einblicke in Geschäftsprozesse zu erhalten"
+    }
   },
   "processes": {
     "label": "Prozess",
     "label-plural": "Prozesse",
-    "list": "Prozessliste",
+    "adoptionDashboard": "Adoption Dashboard",
+    "defaultDashboardAndKPI": "Prozess Dashboards und KPIs",
     "empty": "Es sind noch keine Prozesse importiert",
     "owner": "Eigentümer",
     "processOwner": "Prozess Eigentümer",
@@ -180,8 +204,9 @@
     "goalRemoved": "Ziele aus dem '{processName}' Prozess wurden entfernt",
     "ownerInfo": "Der Prozesseigentümer ist für Geschäftsmetriken des Prozesses verantwortlich. Sie können den Prozesseigentümer verwenden, um Prozesse zu sortieren und zu filtern",
     "ownerRemoveWarning": "Der Eigentümer '{owner}' wird aus dem Prozess entfernt",
-    "processOverview": "Prozesse Übersicht",
     "configureProcess": "Prozess konfigurieren",
+    "createDefaultDashboard": "Neues Standard Dashboard Erstellen",
+    "createDashboardMessage": "Für diesen Prozess gibt es noch kein Dashboard. Möchten Sie, dass Optimize automatisch ein Dashboard basierend auf einer Prozessvorlage für Sie erstellt?",
     "emailDigest": "Email Digest",
     "digestInfo": "Der Prozess Digest sendet regelmäßige E-Mails mit dem KPI-Status an den Prozesseigentümer. Standardmäßig wird der Digest jeden Montag um 9:00 Uhr versendet (wenn Sie die Standardversandzeit ändern möchten, wenden Sie sich bitte an Ihren Administrator).",
     "digestConfigured": "Ihr Prozess Digest wurde erfolgreich konfiguriert. Eine E-Mail wurde an {name} gesendet.",
@@ -318,6 +343,8 @@
   "report": {
     "label": "Bericht",
     "label-plural": "Berichte",
+    "textReport": "Text Report",
+    "externalUrl": "Externe URL",
     "create": "Bericht Erstellen",
     "createNew": "Neuen Bericht Erstellen",
     "new": "Neuer Bericht",
@@ -330,6 +357,7 @@
     "displayName": "Anzeigename",
     "displayNamePlaceholder": "Optionalen Anzeigenamen hinzufügen",
     "noSources": "Keine Datenquelle",
+    "copyTooltip": "{entity} kopieren, um Varianten zu vergleichen und zu analysieren.<br/><a href='{docsLink}' target='_blank' rel='noopener noreferrer'>Dokumentation</a>",
     "templates": {
       "blank": "Leerer Bericht",
       "p75Duration": "KPI: 75. Perzentil Dauer",
@@ -400,6 +428,13 @@
       "hour": "Stunde",
       "searchForVariable": "Suche nach Variablen…"
     },
+    "sorting": {
+      "label": "Sortierreihenfolge",
+      "order": {
+        "asc": "Aufsteigend",
+        "desc": "Absteigend"
+      }
+    },
     "visualization": {
       "label": "Visualisierung",
       "number": "Nummer",
@@ -438,6 +473,11 @@
       },
       "exceededInstances": "Uberschrittene-Instanzen-{name}",
       "noValueAvailable": "Kein aktueller Wert verfügbar.<br/>Soll- und Istwert können nicht verglichen werden."
+    },
+    "updateReportPreview": {
+      "switchLabel": "Vorschau Automatisch Aktualisieren",
+      "buttonLabel": "Lauf",
+      "cannotUpdate": "Diese Funktion funktioniert nur, wenn die automatische Vorschauaktualisierung aktiviert ist"
     },
     "invalidCombinationError": "Es können keine Daten für die angegebenen Einstellungen angezeigt werden. Bitte wählen Sie eine andere Kombination!",
     "noDataNotice": "Keine Daten zur Ansicht vorhanden",
@@ -518,7 +558,10 @@
         "inputVariable": "EingabeVar",
         "outputVariable": "AusgabeVar",
         "objectVariable": "Objektvariable",
-        "numberOfOpenIncidents": "Anzahl der offener Zwischenfälle"
+        "numberOfOpenIncidents": "Anzahl der offener Zwischenfälle",
+        "numberOfIncidents": "Anzahl der Zwischenfälle",
+        "numberOfUserTasks": "Anzahl der ausgeführten Benutzeraufgaben",
+        "flowNodeDuration": "Dur"
       },
       "pageError": "Nur die ersten 10.000 Instanzen können angezeigt werden"
     },
@@ -598,16 +641,18 @@
         "legend": "Linienpunkte",
         "enableMarkers": "Punktmarkierungen aktivieren"
       },
-      "stackedBars": {
+      "display": {
         "legend": "Anzeige",
-        "enableStackedBars": "Gestapelte Balken"
+        "enableStackedBars": "Gestapelte Balken",
+        "horizontalBars": "Horizontale Balken"
       },
       "limitPrecision": {
         "legend": "Genauigkeit einstellen",
         "numberOf": {
           "digits": "Nachkommastellen",
           "units": "Anzahl der Einheiten"
-        }
+        },
+        "tooltip": "Genauigkeit der im Diagramm-Tooltips angezeigten Werte."
       },
       "includeTableColumn": "Zu berücksichtigende Tabellenspalten",
       "includeNewVariables": "Daten von neuen Variablen anzeigen",
@@ -644,7 +689,7 @@
     "toggleTheme": "Design wechseln",
     "enterFullscreen": "Vollbildmodus aktivieren",
     "leaveFullscreen": "Vollbildmodus verlassen",
-    "autoRefresh": "Aktualisierunsrate",
+    "autoRefresh": "Aktualisierungsrate",
     "saveModal": {
       "unsaved": "Ungespeichertes Dashboard",
       "text": "Zum Fortfahren muss das Dashboard gespeichert werden.\nDabei werden auch alle Berichte gespeichert."
@@ -707,14 +752,17 @@
       "durationSLI": "Prozessdauer SLI-Tracking"
     },
     "addButton": {
-      "addReport": "Einen Report hinzufügen",
+      "addTile": "Einen Kachel hinzufügen",
       "optimizeReport": "Optimize Report",
       "addReportLabel": "Report hinzufügen",
+      "addTileLabel": "Kachel hinzufügen",
       "selectReportPlaceholder": "Einen Report auswählen",
       "noReports": "Es wurden noch keine Berichte erstellt",
-      "externalUrl": "Externe URL",
-      "newReport": "Neuer Bericht aus einer Vorlage"
+      "externalWebsite": "Externe Webseite",
+      "newReport": "Neuer Bericht aus einer Vorlage",
+      "text": "Text"
     },
+    "textReportEditNotification": "Dies ist eine Funktion, die wir zu bauen planen",
     "noAuthorization": "Fehlende Berechtigung",
     "noReportAccess": "Kein Zugriff auf Report",
     "filter": {
@@ -875,7 +923,7 @@
     "addACopy": "Kopie hinzufügen",
     "change": "Ändern",
     "export": "Exportieren",
-    "importJSON": "JSON Importieren",
+    "importReportDashboard": "Bericht/Dashboard Importieren",
     "copyName": "{name} kopieren",
     "copyLabel": "Kopie",
     "condition": "Bedingung",
@@ -920,6 +968,7 @@
     "viewMore": "Mehr sehen",
     "viewLess": "Weniger sehen",
     "configure": "Konfigurieren",
+    "new": "Neuer",
     "process": {
       "label": "Prozess",
       "label-plural": "Prozesse"
@@ -1111,7 +1160,11 @@
         "flowNodeSelection": "Prozessknotenauswahl",
         "flowNodeDate": "Prozessknoten-Datum",
         "flowNodeStartDate": "Prozessknoten Startdatum",
-        "flowNodeEndDate": "Prozessknoten Enddatum"
+        "flowNodeEndDate": "Prozessknoten Enddatum",
+        "variable-plural": "Variablen",
+        "inputVariable-plural": "Eingangsvariablen",
+        "outputVariable-plural": "Ausgabevariablen",
+        "flowNodeDuration-plural": "Prozessknoten Dauer"
       },
       "list": {
         "appliedTo": "Angewendet auf",
@@ -1420,6 +1473,7 @@
     "notAuthorizedError": "Sie konnten nicht authentifiziert werden, bitte überprüfen Sie Ihren Benutzernamen und Passwort.",
     "notFoundError": "Der Server konnte die angeforderte Seite oder Datei nicht finden.",
     "badRequestError": "Der Server konnte Ihre Anfrage nicht verarbeiten.",
+    "elasticsearchConnectionError": "Der Server konnte keine Verbindung zu Elasticsearch herstellen.",
     "nonTenantScopeCompliantConflict": "Die Aktion konnte auf Grund von Konflikten mit der Datenquelle der zugehörigen Sammlung nicht durchgeführt werden. Die Definition des Berichts ist in der Datenquelle definiert, jedoch ist mindestens ein Mandant des Berichts nicht in der Datenquelle vorhanden.",
     "nonDefinitionScopeCompliantConflict": "Die Aktion konnte auf Grund von Konflikten mit der Datenquelle der zugehörigen Sammlung nicht durchgeführt werden. Die Definition des Berichts ist nicht in der Datenquelle der Sammlung vorhanden.",
     "invalidLicenseError": "Die gegebene Lizenz ist ungültig.",
@@ -1431,6 +1485,114 @@
     "importDefinitionDoesNotExist": "Import fehlgeschlagen, weil die zu importierende Entität auf Definitionen basiert, die nicht existieren.",
     "importIndexVersionMismatch": "Import fehlgeschlagen, weil die Datenstruktur der zu importierenden Entität nicht mit der aktuellen Datenstruktur übereinstimmt. Bitte migrieren Sie die Daten vor dem Export, um sicher zu stellen, dass die Optimize Version übereinstimmt.",
     "importDefinitionForbidden": "Import fehlgeschlagen, weil Ihnen die Befugnis für eine oder mehrere Definitionen, auf denen die zu importierende Entität basiert, fehlt.",
-    "importFileInvalid": "Import fehlgeschlagen, weil die ausgewählte Datei ungültig ist. Es können nur von Optimize exportierte JSON-Dateien importiert werden."
+    "importFileInvalid": "Import fehlgeschlagen, weil die ausgewählte Datei ungültig ist. Es können nur von Optimize exportierte JSON-Dateien importiert werden.",
+    "invalidAlertEmailAddresses": "Benutzer mit den folgenden Email-Addressen können keine Alarme empfange: {invalidAlertEmails}"
+  },
+  "textEditor": {
+    "toolbar": {
+      "history": {
+        "undo": "Widerrufen",
+        "redo": "Wiederholen"
+      },
+      "align": {
+        "label": "Ausrichten",
+        "left": "Links",
+        "center": "Mitte",
+        "right": "Rechts"
+      },
+      "styles": {
+        "bold": "Deutlich",
+        "italic": "Kursiv",
+        "underline": "Unterstreichen",
+        "strikethrough": "Durchgestrichen",
+        "code": "Code"
+      },
+      "blockStyles": {
+        "bullet": "Aufzählungsliste",
+        "code": "Code Block",
+        "h1": "Kopfzeile 1",
+        "h2": "Kopfzeile 2",
+        "h3": "Kopfzeile 3",
+        "number": "Nummerierte Liste",
+        "paragraph": "Normal",
+        "quote": "Anführungsblock"
+      },
+      "insert": {
+        "label": "Einfügung",
+        "horizontalRule": "Horizontale Regel",
+        "image": "Bild",
+        "link": "Link"
+      }
+    },
+    "plugins": {
+      "images": {
+        "title": "Einfügung Bild",
+        "urlLabel": "Bild URL",
+        "urlPlaceholder": "https://picture/some-picture.jpg",
+        "altTextLabel": "Bildname (optional)",
+        "altTextPlaceholder": "Etwas Bild"
+      },
+      "link": {
+        "title": "Einfügung Link",
+        "urlLabel": "Link URL",
+        "urlPlaceholder": "https://example.com",
+        "altTextLabel": "Text anzeigen (optional)",
+        "altTextPlaceholder": "Link zu example.com"
+      }
+    }
+  },
+  "managementDashboard": {
+    "dashboardName": "Adoption Dashboard",
+    "report": {
+      "processInstanceUsage": "Anzahl der ausgeführten Prozessinstanzen",
+      "incidentFreeRate": "Prozessausführungen ohne Zwischenfälle",
+      "automationRate": "Automatisierungsrate (< 1 Stunde)",
+      "longRunningInstances": "Lang laufende Prozessinstanzen",
+      "automationCandidates": "Automatisierungskandidaten",
+      "activeBottlenecks": "Aktive Engpässe"
+    }
+  },
+  "instantDashboard": {
+    "IP_DashboardName": "Instant Preview Dashboard",
+    "IP_KpiDashboardName": "KPI Dashboard",
+    "IP_TileText_BusinessOperations": "Überwache die Gesundheit von Prozessen in near realtime.",
+    "IP_TileText_BusinessOperations_Details_1": "Das Betriebsdashboard erlaubt es, alle wichtigen Prozessemetriken zu überwachen.",
+    "IP_TileText_BusinessOperations_Details_2": "Mögliche nächste Schritte:",
+    "IP_TileText_BusinessOperations_Details_3": "- Gehe zur Sammlung und erstelle ein eigenes Dashboard.",
+    "IP_TileText_BusinessOperations_Details_4": "- Definiere einen Alarm für eine Sammlung und erhalte Alarmbenachrichtigungen per Email.",
+    "IP_TileText_BusinessReporting": "Berichte Geschäftsmetriken an Stakeholder.",
+    "IP_TileText_BusinessReporting_Details_1": "Das Betriebsreporting enthält Prozesskennzahlen um ein Unternehmen zu steuern.",
+    "IP_TileText_BusinessReporting_Details_2": "Mögliche nächste Schritte:",
+    "IP_TileText_BusinessReporting_Details_3": "- Gehe zur Sammlung und erstelle ein eigenes Dashboard.",
+    "IP_TileText_BusinessReporting_Details_4": "- Gehe zu einem Report und definiere KPIs.",
+    "IP_TileText_BusinessReporting_Details_5": "- Gehe zu den Dashboards und abonniere eine Zusammenfassung per Email.",
+    "IP_TileText_ProcessImprovement": "Analytische Werkzeuge um Prozessverbesserungen zu identifizieren.",
+    "IP_TileText_ProcessImprovement_Details_1": "Die angebotenen Werkzeuge zur Prozess- und Regelanalyse helfen dabei, Engpässe und ungenutzte Prozesszweige zu finden.",
+    "IP_TileText_ProcessImprovement_Details_2": "Mögliche nächste Schritte:",
+    "IP_TileText_ProcessImprovement_Details_3": "- Gehe zur Sammlung und erstelle einen Report.",
+    "IP_TileText_ProcessImprovement_Details_4": "- Gehe zu den Analysen und führe eine Prozesszweiganalyse durch.",
+    "IP_TileText_ProcessImprovement_Details_5": "- Gehe zu den Analysen und führe eine Ausreißeranalyse durch.",
+    "report": {
+      "IP_TileText_BusinessOperations_Report1": "Aktuell laufend",
+      "IP_TileText_BusinessOperations_Report2": "In den letzten 7 Tagen gestartet",
+      "IP_TileText_BusinessOperations_Report3": "In den letzten 7 Tagen beendet",
+      "IP_TileText_BusinessOperations_Report4": "Aufgaben mit Zwischenfällen",
+      "IP_TileText_BusinessOperations_Report5": "Anzahl offener Zwischenfälle",
+      "IP_TileText_BusinessOperations_Report6": "In den letzten 7 Tagen gestartet",
+      "IP_TileText_BusinessReporting_Report1": "Anzahl abgeschlossener Prozesse pro Monat",
+      "IP_TileText_ProcessImprovement_Report1": "Welche Aufgaben benötigen die meiste Zeit und sind daher Automatisierungskandidaten",
+      "percentSLAMet": "% SLA erfüllt",
+      "flownodeDuration": "Welche Prozessschritte benötigen zu viel Zeit? (To Do: Ziellaufzeit festlegen)",
+      "controlChart": "Ist mein Prozess unter Kontrolle?",
+      "activeIncidentsHeatmap": "Wo sind die aktiven Zwischenfälle?",
+      "percentNoIncidents": "Prozent ohne Zwischenfälle",
+      "incidentDurationHeatmap": "Wo sind die schwerwiegendsten Zwischenfälle?",
+      "p99Duration": "99. Perzentil der Dauer",
+      "incidentDurationTrend": "Wird unser Umgang mit Zwischenfällen besser?",
+      "30DayThroughput": "Durchsatz (gleitend über die letzten 30 Tage)",
+      "p75Duration": "75. Perzentil der Dauer",
+      "instanceTrends": "Wie oft läuft dieser Prozess?",
+      "flownodeFrequency": "Wie oft laufen die einzelnen Schritte dieses Prozesses?"
+    }
   }
 }

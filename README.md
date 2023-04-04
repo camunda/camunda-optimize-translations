@@ -12,8 +12,8 @@ If you update or add a new language file, please also update the below table wit
 
 | Language      | Version | Contributor                                                     |
 |---------------|---------|-----------------------------------------------------------------|
-| German        | 3.9.0   | Optimize Team                                                   |
-| English       | 3.9.0   | Optimize Team                                                   |
+| German        | 3.10.0   | Optimize Team                                                   |
+| English       | 3.10.0   | Optimize Team                                                   |
 | French | 3.9.0   | @Fullfifax (what's new) / @pierre-yves-monnet (French dictionary)      |
 | Spanish		| 3.9.0	  | Gustavo Mendoza                                                 |
 | Italian       | 3.9.0   | Enrico Curiotto                                                 |
