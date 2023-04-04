@@ -1,24 +1,31 @@
-## Management Dashboard
+## Instant preview dashboard (All distributions)
 
-When you have 15 different processes, where do you focus your efforts? How do you gain a holistic picture? Do you look at 15 different dashboards, or do you create and manage a full set of multi-process dashboards?
-We’re offering a solution for this problem with the Management Dashboard. It’s a standard dashboard that integrates data from all your processes.
+For every process, Optimize can display a dashboard out-of-the-box that allows new users to quickly understand the status and execution-specific metrics of the process. The dashboard highlights the use cases possible with Optimize.
 
-## KPI Overview
+## Text Reports (All distributions)
 
-Optimize 3.8 introduced the ability to set business goals on a limited number of metrics. This release renames business goals to KPIs and lets you create a KPI based on almost any report visualized as a number (variable number reports aren’t supported yet).
+Text reports allow adding formatted descriptions and pictures to a dashboard. This helps the user to easily understand the content of the dashboard.
 
-## Process Onboarding UX (C8SaaS only)
+## Improved Camunda 8 Platform navigation (Camunda Platform 8)
 
-Whenever the first process instance of a new process definition is deployed, the user will receive an email with an invitation to create a first default dashboard in Optimize.
+Camunda SaaS provides easy and intuitive navigation between applications (Console, Modeler, Operate, Optimize)
 
-## Process Digest (C8SaaS & C7 Enterprise only)
+## Dashboard focused navigation (All distributions)
 
-Alerts are useful if you want to monitor critical KPIs for immediate intervention. However, how do you track all your KPIs and share them with stakeholders? The new process digest feature gives you a weekly email.
+Easily find dashboards pre-build by Camunda.
 
-## Limiting who can export (C7 Enterprise only)
+## ML Ready Dataset as CSV export (All distributions)
 
-Prior to this release, all users have been able to export Reports and Outlier Analyses as CSV files. Now Optimize allows you to restrict this option, or to only allow this for superusers, giving you full control over which users can export data from Optimize.
+Export optimized ML datasets for analyses in data analysis and manipulation tools like Panda.
 
-## Restrict report and dashboard creation to collections (C7 Enterprise only)
+## Hot backup API Extension (Camunda Platform 8 Self managed)
 
-Optimize is structured with entities like reports and dashboards that are created inside and outside of collections. With more and more users creating these entities, this can get messy and hard to govern. With this release, it is now possible to limit “entity-authorized-editors”. These users are the only ones which are authorized to create, edit, copy and delete Optimize entities outside of a collection.
+The hot backup API was extended by:
+
+- Adjust Get backup state API to return more info on each backup
+- Adjust get backup state API to allow users to request info on all existing backups
+- Add delete API to delete existing backups per ID
+
+## Empty State with call to action (All distributions)
+
+New empty state component for the homepage, that allows users to have an easier start with Optimize.
