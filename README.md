@@ -10,13 +10,13 @@ Note that any language files that are missing a given key will cause Optimize to
 
 If you update or add a new language file, please also update the below table with the Optimize version that it is compatible with.
 
-| Language      | Version | Contributor                                                     |
-|---------------|---------|-----------------------------------------------------------------|
-| German        | 3.11.0   | Optimize Team                                                   |
-| English       | 3.11.0   | Optimize Team                                                   |
-| French | 3.9.0   | @Fullfifax (what's new) / @pierre-yves-monnet (French dictionary)      |
-| Spanish		| 3.9.0	  | Gustavo Mendoza                                                 |
-| Italian       | 3.9.0   | Enrico Curiotto                                                 |
+| Language | Version | Contributor                                                       |
+| -------- | ------- | ----------------------------------------------------------------- |
+| German   | 3.12.0  | Optimize Team                                                     |
+| English  | 3.12.0  | Optimize Team                                                     |
+| French   | 3.9.0   | @Fullfifax (what's new) / @pierre-yves-monnet (French dictionary) |
+| Spanish  | 3.9.0   | Gustavo Mendoza                                                   |
+| Italian  | 3.9.0   | Enrico Curiotto                                                   |
 
 ### Contributing
 
