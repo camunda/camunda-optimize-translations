@@ -4,20 +4,16 @@ This project provides translations for Camunda Optimize. While the English and G
 
 Please read more about Optimize localization here: https://docs.camunda.io/docs/next/self-managed/optimize-deployment/configuration/localization/
 
-Note that any language files that are missing a given key will cause Optimize to crash if used.
-
-### List of available translations
-
-If you update or add a new language file, please also update the below table with the Optimize version that it is compatible with.
-
-| Language | Version | Contributor                                                       |
-| -------- | ------- | ----------------------------------------------------------------- |
-| German   | 3.12.0  | Optimize Team                                                     |
-| English  | 3.12.0  | Optimize Team                                                     |
-| French   | 3.9.0   | @Fullfifax (what's new) / @pierre-yves-monnet (French dictionary) |
-| Spanish  | 3.9.0   | Gustavo Mendoza                                                   |
-| Italian  | 3.9.0   | Enrico Curiotto                                                   |
+> [!NOTE]
+> Any language files that are missing a given key will cause Optimize to crash if used. |
 
 ### Contributing
 
 Everybody is welcome to contribute! You can help by sending us a pull request with your translation.
+Please keep the naming conventions:
+
+- localisation file `X.json`
+- whats new: `whatsnew_X.md`
+
+where `X` is the two letter language abbreviation.
+Please also put your files into proper version folder.
