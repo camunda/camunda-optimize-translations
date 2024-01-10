@@ -1,0 +1,1436 @@
+{
+  "appName": "Optimize",
+  "navigation": {
+    "homepage": "Home",
+    "analysis": "Analysis",
+    "processes": "Processes",
+    "events": "Event Based Processes",
+    "telemetry": "Telemetry Settings",
+    "logout": "Logout",
+    "logoutFailed": "Logout failed.",
+    "logoutSuccess": "You logged out successfully.",
+    "configLoadingError": "An error occurred while loading the UI configurations",
+    "userGuide": "User Guide",
+    "help": "Help"
+  },
+  "login": {
+    "appName": "Optimize",
+    "username": "Username",
+    "password": "Password",
+    "btn": "Log in",
+    "error": "An error occurred. Could not log you in.",
+    "timeout": "Your session timed out. Please log in again to complete the action.",
+    "telemetry": "By logging in, you accept our <a href=\"https://camunda.com/legal/terms/\" target=\"_blank\" rel=\"noopener noreferrer\">T&C</a> and <a href=\"https://camunda.com/legal/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+  },
+  "footer": {
+    "importing": "is importing...",
+    "connected": "is connected",
+    "notConnected": "is not connected",
+    "rightsReserved": "All Rights Reserved",
+    "connectionError": "Connection Status Unknown (Cannot establish Websocket connection)",
+    "timezone": "Date and Time displayed in local timezone:"
+  },
+  "license": {
+    "licensedFor": "Licensed for",
+    "validUntil": "Valid until",
+    "redirectMessage": "You will be redirected to login page shortly. <a href=\"./\">Click here to go to login page immediately</a>",
+    "licenseKey": "License Key",
+    "enterLicense": "Please enter license key",
+    "submit": "Submit",
+    "nonProduction": "Non-Production License",
+    "referTo": "If you would like information on production usage, please refer to our",
+    "terms": "terms & conditions",
+    "contactSales": "contact sales"
+  },
+  "saveGuard": {
+    "header": "Unsaved changes",
+    "text": "The {label} has unsaved changes. Save before continuing?",
+    "yes": "Save Changes",
+    "no": "Don't Save"
+  },
+  "whatsNew": {
+    "buttonTitle": "What’s New",
+    "modalHeader": "What's New in Optimize"
+  },
+  "telemetry": {
+    "updated": "Telemetry Settings updated.",
+    "header": "Telemetry Settings",
+    "text": "To enhance user experience, Camunda Optimize can integrate with Camunda Services GmbH, which requires external network requests. Please choose from the setting below.",
+    "enable": "Enable Usage Statistics",
+    "info": "Allow Camunda Optimize to send anonymous usage statistics. We use this information to provide you a stable and improved product experience in the environment you are using. This allows Camunda to collect information about the product version and technical environment you are using, and how you are using it.",
+    "respectPrivacy": "We respect your privacy.",
+    "personalData": "None of your personal information or stored data will be submitted. To learn more, read our",
+    "orView": "or view our <a href='{link}' target='_blank' rel='noopener noreferrer'>{policy}</a>.",
+    "privacyPolicy": "privacy policy"
+  },
+  "templates": {
+    "noProcessHint": "Create Blank Dashboard",
+    "noXmlHint": "Select Process definition to display diagram",
+    "blankSlate": {
+      "selectProcess": "Select up to 10 process definitions",
+      "selectTemplate": "Select a template",
+      "review": "Review your draft dashboard and remove unwanted reports",
+      "refine": "Refine your dashboard and reports"
+    },
+    "disabledMessage": {
+      "noProcess": "Select process definition to be able to select a template.",
+      "multipleProcess": "This template is best suited for multiple processes.",
+      "singleProcess": "This template is best suited for single processes.",
+      "editReport": "To change this value, edit the data source section of the created report(s)."
+    },
+    "templateGroups": {
+      "blankGroup": "Blank template",
+      "templatesGroup": "Templates",
+      "singleProcessGroup": "Single process templates",
+      "multiProcessGroup": "Multi process templates"
+    }
+  },
+  "home": {
+    "createBtn": {
+      "default": "Create New",
+      "collection": "Collection",
+      "dashboard": "Dashboard",
+      "report": {
+        "default": "Report",
+        "process": "Process Report",
+        "combined": "Combined Process Report",
+        "decision": "Decision Report"
+      }
+    },
+    "title": "Collections, Dashboards, and Reports",
+    "contents": "Contents",
+    "members": "Members",
+    "search": {
+      "generic": "Type to search....",
+      "name": "Search for name..."
+    },
+    "collectionTitle": "Dashboards and Reports",
+    "collectionTitleWithAmpersand": "Dashboards & Reports",
+    "userTitle": "Users",
+    "userGroupsTitle": "Users and User Groups",
+    "copy": {
+      "subEntity": "This {entityType} contains 1 Report. It will be copied, too.",
+      "subEntities": "This {entityType} contains {number} Reports. They will be copied, too.",
+      "inputLabel": "Name of Copy",
+      "moveLabel": "Move copy to …",
+      "noCollections": "No collections have been created",
+      "pleaseSelect": "Please select",
+      "gotoNew": "Go to new location",
+      "copyCollectionInfo": "All items and users will be copied."
+    },
+    "types": {
+      "process": "Process Report",
+      "decision": "Decision Report",
+      "combined": "Combined Report",
+      "unknown": "Unknown Entity"
+    },
+    "roles": {
+      "addUserTitle": "Add User",
+      "addUserGroupTitle": "Add User or User Group",
+      "userRole": "User role",
+      "role": "Role",
+      "viewer": "Viewer",
+      "viewer-description": "Read-only access to all objects",
+      "editor": "Editor",
+      "editor-description": "Create, edit and delete Dashboards, Reports and Alerts",
+      "manager": "Manager",
+      "manager-description": "Full rights editing Collection and Users",
+      "existing-identity": "A user or a group with this id already exists",
+      "inCollection": "in this collection",
+      "missingAuthorizationsWarning": "Some data may be hidden from users due to missing authorizations.",
+      "deleteWarning": "The '{name}' {type} will be removed from the Collection."
+    },
+    "sources": {
+      "title": "Data Sources",
+      "decision": "Decision Table",
+      "process": "Process",
+      "notCreated": "There are no sources added yet",
+      "contactManager": "Please contact the collection manager to add new sources",
+      "add": "Add Source",
+      "definitionName": "Definition Name",
+      "deleteWarning": "The '{name}' Data Source will be removed from the Collection.",
+      "saveConflict": {
+        "header": "These changes are incompatible with the Report(s):",
+        "message": "Warning: Saving will remove Tenants from the Report(s)."
+      },
+      "definition": {
+        "label": "Definition",
+        "label-plural": "Definitions"
+      },
+      "unauthorizedTenant": "(Unauthorized Tenant)"
+    },
+    "empty": "There are no items created yet",
+    "contactEditor": "Please contact an Optimize editor to create new items",
+    "contactManager": "Please contact the collection manager to create new items",
+    "welcome": "Welcome"
+  },
+  "processes": {
+    "label": "process",
+    "label-plural": "processes",
+    "list": "Processes List",
+    "empty": "There are no processes imported yet",
+    "owner": "Owner",
+    "processOwner": "Process Owner",
+    "timeKpi": "KPI: Time",
+    "qualityKpi": "KPI: Quality",
+    "kpiInfo": "KPI values are based on certain reports.",
+    "setGoal": "Set Goal",
+    "editGoal": "Edit Goal",
+    "goals": "Goals",
+    "goalRemoved": "Goals removed from '{processName}' process",
+    "ownerInfo": "The process owner is responsible for business metrics for the process. You can use the process owner to sort and filter processes.",
+    "ownerRemoveWarning": "The '{owner}' Owner will be removed from the process",
+    "processOverview": "Processes Overview",
+    "configureProcess": "Configure Process",
+    "emailDigest": "Email Digest",
+    "digestInfo": "The process digest sends periodic emails with the existing KPI status to the Process Owner. By default, the digest will be sent every Monday at 9:00 AM (To change the default send time, please contact your administrator).",
+    "digestConfigured": "Your process digest has been successfully configured. An email has been sent to {name}.",
+    "configureKpis": "Learn more about KPIs",
+    "analysing": "Analysing <b>{count}</b> {label}.",
+    "processesListed": "{total} {label} listed",
+    "processesListedOf": "{count} of {total} {label} listed",
+    "timeGoals": {
+      "label": "Time goals",
+      "configure": "Configure duration goals",
+      "setDuration": "Set a duration goal by setting a percentage of process instances that should take less than a certain duration to complete.",
+      "availableGoals": "You can use duration goals to track how many instances are fully automated (target duration) or meet your service level agreements (SLAs).",
+      "targetDuration": "Target",
+      "slaDuration": "SLA",
+      "instancesTake": "of process instances take",
+      "instancesTook": "of instances took less than",
+      "lessThan": "less than",
+      "displayGoal": "Display goal",
+      "durationDistribution": "Duration distribution",
+      "durationDistributionInfo": "This chart shows durations for process instances ending in the current month.",
+      "saveGoals": "Save Goals",
+      "updateGoals": "Update Goals",
+      "resultPreview": "Result Preview:",
+      "instancesThisMonth": "Instances ended in the last 30 days",
+      "noInstances": "No instances occurred in the time range.",
+      "setGoals": "Set goals for expected durations.",
+      "resultInfo": "This preview displays each goal's status based on its current configuration."
+    }
+  },
+  "events": {
+    "new": "New Process",
+    "autogenerate": "Autogenerate",
+    "generate": "Generate",
+    "addedSources": "Added sources",
+    "modelProcess": "Model a Process",
+    "upload": "Upload .bpmn",
+    "empty": "There are no Event Based Processes created yet",
+    "label": "Event Based Process",
+    "parseError": "Could not parse file. Please make sure to upload a valid bpmn file.",
+    "list": "Events List",
+    "cancelPublish": "Cancel Publish",
+    "publish": "Publish",
+    "publishStart": "Publishing Process. This may take some time.",
+    "publishSuccess": "{name} has been published.",
+    "stateColumn": "State",
+    "generationInfo": "Add event sources to generate an end to end process automatically. Generated processes are based on a sample of data and may not represent all events. Edit generated process to manually refine.",
+    "generationWarning": "Autogenerated processes are based on a sample of data and may not represent all events. Edit generated process to manually refine.",
+    "table": {
+      "group": "Group",
+      "mapping": "Mapped as…",
+      "source": "Source",
+      "name": "Event Name",
+      "count": "Count",
+      "end": "End",
+      "start": "Start",
+      "noResults": "No Results matching your search",
+      "allMapped": "No Events available.",
+      "seeDocs": "No Events available. To add events, see ",
+      "documentation": "Documentation",
+      "showSuggestions": "Show suggested Events"
+    },
+    "deleteWarning": "The '{name}' Process will be permanently deleted. This will result in the deletion of any associated Reports, inside and outside of Collections.",
+    "publishModal": {
+      "head": "Publishing Process",
+      "republishHead": "Re-Publishing Process",
+      "republishText": "Re-Publishing will update data in all associated Reports.",
+      "text": "Published Event Based Processes will be available to use in Reports by selected users."
+    },
+    "state": {
+      "unmapped": "Unmapped",
+      "mapped": "Mapped",
+      "publish_pending": "Publishing {publishingProgress}%",
+      "published": "Published",
+      "unpublished_changes": "Unpublished Changes"
+    },
+    "permissions": {
+      "private": "Private - Only you",
+      "noUsers": "There are no users added",
+      "whoHasAccess": "Who can use this process?",
+      "userGranted": "User access granted",
+      "description": "Enable the following users and groups to create Reports based on this process..."
+    },
+    "sources": {
+      "add": "Add Event Source",
+      "externalEvents": "External Events",
+      "editSource": "Edit Event Source",
+      "addEvents": "Add Process Events",
+      "alreadyExists": "The selected process is already added",
+      "defineTrace": "Trace ID Location",
+      "byVariable": "Variable",
+      "byKey": "Business Key",
+      "startAndEnd": "Process start and end",
+      "flownodeEvents": "Start and End Flownode Events",
+      "allEvents": "All Flownode Events",
+      "selectProcess": "Please select a Process Definition",
+      "display": "Select events to display",
+      "deleteWarning": "Removing the events from this event source will delete any mapping that had been created.",
+      "camundaEvents": "Camunda Events",
+      "empty": "There are no event sources added",
+      "selectExternal": "Select external events",
+      "allExternal": "all events",
+      "hide": "Hide in table",
+      "show": "Show in Table",
+      "learnMore": "Learn more",
+      "generatedEvents": "Select events to autogenerate",
+      "editScope": "Edit Event List",
+      "eventListTip": "Configure which events are displayed in the table.",
+      "definitionChangeWarning": "Changing the process definition may add or remove events. Existing event mappings may be removed.",
+      "eventListChangeWarning": "Changing the event list may add or remove events. Existing event mappings may be removed.",
+      "remove": "Remove Source",
+      "camundaProcess": "Camunda Process",
+      "allInOne": "Combine all events in a single group",
+      "eventGroups": "Event groups",
+      "ungrouped": "Ungrouped",
+      "search": "search for event groups",
+      "noGroups": "No event groups found",
+      "addExternalInfo": "All ingested External Events will be added."
+    },
+    "ingested": {
+      "label": "Ingested External Events",
+      "id": "Event ID",
+      "traceId": "Trace ID",
+      "group": "Group",
+      "source": "Source",
+      "eventName": "Type",
+      "timestamp": "Timestamp",
+      "eventSources": "External Events",
+      "search": "Search for values",
+      "deleteWarning": "Any processes using these events must be re-published to reflect the deleted state.",
+      "deleteLimitReached": "Deleting more than 1000 entries at once is not possible",
+      "noData": "No ingested events."
+    }
+  },
+  "report": {
+    "label": "Report",
+    "label-plural": "Reports",
+    "create": "Create Report",
+    "createNew": "Create New Report",
+    "new": "New Report",
+    "addName": "Report Name",
+    "reportSetup": "Report Setup",
+    "downloadCSV": "Download CSV",
+    "measure": "Measure",
+    "addMeasure": "Add measure",
+    "addGrouping": "Add grouping",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Add optional display name",
+    "noSources": "No Data Sources",
+    "templates": {
+      "blank": "Blank report",
+      "p75Duration": "KPI: 75th Percentile Duration",
+      "percentSLAMet": "KPI: % SLA Met",
+      "heatmap": "Heatmap: Flownode count",
+      "table": "Data Table: User task count",
+      "chart": "Bar Chart: Process Instance count",
+      "percentNoIncidents": "KPI: Incident-Free Rate",
+      "percentSuccess": "KPI: Success Rate (edit filter to only show successful end events)",
+      "percentAutomated": "KPI: Automation Rate (edit filter to exclude user tasks)",
+      "number": "Number: Process instance duration"
+    },
+    "instanceCount": {
+      "appliedFilters": "Applied filters",
+      "reportFiltersHeading": "Report level filters",
+      "additionalFiltersHeading": "Dashboard level filters",
+      "process": {
+        "label": "Displaying data from {count} instance.",
+        "label-plural": "Displaying data from {count} instances.",
+        "label-withFilter": "Displaying data from {count} of {totalCount} instance.",
+        "label-plural-withFilter": "Displaying data from {count} of {totalCount} instances."
+      },
+      "decision": {
+        "label": "Displaying data from {count} evaluation.",
+        "label-plural": "Displaying data from {count} evaluations.",
+        "label-withFilter": "Displaying data from {count} of {totalCount} evaluation.",
+        "label-plural-withFilter": "Displaying data from {count} of {totalCount} evaluations."
+      }
+    },
+    "view": {
+      "label": "View",
+      "rawData": "Raw Data",
+      "pi": "Process Instance",
+      "in": "Incident",
+      "resolutionDuration": "Resolution Duration",
+      "fn": "Flow Node",
+      "userTask": "User Task",
+      "count": "Count",
+      "duration": "Duration",
+      "percentage": "Percentage",
+      "multi": "Count and Duration",
+      "evaluationCount": "Evaluation Count",
+      "variable": "Variable",
+      "process": "Process View",
+      "decision": "Decision View"
+    },
+    "groupBy": {
+      "label": "Group By",
+      "none": "None",
+      "flowNodes": "Flow Nodes",
+      "userTasks": "User Tasks",
+      "duration": "Duration",
+      "startDate": "Start Date",
+      "runningDate": "Running Date",
+      "automatic": "Automatic",
+      "endDate": "End Date",
+      "variable": "Variable",
+      "userAssignee": "Assignee",
+      "userGroup": "Candidate Group",
+      "evaluationDate": "Evaluation Date",
+      "rules": "Rules",
+      "inputVariable": "Input Variable",
+      "outputVariable": "Output Variable",
+      "year": "Year",
+      "month": "Month",
+      "week": "Week",
+      "day": "Day",
+      "hour": "Hour",
+      "searchForVariable": "Search for variable…"
+    },
+    "visualization": {
+      "label": "Visualization",
+      "number": "Number",
+      "bar": "Bar Chart",
+      "line": "Line Chart",
+      "pie": "Pie Chart",
+      "table": "Table",
+      "heat": "Heatmap",
+      "barLine": "Bar/Line Chart"
+    },
+    "processPart": {
+      "label": "Process Instance Part",
+      "title": "Set Process Instance Part",
+      "description": "Only regard part between",
+      "selectStart": "Select start",
+      "selectEnd": "Select end",
+      "noPathWarning": "You selected two nodes, but there is no obvious connection between those nodes. Report results may be empty or misleading."
+    },
+    "heatTarget": {
+      "label": "Target Value",
+      "title": "Target Value Comparison",
+      "table": {
+        "activity": "Activity",
+        "value": "Actual Value",
+        "target": "Target Value"
+      },
+      "invalidValue": "All fields should have a numeric value",
+      "targetDuration": "Target duration",
+      "actualDuration": "<b>{duration}</b><br/>{percentage}% of the target value",
+      "duration": {
+        "sum": "Total duration: ",
+        "avg": "Average duration: ",
+        "min": "Minimum duration: ",
+        "median": "Median duration: ",
+        "max": "Max duration: "
+      },
+      "exceededInstances": "Exceeded-instances-{name}",
+      "noValueAvailable": "No actual value available.<br/>Cannot compare target and actual value."
+    },
+    "invalidCombinationError": "Cannot display data for the given report settings. Please choose another combination!",
+    "noDataNotice": "No data",
+    "errorNotice": "Error loading data",
+    "editSetupMessage": "To display this report, edit your report set-up.",
+    "incompleteNotice": "Report configuration is incomplete",
+    "setupNotice": "Set-up your Report",
+    "totalCount": {
+      "instance": "Total Instance</br> Count: <b>{count}</b>",
+      "evaluation": "Total Evaluation</br> Count: <b>{count}</b>"
+    },
+    "definition": {
+      "add": "Add {type}",
+      "search": "Search for {type}",
+      "process": "Process Definition",
+      "process-plural": "Process Definitions",
+      "decision": "Decision Definition",
+      "decision-plural": "Decision Definitions",
+      "variables": {
+        "rename": "Rename Variables",
+        "variableName": "Variable Name",
+        "type": "Type",
+        "newName": "New Name",
+        "renameInfo": "You may provide a UI-only alias that is displayed instead of the variable name defined in the Modeler. ",
+        "important": "Important!",
+        "followGuidelines": "Follow these guidelines to avoid unexpected behavior.",
+        "globalChanges": "Changes will update all reports using this process definition",
+        "useSameVariable": "Use the same alias for variables that appear in multiple process definitions"
+      }
+    },
+    "noDefinitionMessage": {
+      "process": "Select a <b>Process Definition</b>.",
+      "decision": "Select a <b>Decision Definition</b>."
+    },
+    "saveConflict": {
+      "header": "Destructive Changes",
+      "combined_report": {
+        "header": "These changes are incompatible with the Combined Report(s):",
+        "message": "Warning: Saving will remove this Report from the Combined Report(s)."
+      },
+      "alert": {
+        "header": "These changes are incompatible with the Alert(s):",
+        "message": "Warning: Saving will delete the Alert(s)."
+      }
+    },
+    "combinedEmptyMessage": "To display a report, please select one or more reports from the list.",
+    "noViewMessage": "Select an option for <b>View</b>.",
+    "noGroupByMessage": "Select what to <b>Group By</b>.",
+    "noVisualizationMessage": "Select an option for <b>Visualization</b> above.",
+    "variables": {
+      "default": "Variables",
+      "input": "Input Variables",
+      "output": "Output Variables"
+    },
+    "table": {
+      "noData": "You need to enable at least one table column",
+      "info": "Showing <b>{firstRowIndex}</b> to <b>{lastRowIndex}</b> of <b>{totalRows}</b>",
+      "page": "page",
+      "of": "of",
+      "rows": "Rows per page",
+      "relativeFrequency": "Relative Frequency ",
+      "rawData": {
+        "processDefinitionKey": "Process Definition Key",
+        "processDefinitionId": "Process Definition Id",
+        "processInstanceId": "Process Instance Id",
+        "decisionDefinitionKey": "Decision Definition Key",
+        "decisionDefinitionId": "Decision Definition Id",
+        "decisionInstanceId": "Decision Instance Id",
+        "evaluationDateTime": "Evaluation Date",
+        "businessKey": "Business Key",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "duration": "Duration",
+        "engineName": "Engine Name",
+        "tenantId": "Tenant Id",
+        "variable": "Var",
+        "multipleVariable": "Var",
+        "inputVariable": "InputVar",
+        "outputVariable": "OutputVar",
+        "objectVariable": "Object Variable",
+        "numberOfOpenIncidents": "Open Incidents Count"
+      },
+      "pageError": "Only the first 10,000 instances can be displayed"
+    },
+    "progressBar": {
+      "invalid": "Invalid Configuration",
+      "goal": "Target"
+    },
+    "combined": {
+      "multiSelect": {
+        "available": "Available reports:",
+        "selected": "Selected reports:",
+        "search": "Search for reports",
+        "empty": "No reports found"
+      }
+    },
+    "config": {
+      "buttonTooltip": "Configuration Options",
+      "reset": "Reset to Defaults",
+      "showCount": {
+        "instance": "Show Instance Count",
+        "evaluation": "Show Evaluation Count"
+      },
+      "aggregation": {
+        "userTaskLegend": "User Task Duration",
+        "durationLegend": "Basic aggregations",
+        "variableLegend": "Variable aggregations",
+        "percentileLegend": "Percentile aggregations",
+        "sum": "Sum",
+        "min": "Minimum",
+        "avg": "Average",
+        "median": "Median",
+        "max": "Maximum",
+        "p50": "P50 (median)"
+      },
+      "aggregationShort": {
+        "sum": "Sum",
+        "min": "Min",
+        "avg": "Avg",
+        "median": "Med",
+        "max": "Max",
+        "percentile": "P{value}"
+      },
+      "userTaskDuration": {
+        "idle": "Idle",
+        "work": "Work",
+        "total": "Total"
+      },
+      "colorPicker": {
+        "legend": "Color"
+      },
+      "tooltips": {
+        "legend": "Tooltips",
+        "showRelative": {
+          "process": "Show Relative Value based on process instance count",
+          "decision": "Show Relative Value based on decision evaluation count"
+        },
+        "showAbsolute": "Show Absolute Value"
+      },
+      "axisSettings": {
+        "legend": "Axis Settings",
+        "logScale": "Logarithmic Scale (base 10)",
+        "label": "Axis Label",
+        "xAxis": "X Axis Label",
+        "yAxis": "Y Axis Label"
+      },
+      "goal": {
+        "legend": "Set Target",
+        "goalValue": "Goal value",
+        "baseline": "Baseline",
+        "target": "Target",
+        "invalidInput": "Enter a positive number",
+        "lessThanTargetError": "Target must be greater than baseline",
+        "setKpi": "Display as a process KPI",
+        "kpiDescription": "The status of this metric will be displayed directly on the process in the process page."
+      },
+      "pointMarkers": {
+        "legend": "Line points",
+        "enableMarkers": "Enable point markers"
+      },
+      "stackedBars": {
+        "legend": "Display",
+        "enableStackedBars": "Stacked bars"
+      },
+      "limitPrecision": {
+        "legend": "Custom Precision",
+        "numberOf": {
+          "digits": "No. of digits",
+          "units": "No. of units"
+        }
+      },
+      "includeTableColumn": "Table columns to include",
+      "includeNewVariables": "Display data from new variables",
+      "showGradientBars": "Show Gradient Bars",
+      "bucket": {
+        "buckets": "Buckets",
+        "bucketSize": "Bucket Size",
+        "baseline": "Baseline",
+        "invalidNumber": "Must be a valid number"
+      },
+      "barLine": {
+        "visualizationSettings": "Visualization settings",
+        "bar": "Bar",
+        "line": "Line"
+      }
+    },
+    "viewByGroup": "{view} by {group}",
+    "missingVariableValue": "null / undefined",
+    "missingAssignee": "Unassigned",
+    "runningEndedFlowNodeWarning": "Only completed flow nodes are considered when grouping by End Date. Therefore, adding 'running' flow node status filter will show no results",
+    "missingVariable": "Missing variable",
+    "nonExistingVariable": "Variable does not exist",
+    "nonExistingFlowNode": "Flow Node(s) does not exist",
+    "percentageOfInstances": "% of total instances that match the filter"
+  },
+  "dashboard": {
+    "label": "Dashboard",
+    "label-plural": "Dashboards",
+    "new": "New Dashboard",
+    "createNew": "Create New Dashboard",
+    "addName": "Dashboard Name",
+    "create": "Create Dashboard",
+    "cannotShare": "Sharing forbidden. Missing authorization for contained report.",
+    "toggleTheme": "Toggle Theme",
+    "enterFullscreen": "Enter Fullscreen",
+    "leaveFullscreen": "Leave Fullscreen",
+    "autoRefresh": "Auto Refresh",
+    "saveModal": {
+      "unsaved": "Unsaved Dashboard",
+      "text": "Save Dashboard to continue.\nSaving the Dashboard will save all the contained Reports."
+    },
+    "templates": {
+      "blank": "Blank Dashboard",
+      "processPerformance": "Process performance overview",
+      "processPerformance_subTitle": "Process and incident performance",
+      "humanPerformance": "Human task performance",
+      "humanPerformance_subTitle": "User task counts and durations",
+      "humanBottleneckAnalysis": "Human task bottleneck analysis",
+      "humanBottleneckAnalysis_subTitle": "Fix bottlenecks to reduce total process time",
+      "portfolioPerformance": "Portfolio performance overview",
+      "portfolioPerformance_subTitle": "View a summary of up to 10 processes",
+      "operationsMonitoring": "Operations monitoring",
+      "operationsMonitoring_subTitle": "Monitor active processes and incidents",
+      "30DayThroughput": "Throughput (30-day rolling)",
+      "p75Duration": "75th Percentile Duration",
+      "p99Duration": "99th Percentile Duration",
+      "percentSLAMet": "% SLA Met",
+      "percentNoIncidents": "Incident-Free Rate",
+      "percentSuccess": "Success Rate (edit filter to only show successful end events)",
+      "percentAutomated": "Automation Rate (edit filter to exclude user tasks)",
+      "flownodeDuration": "Which process steps take too much time? (To Do: Add Target values for these process steps)",
+      "controlChart": "Is my process within control?",
+      "flownodeFrequency": "How often is each process step run?",
+      "instanceTrends": "How frequently is this process run?",
+      "activeIncidentsHeatmap": "Where are the active incidents?",
+      "incidentDurationHeatmap": "Where are the worst incidents",
+      "incidentDurationTrend": "Are we improving incident handling?",
+      "idleTime": "Idle Time",
+      "workTime": "Work Time",
+      "tasksStarted": "Tasks started per month",
+      "tasksCompleted": "Tasks completed per month",
+      "bottleneckLocation": "Where is my bottleneck?",
+      "bottleneckSeverity": "How bad is my bottleneck?",
+      "assigneeVariation": "How does task assignee affect the bottleneck?",
+      "durationImprovement": "Is the bottleneck improving?",
+      "userTaskImprovement": "Are user tasks becoming more efficient?",
+      "upstreamWork": "Is work delivered smoothly to the bottleneck? (To Do: Edit the filter to include all flow nodes BEFORE the bottleneck)",
+      "bottleneckQueue": "How many tasks are waiting at my bottleneck? (To Do: Edit the filter to select the flow node AT the bottleneck)",
+      "workerProductivity": "How productive are my workers?",
+      "workDuration": "How long does each user task take?",
+      "completedProcesses": "Processes Completed",
+      "activeIncidents": "Active Incidents",
+      "runningProcesses": "Which processes are running?",
+      "runningTasks": "Which user tasks are in progress?",
+      "processTotal": "How much are we using Camunda?",
+      "laborSavings": "Are we saving total labor costs?",
+      "processAcceleration": "Are my processes getting faster?",
+      "taskAutomation": "How quickly are we automating user tasks?",
+      "incidentHandling": "Are we resolving incidents fast enough?",
+      "taskLifecycle": "How long do tasks wait before assignment?",
+      "longRunningProcesses": "Long-Running Process Instances",
+      "activeIncidentsByProcess": "Active Incidents by Process",
+      "processSnapshot": "Process Snapshot",
+      "incidentSnapshot": "Incident Snapshot",
+      "processHistory": "Process History",
+      "incidentHistory": "Incident History",
+      "durationSLI": "Process Duration SLI Tracking"
+    },
+    "addButton": {
+      "addReport": "Add a Report",
+      "optimizeReport": "Optimize Report",
+      "addReportLabel": "Add Report",
+      "selectReportPlaceholder": "Select a Report",
+      "noReports": "No reports have been created",
+      "externalUrl": "External URL",
+      "newReport": "New Report from a template"
+    },
+    "noAuthorization": "Missing authorization",
+    "noReportAccess": "No access to report",
+    "filter": {
+      "viewButtonText": "Filters",
+      "label": "Add a filter",
+      "viewLabel": "Filter Report data",
+      "disabledVariable": "Variable Filters are only available for Dashboards that contain at least one Report.",
+      "disabledAssignee": "Assignee and Candidate Group Filters are only available for Dashboards that contain at least one Report.",
+      "resetAll": "Reset all",
+      "operatorLink": "Values linked by {operator} logic",
+      "multiple": "multiple",
+      "selectValue": "Select variable value",
+      "modal": {
+        "pretext": {
+          "Date": "Date selection will be available in the resulting filter.",
+          "Boolean": "True and false values will be available in the resulting filter.",
+          "default": "Selected options will be available in the resulting filter.",
+          "flowNodeData": "The filter will consider flownode data."
+        },
+        "allowCustomValues": "Allow viewer to add filter values"
+      },
+      "types": {
+        "state": "Instance State",
+        "instanceStartDate": "Instance Start Date",
+        "instanceEndDate": "Instance End Date",
+        "variable": "Variable",
+        "runningInstancesOnly": "Running",
+        "completedInstancesOnly": "Completed",
+        "canceledInstancesOnly": "Canceled",
+        "nonCanceledInstancesOnly": "Non Canceled",
+        "suspendedInstancesOnly": "Suspended",
+        "nonSuspendedInstancesOnly": "Non Suspended"
+      },
+      "date": {
+        "last": "Last",
+        "this": "This",
+        "units": {
+          "weeks": "Week",
+          "months": "Month",
+          "years": "Year",
+          "quarters": "Quarter"
+        }
+      }
+    }
+  },
+  "alert": {
+    "label": "Alert",
+    "label-plural": "Alerts",
+    "createNew": "Create New Alert",
+    "newAlert": "New Alert",
+    "edit": "Edit Alert",
+    "recipient": "Recipient",
+    "description": "\"{name}\" has a value {aboveOrBelow} {thresholdValue}",
+    "emailWarning": "The email notification service is not configured. Optimize won't be able to inform you about critical values. Please check out the <a href='{docsLink}'>Optimize documentation</a> on how to enable the notification service.",
+    "form": {
+      "name": "Alert Name",
+      "report": "When Report",
+      "reportPlaceholder": "Select a Report",
+      "noReports": "No single number reports have been created",
+      "reportInfo": "Alerts only available for reports visualized as single numbers",
+      "threshold": "Has a Value",
+      "frequency": "Check Report Every",
+      "email": "Send Email to",
+      "webhook": "Send to target",
+      "emailPlaceholder": "Separate email addresses by enter or space keys",
+      "webookPlaceholder": "Target system",
+      "sendNotification": "Send notification when resolved",
+      "reminder": "Send reminder notification",
+      "reminderFrequency": "every",
+      "emailThreshold": "Up to 20 recipients can be added",
+      "invalidEmail": "Invalid email added",
+      "value": "Report value: {value}"
+    },
+    "apply": "Apply Changes",
+    "create": "Create Alert",
+    "notCreated": "There are no Alerts created yet",
+    "contactManager": "Please contact the collection manager to create new Alerts",
+    "inactiveStatus": "Alert inactive",
+    "activateInfo": "To active add email or target system",
+    "existingAlerts": "Existing alerts",
+    "updated": "\"{name}\" updated.",
+    "removed": "\"{name}\" removed."
+  },
+  "analysis": {
+    "branchAnalysis": "Branch Analysis",
+    "outlier": {
+      "label": "Outlier Analysis",
+      "totalInstances": "Total Instances",
+      "tooltip": {
+        "outlier": {
+          "label": "Outlier",
+          "label-plural": "Outliers"
+        },
+        "tookDuration": {
+          "singular": "took a duration of",
+          "plural": "took a duration of"
+        }
+      },
+      "notFound": "No outliers found for the selected process",
+      "onlyCompletedHint": "Note: The outlier analysis is performed on completed flow nodes only",
+      "info": "Heatmap displays the incidence of higher outliers based on duration. Calculated by z-score.",
+      "tooltipText": {
+        "singular": "{count} instance took {percentage}% longer than average.",
+        "plural": "{count} instances took {percentage}% longer than average."
+      },
+      "detailsModal": {
+        "title": "Outliers of {name} Flow Node",
+        "durationChart": "Duration Distribution chart",
+        "variablesTable": "Common Significant Variables Table",
+        "axisLabels": {
+          "duration": "Duration",
+          "instanceCount": "Instance Count"
+        },
+        "table": {
+          "emptyTableMessage": "No significant variable value occurrences found on outlier instances",
+          "outliersNumber": "Number of Outlier Instances",
+          "ofTotalPercentage": "% of Total Instances",
+          "ofOutliersPercentage": "% of Outlier Instances"
+        }
+      }
+    },
+    "selectLabel": "For",
+    "gatewayLabel": "analyze how the branches of",
+    "endEventLabel": "affect the probability that an instance reached",
+    "emptySelectionLabel": {
+      "gateway": "Select Gateway",
+      "endEvent": "Select End Event"
+    },
+    "instructionMessage": "Please select a Process Definition, a Gateway and an End Event to perform the Analysis.",
+    "noInstances": "No Instances in the current filter passed the selected Gateway.",
+    "gatewayInstances": "Of all <b>{totalGateway} instances</b> that passed the Gateway <i class=\"gatewayName\"></i>",
+    "branchDistribution": "<b>{count}</b> ({branchPercentage}%) took the <i class=\"branchName\"></i> branch, <b>{reached}</b> ({reachedEndPercentage}%) of those then continued to reach the end event <i class=\"endEventName\"></i>",
+    "gatewayDistribution": "Distribution of Instances at the Gateway <i class=\"gatewayName\"></i>:",
+    "endEventProbability": "Probability to reach the end event <i class=\"endEventName\"></i> after taking a branch:",
+    "tooltip": {
+      "totalInstances": "Process Instances Total",
+      "reachedEnd": "Process Instances reached this state",
+      "reachedEndPercentage": "of Process Instances reached this state"
+    }
+  },
+  "common": {
+    "name": "Name",
+    "edit": "Edit",
+    "editName": "Edit {name}",
+    "delete": "Delete",
+    "deleteEntity": "Delete {entity}",
+    "remove": "Remove",
+    "removeEntity": "Remove {entity}",
+    "save": "Save",
+    "saveContinue": "Save and Continue",
+    "update": "Update",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "close": "Close",
+    "add": "Add",
+    "copy": "Copy",
+    "addACopy": "Add a copy",
+    "export": "Export",
+    "importJSON": "Import JSON",
+    "change": "Change",
+    "copyName": "Copy {name}",
+    "copyLabel": "copy",
+    "condition": "Condition",
+    "saving": "Saving...",
+    "creating": "Creating...",
+    "select": "Select...",
+    "enableAll": "Enable All",
+    "disableAll": "Disable All",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "enabled": "enabled",
+    "disabled": "disabled",
+    "and": "and",
+    "or": "or",
+    "off": "Off",
+    "none": "None",
+    "all": "All",
+    "above": "above",
+    "below": "below",
+    "viewDetails": "View Details",
+    "notFound": "No results found",
+    "searchForMore": "Displaying {count} results only. Search to refine.",
+    "goToHome": "Go to Home",
+    "editAccess": "Edit Access",
+    "id": "ID",
+    "instanceIds": "Instance IDs",
+    "seeDocs": "See documentation",
+    "undefined": "undefined",
+    "null": "null",
+    "nullOrUndefined": "Null or undefined",
+    "timeAt": "at",
+    "value": "Value",
+    "dataSource": "Data Source",
+    "selected": "Selected",
+    "documentation": "documentation",
+    "here": "here",
+    "open": "Open",
+    "for": "for",
+    "download": "Download",
+    "view": "View",
+    "viewDocumentation": "View documentation",
+    "viewMore": "View More",
+    "viewLess": "View Less",
+    "configure": "Configure",
+    "process": {
+      "label": "Process",
+      "label-plural": "Processes"
+    },
+    "decision": {
+      "label": "Decision",
+      "label-plural": "Decisions"
+    },
+    "errors": {
+      "inValidLink": "This link is not valid.",
+      "number": "Enter a number",
+      "percentage": "Enter a valid percentage",
+      "positiveNum": "Enter a positive number",
+      "positiveInt": "Enter a positive whole number"
+    },
+    "instance": {
+      "label": "instance",
+      "label-plural": "instances"
+    },
+    "tenant": {
+      "label": "Tenant",
+      "label-plural": "Tenants"
+    },
+    "processInstance": {
+      "label": "Process Instance",
+      "label-plural": "Process Instances"
+    },
+    "incident": {
+      "label": "Incident",
+      "label-plural": "Incidents",
+      "byFlowNode": "Incidents by Flow Node"
+    },
+    "flowNode": {
+      "label": "Flow Node",
+      "label-plural": "Flow Nodes"
+    },
+    "userTask": {
+      "label": "User Task",
+      "label-plural": "User Tasks"
+    },
+    "itemSelected": {
+      "label": "item selected",
+      "label-plural": "items selected"
+    },
+    "multiSelect": {
+      "selectAll": "Select all in view",
+      "available": "Available items",
+      "selected": "Selected items",
+      "search": "Search for items",
+      "empty": "No items found"
+    },
+    "entity": {
+      "type": "Type",
+      "modified": "Last modified",
+      "modifiedBy": "Modified by",
+      "modifiedTitle": "Modified",
+      "byModifier": "by {modifier}",
+      "createdBy": "Created by",
+      "viewRawData": "View Raw data",
+      "viewModel": {
+        "decision": "View Decision Table",
+        "process": "View Process Model",
+        "model": "View Model"
+      },
+      "namePlaceholder": {
+        "Report": "Report name",
+        "Dashboard": "Dashboard name",
+        "Process": "Process name"
+      }
+    },
+    "user": {
+      "label": "User",
+      "label-plural": "Users",
+      "id": "User ID"
+    },
+    "user-group": {
+      "label": "User Group",
+      "label-plural": "User Groups",
+      "id": "User Group ID"
+    },
+    "collection": {
+      "label": "Collection",
+      "label-plural": "Collections",
+      "created": "Created \"{name}\"",
+      "modal": {
+        "title": {
+          "new": "Create new Collection",
+          "edit": "Edit Collection name"
+        },
+        "createBtn": "Create Collection",
+        "editBtn": "Edit Collection",
+        "inputLabel": "Collection Name",
+        "defaultName": "New Collection",
+        "addDataSources": "Add Data Sources",
+        "info": "A collection allows you to limit access to data, add users and create alerts on number reports.",
+        "allTenants": "All tenants"
+      },
+      "addUserModal": {
+        "searchPlaceholder": "Search for name, email or ID ..."
+      }
+    },
+    "sharing": {
+      "buttonTitle": "Share",
+      "disabled": "Sharing is disabled per configuration",
+      "popoverTitle": "Enable sharing",
+      "notification": "Link copied to clipboard",
+      "inputPlaceholder": "Enable sharing to create link",
+      "filtersLabel": "Share with current filters applied",
+      "copyLabel": "Copy Link",
+      "embedLabel": "Embed Link",
+      "openInOptimize": "Open in Optimize"
+    },
+    "filter": {
+      "label": "Filters",
+      "definitionSelection": {
+        "allProcesses": "All included processes"
+      },
+      "tooltip": {
+        "instance": "Process instance Filters return data from process instances matching the filter requirement. If the filter is based on a Flow Node, the returned data will show all instances where this Flow Node was triggered.",
+        "view": "Flow Node filters return data from Flow Nodes only, where the Flow Node or its property matches the filter requirement. Most useful in Flow Node and User Task views."
+      },
+      "state": {
+        "modalPretext": {
+          "instanceState": "Only display instances which are…",
+          "incidentInstances": "Only display instances with…",
+          "incident": "Only display data from Flow Nodes with…",
+          "flowNodeStatus": "Only display data from Flow Nodes which are…"
+        },
+        "instancesOnly": "<b>{type}</b> Instances only",
+        "flowNodesOnly": "<b>{type}</b> Flow Nodes only",
+        "incidents": "<b>{type}</b> Incidents",
+        "previewLabels": {
+          "runningInstancesOnly": "Running",
+          "completedInstancesOnly": "Completed",
+          "canceledInstancesOnly": "Canceled",
+          "nonCanceledInstancesOnly": "Non Canceled",
+          "suspendedInstancesOnly": "Suspended",
+          "nonSuspendedInstancesOnly": "Non Suspended",
+          "runningFlowNodesOnly": "Running",
+          "completedFlowNodesOnly": "Completed",
+          "canceledFlowNodesOnly": "Canceled",
+          "completedOrCanceledFlowNodesOnly": "Completed or Canceled",
+          "includesOpenIncident": "Open",
+          "includesResolvedIncident": "Resolved",
+          "includesClosedIncident": "Closed",
+          "doesNotIncludeIncident": "No"
+        },
+        "modalLabels": {
+          "runningInstancesOnly": "Running",
+          "completedInstancesOnly": "Completed",
+          "canceledInstancesOnly": "Canceled",
+          "nonCanceledInstancesOnly": "Non Canceled",
+          "suspendedInstancesOnly": "Suspended",
+          "nonSuspendedInstancesOnly": "Non Suspended",
+          "runningFlowNodesOnly": "Running",
+          "completedFlowNodesOnly": "Completed",
+          "canceledFlowNodesOnly": "Canceled",
+          "completedOrCanceledFlowNodesOnly": "Completed or Canceled",
+          "includesOpenIncident": "Open Incidents",
+          "includesResolvedIncident": "Resolved Incidents",
+          "includesClosedIncident": "Closed Incidents",
+          "doesNotIncludeIncident": "Without Incidents"
+        }
+      },
+      "types": {
+        "instanceState": "Instance State",
+        "date": "Instance Date",
+        "assignee": "Assignee",
+        "candidateGroup": "Candidate Group",
+        "instanceStartDate": "Start Date",
+        "instanceEndDate": "End Date",
+        "instance": "Process instance",
+        "duration": "Duration",
+        "instanceDuration": "Instance Duration",
+        "processInstanceDuration": "Process Instance Duration",
+        "flowNodeDuration": "Flow Node Duration",
+        "variable": "Variable",
+        "multipleVariable": "Variable",
+        "flowNode": "Flow Node Execution",
+        "evaluationDateTime": "Evaluation Date Time",
+        "inputVariable": "Input Variable",
+        "outputVariable": "Output Variable",
+        "incident": "Incident",
+        "processIncident": "Process Instance Incident",
+        "viewIncident": "Flow Node Incidents",
+        "openIncident": "Open Incidents",
+        "resolvedIncident": "Resolved Incidents",
+        "flowNodeStatus": "Flow Node State",
+        "flowNodeSelection": "Flow Node Selection",
+        "flowNodeDate": "Flow Node Date",
+        "flowNodeStartDate": "Flow Node Start Date",
+        "flowNodeEndDate": "Flow Node End Date"
+      },
+      "list": {
+        "appliedTo": "Applied to",
+        "invalidDefinition": "Data Source is missing version or tenant selection.",
+        "totalInstanceWarning": "Filter applies to the total instance count",
+        "operators": {
+          "isBetween": "is between",
+          "between": "between",
+          "after": "after",
+          "before": "before",
+          "more": "is more than",
+          "less": "is less than",
+          "greater": "is greater than",
+          "is": "is",
+          "was": "was",
+          "were": "were",
+          "not": "is not",
+          "neither": "is neither",
+          "nor": "nor",
+          "or": "or",
+          "and": "and",
+          "occurs": "occurs",
+          "contains": "contains",
+          "notContains": "does not contain"
+        }
+      },
+      "modalHeader": "{type} Filter",
+      "addFilter": "Add Filter",
+      "updateFilter": "Update Filter",
+      "dateModal": {
+        "endDateWarning": "Reports with an active End Date Filter will only show completed instances.",
+        "info": {
+          "instanceStartDate": "Process Instances <b>started</b>",
+          "instanceEndDate": "Process Instances <b>ended</b>",
+          "evaluationDateTime": "Decision Instances <b>evaluated</b>"
+        },
+        "to": "to",
+        "invalidDate": "Enter a valid date",
+        "preview": {
+          "this": {
+            "week": "in the current",
+            "all": "in the current"
+          },
+          "last": {
+            "week": "in the last",
+            "plural": "in the last",
+            "all": "in the last"
+          },
+          "completed": {
+            "week": "completed",
+            "all": "completed"
+          }
+        },
+        "unit": {
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "between": "Between",
+          "before": "Before",
+          "after": "After",
+          "this": "This...",
+          "last": "Last...",
+          "custom": "Rolling"
+        },
+        "rollingInfo": "Note: rolling range is calculated up to the current time",
+        "last": "last"
+      },
+      "variableModal": {
+        "inputLabel": "Variable Name",
+        "info": "Only display instances where...",
+        "inputPlaceholder": "Select or search for a variable here",
+        "noVariables": "No variables found",
+        "loadMore": "Load More",
+        "or": "or",
+        "bool": {
+          "true": "is true",
+          "false": "is false",
+          "isNullOrUndefined": "is null or undefined"
+        },
+        "enterValue": "Add a single value",
+        "enterMultipleValues": "Add multiple values by separating with a tab",
+        "addValue": "Add Value",
+        "invalidInput": "Input must be a number",
+        "multiSelect": {
+          "header": "Variable values",
+          "search": "Search for values",
+          "empty": "No values found"
+        },
+        "includeUndefined": "Include instances where the selected variable is <b>null</b> or <b>undefined</b>",
+        "excludeUndefined": "Exclude instances where the selected variable is <b>null</b> or <b>undefined</b>",
+        "customValue": "Add custom variable value",
+        "addToList": "Add to list",
+        "addedToList": "Value added to list"
+      },
+      "durationModal": {
+        "includeInstance": "Only include process instances that ran for...",
+        "moreThan": "more than",
+        "lessThan": "less than"
+      },
+      "nodeModal": {
+        "executedFlowNodes": "Running, Canceled or Completed",
+        "notExecutedFlowNodes": "Not executed",
+        "canceledFlowNodes": "Canceled",
+        "executingFlowNodes": "Running",
+        "preview": {
+          "executedFlowNodes": "Running, Canceled or Completed Flow Nodes",
+          "notExecutedFlowNodes": "Not executed Flow Nodes",
+          "canceledFlowNodes": "Canceled Flow Nodes",
+          "executingFlowNodes": "Running Flow Nodes"
+        }
+      },
+      "nodeDateModal": {
+        "info": {
+          "flowNodeStartDate": {
+            "instance": "Only display instances where at least one of the selected Flow Nodes started",
+            "view": "Only display data from Flow Nodes which started"
+          },
+          "flowNodeEndDate": {
+            "instance": "Only display instances where at least one of the selected Flow Nodes ended",
+            "view": "Only display data from Flow Nodes which ended"
+          }
+        }
+      },
+      "assigneeModal": {
+        "includeOnly": "Include only",
+        "excludeOnly": "Exclude only",
+        "type": {
+          "assignee": "Assignees",
+          "candidateGroup": "Candidate groups"
+        },
+        "unassigned": "unassigned",
+        "selectValue": "Filter for ID"
+      },
+      "dropdownLabel": {
+        "instance": "Filter Process Instances",
+        "view": "Filter Flow Nodes",
+        "decision": "Filter Decision Evaluations"
+      },
+      "dropdownInfo": {
+        "instance": "Return Instances filtered by...",
+        "view": "Return Flow Node Data filtered by..."
+      },
+      "allVisible": {
+        "instance": "All instances visible",
+        "view": "All Flow Node data visible",
+        "decision": "All evaluations visible"
+      },
+      "linkingTip": "Filters are linked by 'and' logic",
+      "incompatibleFilters": "No data shown due to incompatible filters",
+      "instanceFilter": "Process Instance Filter",
+      "decisionFilter": "Decision Instance Filter",
+      "flowNodeFilter": "Flow Node Data Filter",
+      "excludedFlowNodes": "excluded Flow Nodes"
+    },
+    "definitionSelection": {
+      "latest": "Latest",
+      "multiple": "Multiple",
+      "noDefinition": "No definitions found",
+      "limitReached": "Process definition limit reached. Only ten processes allowed.",
+      "select": {
+        "process": "Select Process",
+        "decision": "Select Decision",
+        "multiProcess": "Select one or more processes"
+      },
+      "version": {
+        "label": "Version",
+        "alwaysLatest": "Always display latest",
+        "specific": {
+          "label": "Specific version",
+          "label-plural": "Specific versions"
+        }
+      },
+      "tenant": {
+        "includeData": "Include data from",
+        "notDefined": "Not defined"
+      },
+      "versionWarning": "Note: data from the older versions can deviate, therefore the report data can be inconsistent",
+      "noSourcesWarning": "To enable selection, Data Sources must be added to the Collection."
+    },
+    "deleter": {
+      "types": {
+        "report": "Report",
+        "combined_report": "Combined Report",
+        "dashboard": "Dashboard",
+        "alert": "Alert",
+        "user": "User",
+        "group": "Group",
+        "source": "Data Source",
+        "collection": "Collection",
+        "process": "Process",
+        "processEvents": "process events",
+        "ingestedEvents": "Events",
+        "items": "Items",
+        "goals": "Goals",
+        "owner": "Owner"
+      },
+      "permanent": "The '{name}' {type} will be permanently deleted.",
+      "noUndo": "Warning: This action cannot be undone.",
+      "affectedMessage": {
+        "process": {
+          "alert": "The following Alert(s) will also be deleted:",
+          "combined_report": "The deleted Report(s) will be removed from the Combined Report(s):",
+          "dashboard": "The deleted Report(s) will be removed from the Dashboard(s):",
+          "report": "The following Report(s) will be deleted:"
+        },
+        "source": {
+          "alert": "The following Alert(s) will also be deleted:",
+          "combined_report": "The deleted Report(s) will be removed from the Combined Report(s):",
+          "dashboard": "The deleted Report(s) will be removed from the Dashboard(s):",
+          "report": "The following Report(s) will be deleted from the Collection:"
+        },
+        "report": {
+          "combined_report": "This will remove the Report from the Combined Report(s):",
+          "dashboard": "This will remove the Report from the Dashboard(s):",
+          "alert": "The following Alert(s) will also be deleted:"
+        },
+        "bulk": {
+          "report": "Any selected Reports will be removed from associated Dashboards and Combined Reports. Their Alerts will be deleted.",
+          "process": "Removing Data Sources deletes all associated Reports and their Alerts."
+        }
+      },
+      "areYouSure": "Are you sure you want to proceed?",
+      "areYouSureSelected": {
+        "delete": "Are you sure you want to delete the selected items?",
+        "remove": "Are you sure you want to remove the selected items?"
+      }
+    },
+    "csvLimit": {
+      "Warning": "Warning: CSV will not contain all requested data",
+      "info": "This download will contain the first {exportLimit} of {totalCount} records. Filter your data, or ask your administrator to increase the system limit to resolve this issue.",
+      "exportApi": "You can also use the <a href='{docsLink}'>data export API</a> to export larger amounts of data from Optimize."
+    },
+    "unit": {
+      "automatic": "automatic",
+      "milli": {
+        "label": "millisecond",
+        "label-plural": "milliseconds"
+      },
+      "second": {
+        "label": "second",
+        "label-plural": "seconds"
+      },
+      "minute": {
+        "label": "minute",
+        "label-plural": "minutes"
+      },
+      "hour": {
+        "label": "hour",
+        "label-plural": "hours"
+      },
+      "day": {
+        "label": "day",
+        "label-plural": "days"
+      },
+      "week": {
+        "label": "week",
+        "label-plural": "weeks"
+      },
+      "month": {
+        "label": "month",
+        "label-plural": "months"
+      },
+      "quarter": {
+        "label": "quarter",
+        "label-plural": "quarters"
+      },
+      "year": {
+        "label": "year",
+        "label-plural": "years"
+      },
+      "thousand": {
+        "label": "thousand",
+        "label-plural": "thousand"
+      },
+      "million": {
+        "label": "million",
+        "label-plural": "million"
+      },
+      "billion": {
+        "label": "billion",
+        "label-plural": "billion"
+      },
+      "trillion": {
+        "label": "trillion",
+        "label-plural": "trillion"
+      },
+      "quadrillion": {
+        "label": "quadrillion",
+        "label-plural": "quadrillion"
+      },
+      "quintillion": {
+        "label": "quintillion",
+        "label-plural": "quintillion"
+      }
+    }
+  },
+  "apiErrors": {
+    "serverError": "An internal server error occurred.",
+    "conflict": "Could not apply the changes due to conflicts.",
+    "reportConflict": "Could not apply the report changes due to conflicts.",
+    "collectionConflict": "Could not apply the collection changes due to conflicts.",
+    "invalidDashboardVariableFilter": "Could not save the dashboard because one or more variable filters are not valid anymore. Reports may have been changed since the variable filter was added.",
+    "sharingNotAllowed": "Could not share as this functionality is currently disabled.",
+    "reportsNotCombinable": "It is not possible to combine the selected reports.",
+    "reportEvaluationError": "Could not evaluate the report.",
+    "forbiddenError": "You are not authorized to perform the requested action.",
+    "notAuthorizedError": "Could not authenticate you, please check your credentials.",
+    "notFoundError": "The server could not find the requested resource.",
+    "badRequestError": "The server was unable to process the request.",
+    "nonTenantScopeCompliantConflict": "Could not apply action due to conflicts with the collection data source. The definition for the report is available in the data source yet at least one tenant defined in the report is not available in the data source.",
+    "nonDefinitionScopeCompliantConflict": "Could not apply action due to conflicts with the collection data source. The report definition is not defined in the data source.",
+    "invalidLicenseError": "Invalid license provided.",
+    "noLicenseStoredError": "No license stored in Optimize. Please provide a valid Optimize license.",
+    "invalidEventProcessState": "This operation is cannot be performed in the current state of the event based process.",
+    "userOrGroupIdNotFound": "The provided user or group ID does not exist in Optimize.",
+    "tooManyBuckets": "Could not evaluate report because the result has more than 10.000 data points. Please add filters or adjust the bucket size to reduce the size of the report result.",
+    "elasticsearchError": "Elasticsearch encountered an error. If this issue persists, please contact your administrator.",
+    "importDefinitionDoesNotExist": "Import failed because the imported entity requires definitions that don't exist.",
+    "importIndexVersionMismatch": "Import failed because the data structure of the imported entities do not match the current data structure. Please migrate the data in your source Optimize before exporting to ensure the Optimize Version matches.",
+    "importDefinitionForbidden": "Import failed because you are not authorized to access some of the required definitions for the imported entity.",
+    "importFileInvalid": "Import failed because the provided file was invalid. Only JSON files exported from Optimize can be imported."
+  }
+}
