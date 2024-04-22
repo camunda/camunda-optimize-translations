@@ -5,7 +5,7 @@ This project provides translations for Camunda Optimize. While the English and G
 Please read more about Optimize localization here: https://docs.camunda.io/docs/next/self-managed/optimize-deployment/configuration/localization/
 
 > [!NOTE]
-> Any language files that are missing a given key will cause Optimize to crash if used. |
+> If any translation key is missing in the translation file, it will cause Optimize to crash when used.
 
 ### Contributing
 
@@ -13,7 +13,9 @@ Everybody is welcome to contribute! You can help by sending us a pull request wi
 Please keep the naming conventions:
 
 - localisation file `X.json`
-- whats new: `whatsnew_X.md`
 
 where `X` is the two letter language abbreviation.
 Please also put your files into proper version folder.
+
+> [!NOTE]
+> For versions of Optimize <= 3.13, the `whatsnew_X.md` file must also be included
