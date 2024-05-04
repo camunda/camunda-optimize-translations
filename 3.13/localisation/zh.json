@@ -26,10 +26,10 @@
       "privacyPolicy": "隐私政策",
       "termsOfUse": "使用条款",
       "imprint": "印记",
-      "academy": "卡蒙达学院",
+      "academy": "camunda学院",
       "feedback": "反馈与支持",
       "opensearchPreview": "Opensearch 预览版",
-      "opensearchWarningText": "这是具有 OpenSearch 支持的 Optimize 预览版。"
+      "opensearchWarningText": "这是具有OpenSearch支持的Optimize预览版。"
     },
     "login": {
       "label": "登录",
@@ -47,7 +47,7 @@
       "connected": "已连接",
       "notConnected": "未连接",
       "rightsReserved": "版权所有",
-      "connectionError": "连接状态未知（无法建立 Websocket 连接）",
+      "connectionError": "连接状态未知（无法建立Websocket连接）",
       "timezone": "以本地时区显示的日期和时间：",
       "database": "数据库"
     },
@@ -78,9 +78,9 @@
     "telemetry": {
       "updated": "遥测设置已更新。",
       "header": "遥测设置",
-      "text": "为了增强用户体验，Camunda Optimize 可以与 Camunda Services GmbH 集成，这需要外部网络请求。",
+      "text": "为了增强用户体验，Camunda Optimize可以与Camunda Services GmbH集成，这需要外部网络请求。",
       "enable": "启用使用情况统计",
-      "info": "允许 Camunda Optimize 发送匿名使用统计信息。",
+      "info": "允许Camunda Optimize发送匿名使用统计信息。",
       "respectPrivacy": "我们尊重您的隐私。",
       "personalData": "您的任何个人信息或存储的数据都不会被提交。",
       "orView": "或查看我们的<a href='{link}' target='_blank' rel='noopener noreferrer'>{policy}</a>。",
@@ -90,7 +90,7 @@
       "noProcessHint": "创建空白仪表板",
       "noXmlHint": "选择流程定义以显示图表",
       "blankSlate": {
-        "selectProcess": "最多选择 {maxNumProcesses} 个流程定义",
+        "selectProcess": "最多选择{maxNumProcesses}个流程定义",
         "selectTemplate": "选择模板",
         "review": "检查您的仪表板草稿并删除不需要的报告",
         "refine": "完善您的仪表板和报告"
@@ -132,8 +132,8 @@
       "userTitle": "用户",
       "userGroupsTitle": "用户和用户组",
       "copy": {
-        "subEntity": "此{entityType}包含 1 份报告。",
-        "subEntities": "此 {entityType} 包含 {number} 个报告。",
+        "subEntity": "此{entityType}包含1份报告。",
+        "subEntities": "此 {entityType} 包含{number}个报告。",
         "inputLabel": "副本名称",
         "moveLabel": "将副本移至...",
         "noCollections": "尚未创建任何集合",
@@ -158,9 +158,9 @@
         "editor-description": "创建、编辑和删除仪表板、报告和警报",
         "manager": "管理员",
         "manager-description": "拥有编辑集合和用户的全部权限",
-        "existing-identity": "具有此 ID 的用户或组已存在",
+        "existing-identity": "具有此ID的用户或组已存在",
         "inCollection": "在这个集合中",
-        "deleteWarning": "“{name}”{type} 将从集合中删除。"
+        "deleteWarning": "“{name}”{type}将从集合中删除。"
       },
       "sources": {
         "title": "数据源",
@@ -207,12 +207,12 @@
       "createDefaultDashboard": "创建新的默认仪表板",
       "createDashboardMessage": "目前还没有用于此过程的仪表板。",
       "emailDigest": "电子邮件摘要",
-      "digestInfo": "流程摘要定期向流程所有者发送包含现有 KPI 状态的电子邮件。",
+      "digestInfo": "流程摘要定期向流程所有者发送包含现有KPI状态的电子邮件。",
       "digestConfigured": "您的进程摘要已成功配置。",
-      "configureKpis": "了解有关 KPI 的更多信息",
-      "analysing": "{count} {label} 已精心安排。",
+      "configureKpis": "了解有关KPI的更多信息",
+      "analysing": "{count} {label}已精心安排。",
       "processesListed": "列出了{总计} {标签}。",
-      "processesListedOf": "列出了 {count} 个，共 {total} 个 {label}。",
+      "processesListedOf": "列出了{count}个，共{total}个{label}。",
       "timeGoals": {
         "label": "时间目标",
         "configure": "配置持续时间目标",
@@ -229,7 +229,7 @@
         "saveGoals": "保存目标",
         "updateGoals": "更新目标",
         "resultPreview": "结果预览：",
-        "instancesThisMonth": "实例在过去 30 天内结束",
+        "instancesThisMonth": "实例在过去30天内结束",
         "noInstances": "时间范围内没有发生任何实例。",
         "setGoals": "设定预期持续时间的目标。",
         "resultInfo": "此预览根据每个目标的当前配置显示其状态。"
@@ -249,7 +249,7 @@
       "cancelPublish": "取消发布",
       "publish": "发布",
       "publishStart": "发布过程。",
-      "publishSuccess": "{name} 已发布。",
+      "publishSuccess": "{name}已发布。",
       "stateColumn": "状态",
       "generationInfo": "添加事件源以自动生成端到端流程。",
       "generationWarning": "自动生成的流程基于数据样本，可能并不代表所有事件。",
@@ -277,7 +277,7 @@
       "state": {
         "unmapped": "未映射",
         "mapped": "映射",
-        "publish_pending": "正在发布 {publishingProgress}%",
+        "publish_pending": "正在发布{publishingProgress}%",
         "published": "已发布",
         "unpublished_changes": "未发布的更改"
       },
@@ -294,7 +294,7 @@
         "editSource": "编辑事件源",
         "addEvents": "添加流程事件",
         "alreadyExists": "所选进程已添加",
-        "defineTrace": "跟踪 ID 位置",
+        "defineTrace": "跟踪ID位置",
         "byVariable": "多变的",
         "byKey": "业务关键",
         "startAndEnd": "流程开始和结束",
@@ -303,7 +303,7 @@
         "selectProcess": "请选择流程定义",
         "display": "选择要显示的事件",
         "deleteWarning": "从此事件源中删除事件将删除已创建的所有映射。",
-        "camundaEvents": "Camunda 事件",
+        "camundaEvents": "Camunda事件",
         "empty": "没有添加事件源",
         "selectExternal": "选择外部事件",
         "allExternal": "所有活动",
@@ -335,7 +335,7 @@
         "eventSources": "外部事件",
         "search": "寻找价值观",
         "deleteWarning": "任何使用这些事件的进程都必须重新发布以反映已删除的状态。",
-        "deleteLimitReached": "不能一次删除超过 1000 个条目",
+        "deleteLimitReached": "不能一次删除超过1000个条目",
         "noData": "没有摄取事件。"
       }
     },
@@ -349,14 +349,14 @@
       "new": "新报告",
       "addName": "报告名称",
       "reportSetup": "报告设置",
-      "downloadCSV": "下载 CSV 文件",
+      "downloadCSV": "下载CSV文件",
       "measure": "措施",
       "addMeasure": "添加测量",
       "addGrouping": "添加分组",
       "displayName": "显示名称",
       "displayNamePlaceholder": "添加可选的显示名称",
       "noSources": "无数据来源",
-      "copyTooltip": "复制 {entity} 以比较和分析变体。<br/><a href='{docsLink}' target='_blank' rel='noopener noreferrer'>文档</a>",
+      "copyTooltip": "复制 {entity}以比较和分析变体。<br/><a href='{docsLink}' target='_blank' rel='noopener noreferrer'>文档</a>",
       "templates": {
         "blank": "空白报告",
         "analyzeSharesAsPieChart": "以饼图分析份额",
@@ -384,8 +384,8 @@
       },
       "kpiTemplates": {
         "processKpi": "流程关键绩效指标",
-        "create": "创建流程 KPI",
-        "step": "步骤 {count}",
+        "create": "创建流程KPI",
+        "step": "步骤{count}",
         "selectKpi": "选择流程关键绩效指标",
         "automationRate": "自动化率",
         "automationRate-description": "自动化率衡量在没有人工交互的情况下执行流程的百分比。",
@@ -405,16 +405,16 @@
         "reportFiltersHeading": "报告级别过滤器",
         "additionalFiltersHeading": "仪表板级别过滤器",
         "process": {
-          "label": "显示来自 {count} 实例的数据。",
-          "label-plural": "显示来自 {count} 个实例的数据。",
-          "label-withFilter": "显示来自 {totalCount} 实例的 {count} 的数据。",
-          "label-plural-withFilter": "显示来自 {count} 个实例（共 {totalCount} 个）的数据。"
+          "label": "显示来自{count}实例的数据。",
+          "label-plural": "显示来自{count}个实例的数据。",
+          "label-withFilter": "显示来自{totalCount}实例的{count}的数据。",
+          "label-plural-withFilter": "显示来自{count}个实例（共{totalCount}个）的数据。"
         },
         "decision": {
-          "label": "显示来自 {count} 个评估的数据。",
-          "label-plural": "显示来自 {count} 次评估的数据。",
-          "label-withFilter": "显示来自 {count} 个评估（共 {totalCount} 个）的数据。",
-          "label-plural-withFilter": "显示来自 {count} 个评估（共 {totalCount} 个评估）的数据。"
+          "label": "显示来自{count}个评估的数据。",
+          "label-plural": "显示来自{count}次评估的数据。",
+          "label-withFilter": "显示来自{count}个评估（共{totalCount}个）的数据。",
+          "label-plural-withFilter": "显示来自{count}个评估（共{totalCount}个评估）的数据。"
         }
       },
       "view": {
@@ -529,7 +529,7 @@
           "variableName": "变量名",
           "type": "类型",
           "newName": "新名字",
-          "renameInfo": "您可以提供仅用于显示的 UI 别名，而不是 Modeler 中定义的变量名称。",
+          "renameInfo": "您可以提供仅用于显示的UI别名，而不是Modeler中定义的变量名称。",
           "important": "重要的！",
           "followGuidelines": "请遵循这些准则以避免意外行为。",
           "globalChanges": "更改将更新使用此流程定义的所有报告",
@@ -562,7 +562,7 @@
       },
       "table": {
         "noData": "您需要启用至少一个表列",
-        "info": "显示的是 {firstRowIndex} 到 {lastRowIndex}（共 {totalRows}）",
+        "info": "显示的是{firstRowIndex}到{lastRowIndex}（共{totalRows}）",
         "page": "页",
         "of": "的",
         "rows": "每页行数",
@@ -594,7 +594,7 @@
           "flowNodeDuration": "Dur",
           "count": "数数"
         },
-        "pageError": "只能显示前 10,000 个实例。"
+        "pageError": "只能显示前10,000个实例。"
       },
       "progressBar": { "invalid": "配置无效", "goal": "目标" },
       "combined": {
@@ -646,7 +646,7 @@
         },
         "axisSettings": {
           "legend": "轴设置",
-          "logScale": "对数刻度（以 10 为底）",
+          "logScale": "对数刻度（以10为底）",
           "xAxis": "X 轴标签",
           "yAxis": "Y 轴标签"
         },
@@ -661,7 +661,7 @@
           "setKpi": "显示为流程 KPI",
           "kpiDescription": "该指标的状态将直接显示在流程页面的流程上。"
         },
-        "pointMarkers": { "legend": "线点", "enableMarkers": "启用点标记" },
+        "pointMarkers": { "legend": "折线", "enableMarkers": "启用点标记" },
         "display": {
           "legend": "显示",
           "enableStackedBars": "堆叠条",
@@ -732,8 +732,8 @@
         "productivity_finishedYesterday-description": "该报告统计了昨天完成的项目。",
         "productivity_finishedThisWeek": "本周完成（KPI）",
         "productivity_finishedThisWeek-description": "该报告显示本周的完成数量。",
-        "productivity_finishedInLast2Weeks": "近 2 周内完成",
-        "productivity_finishedInLast2Weeks-description": "该报告显示过去 2 周内项目的完成率。",
+        "productivity_finishedInLast2Weeks": "近2周内完成",
+        "productivity_finishedInLast2Weeks-description": "该报告显示过去2周内项目的完成率。",
         "productivity_text1_line1": "有多少传入项目启动了一个流程？",
         "productivity_text1_line2": "目标",
         "productivity_text1_line3": "尽早对意外负载做出反应，以便能够实现既定目标。",
@@ -774,19 +774,19 @@
         "efficiency_unwantedOutcomeThisWeek-description": "这份报告衡量了本周出现的不良结果。",
         "efficiency_unwantedOutcomeLastWeek": "上周的意外结果（KPI）",
         "efficiency_unwantedOutcomeLastWeek-description": "这份报告显示了上周的不良结果。",
-        "efficiency_outcomeInLast4Weeks": "过去 4 周的结果",
-        "efficiency_outcomeInLast4Weeks-description": "本报告概述了过去 4 周的积极成果。",
+        "efficiency_outcomeInLast4Weeks": "过去4周的结果",
+        "efficiency_outcomeInLast4Weeks-description": "本报告概述了过去4周的积极成果。",
         "efficiency_incidentFreeRateInLast3Months": "近3个月无事故率（KPI）",
         "efficiency_incidentFreeRateInLast3Months-description": "该报告衡量进程在没有发生事件的情况下结束的比率。",
-        "efficiency_incidentsInLast3Months": "过去 3 个月发生的事件",
-        "efficiency_incidentsInLast3Months-description": "该报告列出了过去 3 个月内发生的所有事件。",
-        "efficiency_nodesCausingIncidentsInLast3Months": "过去 3 个月内引发事件的流程节点",
+        "efficiency_incidentsInLast3Months": "过去3个月发生的事件",
+        "efficiency_incidentsInLast3Months-description": "该报告列出了过去3个月内发生的所有事件。",
+        "efficiency_nodesCausingIncidentsInLast3Months": "过去3个月内引发事件的流程节点",
         "efficiency_nodesCausingIncidentsInLast3Months-description": "该热力图显示了事件发生在哪些流程节点中。",
         "efficiency_typesOfUnwantedOutcomeLastWeek": "上周意外结果的类型",
         "efficiency_typesOfUnwantedOutcomeLastWeek-description": "该报告显示了不良结果的类型。",
         "efficiency_processScattering": "处理从快乐路径分散的过程",
         "efficiency_processScattering-description": "该报告计算偏离快乐路径的进程数量。",
-        "efficiency_typesOfUnwantedOutcomeLas4tWeeks": "过去 4 周内不良结果的类型",
+        "efficiency_typesOfUnwantedOutcomeLas4tWeeks": "过去4周内不良结果的类型",
         "efficiency_typesOfUnwantedOutcomeLas4tWeeks-description": "该报告显示了不良结果的类型。",
         "efficiency_text1_line1": "会发生哪些事件？",
         "efficiency_text1_line2": "目标",
@@ -807,9 +807,9 @@
         "efficiency_text3_line7": "过滤想要和不需要的过程结果",
         "acceleration": "增加加速度",
         "acceleration-description": "优化流程中任务的执行时间并监控流程的服务级别协议。",
-        "acceleration_cycleTimeLast7Days": "最近 7 天的周期时间 (KPI)",
-        "acceleration_cycleTimeLast7Days-description": "此报告显示过去 7 天的平均周期计时器。",
-        "acceleration_cycleTimeLast4Weeks": "过去 4 周的周期时间",
+        "acceleration_cycleTimeLast7Days": "最近7天的周期时间 (KPI)",
+        "acceleration_cycleTimeLast7Days-description": "此报告显示过去7天的平均周期计时器。",
+        "acceleration_cycleTimeLast4Weeks": "过去4周的周期时间",
         "acceleration_cycleTimeLast4Weeks-description": "该报告显示当月的平均周期计时器。",
         "acceleration_cycleTimeLastWeeks": "过去几周的周期时间",
         "acceleration_cycleTimeLastWeeks-description": "该报告显示了过去几周的周期时间。",
@@ -837,16 +837,16 @@
         "acceleration_text3_line3": "- 定义",
         "acceleration_text3_line4": "任务的目标持续时间",
         "processDashboard": "流程仪表板",
-        "processDashboard-description": "此仪表板提供了 Optimize 可以涵盖的指标和用例的竞争性概述。",
+        "processDashboard-description": "此仪表板提供了Optimize可以涵盖的指标和用例的竞争性概述。",
         "portfolioPerformance": "组合表现概览",
-        "portfolioPerformance-description": "查看最多 10 个进程的摘要",
+        "portfolioPerformance-description": "查看最多10个进程的摘要",
         "operationsMonitoring": "运营监控",
         "operationsMonitoring-description": "监控活动流程和事件",
         "completedProcesses": "已完成流程",
         "activeIncidents": "活跃事件",
         "runningProcesses": "哪些进程正在运行？",
         "runningTasks": "哪些用户任务正在进行中？",
-        "processTotal": "我们使用 Camunda 的量有多少？",
+        "processTotal": "我们使用Camunda的量有多少？",
         "laborSavings": "我们是否节省了总劳动力成本？",
         "processAcceleration": "我的流程变得更快了吗？",
         "taskAutomation": "我们自动化用户任务的速度有多快？",
@@ -881,7 +881,7 @@
         "disabledVariable": "变量过滤器仅适用于至少包含一份报告的仪表板。",
         "disabledAssignee": "指派人和候选人组筛选器仅适用于至少包含一份报告的仪表板。",
         "resetAll": "重置全部",
-        "operatorLink": "由 {operator} 逻辑链接的值",
+        "operatorLink": "由{operator}逻辑链接的值",
         "multiple": "多种的",
         "selectValue": "选择变量值",
         "modal": {
@@ -925,7 +925,7 @@
       "newAlert": "新警报",
       "edit": "编辑提醒",
       "recipient": "接受者",
-      "description": "“{name}”的值为 {aboveOrBelow} {thresholdValue}",
+      "description": "“{name}”的值为{aboveOrBelow} {thresholdValue}",
       "emailWarning": "未配置电子邮件通知服务。 ",
       "form": {
         "name": "警报名称",
@@ -937,12 +937,12 @@
         "frequency": "检查报告间隔",
         "email": "发送电子邮件至",
         "webhook": "发送至目标",
-        "emailPlaceholder": "使用 Enter 或空格键分隔电子邮件地址",
+        "emailPlaceholder": "使用Enter或空格键分隔电子邮件地址",
         "webookPlaceholder": "目标系统",
         "sendNotification": "解决后发送通知",
         "reminder": "发送提醒通知",
         "reminderFrequency": "每一个",
-        "emailThreshold": "最多可添加 20 个收件人",
+        "emailThreshold": "最多可添加20个收件人",
         "invalidEmail": "添加的电子邮件无效",
         "value": "报告值：{值}"
       },
@@ -965,14 +965,14 @@
         "tooltip": {
           "outlier": { "label": "异常值", "label-plural": "异常值" },
           "tookDuration": { "singular": "持续时间为", "plural": "持续时间为" },
-          "zScore": "离群值是根据 z 分数计算的。 "
+          "zScore": "离群值是根据z分数计算的。 "
         },
         "notFound": "未发现所选流程的异常值",
         "onlyCompletedHint": "注：任务分析仅在已完成的流程节点上进行",
         "info": "热力图根据持续时间显示较高异常值的发生率。",
         "tooltipText": {
-          "singular": "{count} 个实例花费的时间比平均时间长 {percentage}%。",
-          "plural": "{count} 个实例的耗时比平均时间长 {percentage}%。"
+          "singular": "{count}个实例花费的时间比平均时间长{percentage}%。",
+          "plural": "{count}个实例的耗时比平均时间长{percentage}%。"
         },
         "table": {
           "heading": "异常值",
@@ -1057,12 +1057,12 @@
       "below": "以下",
       "viewDetails": "查看详情",
       "notFound": "未找到结果",
-      "searchForMore": "仅显示 {count} 个结果。",
+      "searchForMore": "仅显示{count}个结果。",
       "goToHome": "回家",
       "editAccess": "编辑访问权限",
       "id": "ID",
       "instanceIds": "实例ID",
-      "processInstanceIds": "流程实例 ID",
+      "processInstanceIds": "流程实例ID",
       "seeDocs": "查看文档",
       "undefined": "不明确的",
       "null": "无效的",
@@ -1321,7 +1321,7 @@
           "bool": {
             "true": "是真的",
             "false": "是假的",
-            "isNullOrUndefined": "为 null 或未定义"
+            "isNullOrUndefined": "为null或未定义"
           },
           "enterValue": "添加单个值",
           "enterMultipleValues": "通过使用制表符分隔来添加多个值",
@@ -1332,8 +1332,8 @@
             "search": "搜索值",
             "empty": "未找到任何值"
           },
-          "includeUndefined": "包括所选变量为 <b>null</b> 或 <b>undefined</b> 的实例",
-          "excludeUndefined": "排除所选变量为 <b>null</b> 或 <b>undefined</b> 的实例",
+          "includeUndefined": "包括所选变量为<b>null</b>或<b>undefined</b>的实例",
+          "excludeUndefined": "排除所选变量为<b>null</b>或<b>undefined</b>的实例",
           "customValue": "添加自定义变量值",
           "addToList": "添加到列表",
           "addedToList": "添加到列表中的值"
@@ -1374,7 +1374,7 @@
           "excludeOnly": "仅排除",
           "type": { "assignee": "受让人", "candidateGroup": "候选组" },
           "unassigned": "未指配的",
-          "selectValue": "过滤 ID"
+          "selectValue": "过滤ID"
         },
         "dropdownLabel": {
           "instance": "过滤流程实例",
@@ -1463,9 +1463,9 @@
         }
       },
       "csvLimit": {
-        "Warning": "警告：CSV 将不包含所有请求的数据",
-        "info": "此下载将包含 {totalCount} 条记录中的前 {exportLimit} 条。",
-        "exportApi": "您还可以使用<a href='{docsLink}'>数据导出 API</a> 从 Optimize 导出大量数据。"
+        "Warning": "警告：CSV将不包含所有请求的数据",
+        "info": "此下载将包含{totalCount}条记录中的前{exportLimit}条。",
+        "exportApi": "您还可以使用<a href='{docsLink}'>数据导出API</a> 从Optimize导出大量数据。"
       },
       "unit": {
         "automatic": "自动的",
@@ -1517,7 +1517,7 @@
       "noLicenseStoredError": "Optimize 中没有存储许可证。",
       "invalidEventProcessState": "在基于事件的流程的当前状态下无法执行此操作。",
       "userOrGroupIdNotFound": "Optimize 中不存在提供的用户或组 ID。",
-      "tooManyBuckets": "无法评估报告，因为结果有超过 10.000 个数据点。",
+      "tooManyBuckets": "无法评估报告，因为结果有超过10.000个数据点。",
       "elasticsearchError": "Elasticsearch 遇到错误。",
       "importDefinitionDoesNotExist": "导入失败，因为导入的实体需要不存在的定义。",
       "importIndexVersionMismatch": "导入失败，因为导入实体的数据结构与当前数据结构不匹配。",
@@ -1581,9 +1581,9 @@
       "report": {
         "instancesCurrentlyInProgressName": "目前正在进行中",
         "instancesCurrentlyInProgressDescription": "此报告显示您的集群当前的繁忙程度。",
-        "instancesStartedInLastSixMonthsName": "过去 6 个月内开始",
+        "instancesStartedInLastSixMonthsName": "过去6个月内开始",
         "instancesStartedInLastSixMonthsDescription": "该报告深入了解流程编排的整体采用情况。",
-        "instancesEndedInLastSixMonthsName": "过去 6 个月内结束",
+        "instancesEndedInLastSixMonthsName": "过去6个月内结束",
         "instancesEndedInLastSixMonthsDescription": "此报告显示已结束的自动化流程实例的总数。"
       }
     },
@@ -1591,10 +1591,10 @@
       "IP_DashboardName": "即时预览仪表板",
       "IP_KpiDashboardName": "关键绩效指标仪表板",
       "processDashboard": "即时流程仪表板",
-      "processDashboard-description": "此仪表板提供了 Optimize 可以涵盖的指标和用例的竞争性概述。",
+      "processDashboard-description": "此仪表板提供了Optimize可以涵盖的指标和用例的竞争性概述。",
       "processDashboard_text1_line1": "报告业务指标",
       "processDashboard_text1_line2": "将流程执行数据按天、周和月进行汇总和分组，以监控和报告业务指标和关键绩效指标 (KPI)。",
-      "processDashboard_text1_line3": "订阅电子邮件摘要以获取流程指标和 KPI 的每周摘要",
+      "processDashboard_text1_line3": "订阅电子邮件摘要以获取流程指标和KPI的每周摘要",
       "processDashboard_text2_line1": "调查问题并寻求改进",
       "processDashboard_text2_line2": "使用所有收集的流程执行数据来调查问题或启动新的流程改进。",
       "processDashboard_text2_line3": "使用优化异常值分析来发现流程中的改进潜力",
@@ -1604,19 +1604,19 @@
       "report": {
         "processDashboard_currentlyRunningProcesses": "当前正在运行的进程",
         "processDashboard_currentlyRunningProcesses-description": "该报告提供了所有正在运行的进程的进度概览。",
-        "processDashboard_incomingInLast7Days": "过去 7 天内传入",
+        "processDashboard_incomingInLast7Days": "过去7天内传入",
         "processDashboard_incomingInLast7Days-description": "此报告统计启动进程的传入请求数。",
         "processDashboard_currentlyInProgress": "目前正在进行中",
         "processDashboard_currentlyInProgress-description": "该报告统计所有当前正在运行的进程。",
-        "processDashboard_endedInLast7Days": "过去 7 天内结束",
-        "processDashboard_endedInLast7Days-description": "此报告统计过去 7 天内结束的所有进程。",
+        "processDashboard_endedInLast7Days": "过去7天内结束",
+        "processDashboard_endedInLast7Days-description": "此报告统计过去7天内结束的所有进程。",
         "processDashboard_openIncidents": "开放事件",
         "processDashboard_openIncidents-description": "该报告显示未决事件的数量。",
         "processDashboard_currentlyOpenIncidents": "目前公开的事件",
         "processDashboard_currentlyOpenIncidents-description": "此报告显示当前未处理事件的流程节点。",
         "processDashboard_processEndedGroupedByMonth": "流程结束按月分组",
         "processDashboard_processEndedGroupedByMonth-description": "该报告概述了过去几个月该流程的利用率。",
-        "processDashboard_bottlenecksInTheProcess": "过去 6 个月内解决了流程中的瓶颈",
+        "processDashboard_bottlenecksInTheProcess": "过去6个月内解决了流程中的瓶颈",
         "processDashboard_bottlenecksInTheProcess-description": "热力图突出显示平均消耗最多时间完成的流程节点。",
         "percentSLAMet": "SLA 满足百分比",
         "flownodeDuration": "哪些流程步骤花费太多时间？ ",
@@ -1624,10 +1624,10 @@
         "activeIncidentsHeatmap": "活跃事件在哪里？",
         "percentNoIncidents": "无事故率",
         "incidentDurationHeatmap": "最严重的事故发生在哪里？",
-        "p99Duration": "第 99 个百分位持续时间",
+        "p99Duration": "第99个百分位持续时间",
         "incidentDurationTrend": "我们是否正在改进事件处理？",
-        "30DayThroughput": "吞吐量（30 天滚动）",
-        "p75Duration": "第 75 个百分位持续时间",
+        "30DayThroughput": "吞吐量（30天滚动）",
+        "p75Duration": "第75个百分位持续时间",
         "instanceTrends": "此过程运行的频率如何？",
         "flownodeFrequency": "每个流程步骤运行的频率是多少？"
       }
