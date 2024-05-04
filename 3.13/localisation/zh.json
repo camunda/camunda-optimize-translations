@@ -647,8 +647,8 @@
         "axisSettings": {
           "legend": "轴设置",
           "logScale": "对数刻度（以10为底）",
-          "xAxis": "X 轴标签",
-          "yAxis": "Y 轴标签"
+          "xAxis": "X轴标签",
+          "yAxis": "Y轴标签"
         },
         "goal": {
           "legend": "设定目标",
@@ -658,7 +658,7 @@
           "markTargets": "标记目标",
           "invalidInput": "输入正数",
           "lessThanTargetError": "目标必须大于基线",
-          "setKpi": "显示为流程 KPI",
+          "setKpi": "显示为流程KPI",
           "kpiDescription": "该指标的状态将直接显示在流程页面的流程上。"
         },
         "pointMarkers": { "legend": "折线", "enableMarkers": "启用点标记" },
@@ -688,7 +688,7 @@
           "line": "折线图"
         }
       },
-      "viewByGroup": "{组}的{查看}",
+      "viewByGroup": "{group}的{view}",
       "missingVariableValue": "空/未定义",
       "missingAssignee": "未指派",
       "runningEndedFlowNodeWarning": "按结束日期分组时，仅考虑已完成的流程节点。",
@@ -722,7 +722,7 @@
         "productivity_incomingToday-description": "此报告统计启动进程的传入请求数。",
         "productivity_incomingThisWeek": "本周传入（KPI）",
         "productivity_incomingThisWeek-description": "此报告统计本周启动流程的传入请求数。",
-        "productivity_incomingInLast2Weeks": "近 2 周内传入",
+        "productivity_incomingInLast2Weeks": "近2周内传入",
         "productivity_incomingInLast2Weeks-description": "此报告概述了过去两周内收到的请求。",
         "productivity_currentlyInProgress": "当前正在进行的项目（KPI）",
         "productivity_currentlyInProgress-description": "该报告统计当前正在进行的工作项目。",
@@ -858,7 +858,7 @@
         "incidentSnapshot": "故障快照",
         "processHistory": "流程历史",
         "incidentHistory": "故障历史",
-        "durationSLI": "SLI 跟踪过程持续时间"
+        "durationSLI": "SLI跟踪过程持续时间"
       },
       "addButton": {
         "addTile": "添加一个图块",
@@ -1058,14 +1058,14 @@
       "viewDetails": "查看详情",
       "notFound": "未找到结果",
       "searchForMore": "仅显示{count}个结果。",
-      "goToHome": "回家",
+      "goToHome": "返回首页",
       "editAccess": "编辑访问权限",
       "id": "ID",
       "instanceIds": "实例ID",
       "processInstanceIds": "流程实例ID",
       "seeDocs": "查看文档",
-      "undefined": "不明确的",
-      "null": "无效的",
+      "undefined": "未定义",
+      "null": "空",
       "nullOrUndefined": "空或未定义",
       "timeAt": "在",
       "value": "值",
@@ -1233,7 +1233,7 @@
           "processInstanceDuration": "流程实例持续时间",
           "dur": "流程节点持续时间",
           "flowNodeDuration": "流程节点持续时间",
-          "variable": "多变的",
+          "variable": "可变的",
           "multipleVariable": "多变的",
           "flowNode": "流程节点执行",
           "evaluationDateTime": "评估日期时间",
@@ -1281,7 +1281,7 @@
             "notContains": "不含"
           }
         },
-        "modalHeader": "{类型}过滤器",
+        "modalHeader": "{type}过滤器",
         "addFilter": "添加过滤器",
         "updateFilter": "更新过滤器",
         "dateModal": {
@@ -1296,7 +1296,7 @@
           "preview": {
             "this": { "week": "在当前的", "all": "在当前的" },
             "last": { "week": "在最后", "plural": "在最后", "all": "在最后" },
-            "completed": { "week": "完全的", "all": "完全的" }
+            "completed": { "week": "已完成", "all": "已完成" }
           },
           "unit": {
             "today": "今天",
