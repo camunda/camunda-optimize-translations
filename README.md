@@ -1,3 +1,9 @@
+# add Chinese-simplized translation for 3.13
+Add chinese-simplized translation for 3.13
+
+1. zh.json in folder .\3.13\localisation
+2. whatsnew_zh.md in folder .\3.13\whats-new
+
 # camunda-optimize-translations
 
 This project provides translations for Camunda Optimize. While the English and German language files will be updated by the Optimize team with each release, other language files will not be officially supported by Camunda. We encourage others to create PRs to keep these updated and aligned with the latest language files.
