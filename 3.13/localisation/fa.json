@@ -1204,20 +1204,20 @@
       "id": "User group ID"
     },
     "collection": {
-      "label": "Collection",
-      "label-plural": "Collections",
-      "created": "Created \"{name}\"",
+      "label": "مجموعه",
+      "label-plural": "مجموعه",
+      "created": "ساخته شد \"{name}\"",
       "modal": {
         "title": {
-          "new": "Create new collection",
-          "edit": "Edit collection name"
+          "new": "ساختن مجموعه‌ی جدید",
+          "edit": "ویرایش عنوان مجموعه"
         },
-        "createBtn": "Create collection",
-        "editBtn": "Edit collection",
-        "inputLabel": "Collection name",
-        "defaultName": "New collection",
-        "addDataSources": "Add data sources",
-        "info": "A collection allows you to limit access to data, add users, and create alerts on number reports.",
+        "createBtn": "ساختن مجموعه",
+        "editBtn": "ویرایش مجموعه",
+        "inputLabel": "عنوان مجموعه",
+        "defaultName": "مجموعه‌ی جدید",
+        "addDataSources": "افزودن منابع داده",
+        "info": "مجموعه به شما امکان می‌دهد دسترسی به داده‌ها را محدود کنید، کاربران را اضافه کنید و هشدارهایی بر روی گزارش‌های عددی ایجاد کنید.",
         "allTenants": "All tenants"
       },
       "addUserModal": {
@@ -1324,28 +1324,28 @@
         "count-plural": "Counts"
       },
       "list": {
-        "appliedTo": "Applied to",
+        "appliedTo": "اعمال شده برای",
         "invalidDefinition": "Data source is missing version or tenant selection.",
         "totalInstanceWarning": "Filter applies to the total instance count",
         "operators": {
-          "isBetween": "is between",
-          "between": "between",
-          "after": "after",
-          "before": "before",
-          "more": "is more than",
-          "less": "is less than",
-          "greater": "is greater than",
-          "is": "is",
-          "was": "was",
-          "were": "were",
-          "not": "is not",
-          "neither": "is neither",
-          "nor": "nor",
-          "or": "or",
-          "and": "and",
-          "occurs": "occurs",
-          "contains": "contains",
-          "notContains": "does not contain"
+          "isBetween": "هست بین",
+          "between": "بین",
+          "after": "بعد از",
+          "before": "قبل از",
+          "more": "بیش‌تر است از",
+          "less": "کم‌تر است از",
+          "greater": "بزرگ‌تر است از",
+          "is": "هست",
+          "was": "بود",
+          "were": "بودند",
+          "not": "نیست",
+          "neither": "نه",
+          "nor": "نه",
+          "or": "یا",
+          "and": "و",
+          "occurs": "رخ می‌دهد",
+          "contains": "در بر می‌گیرد",
+          "notContains": "در بر نمی‌گیرد"
         }
       },
       "modalHeader": "{type} filter",
@@ -1358,8 +1358,8 @@
           "instanceEndDate": "Process instances <b>ended</b>",
           "evaluationDateTime": "Decision instances <b>evaluated</b>"
         },
-        "to": "to",
-        "invalidDate": "Enter a valid date",
+        "to": "تا",
+        "invalidDate": "تاریخ را به درستی وارد کنید",
         "preview": {
           "this": {
             "week": "in the current",
@@ -1371,16 +1371,16 @@
             "all": "in the last"
           },
           "completed": {
-            "week": "completed",
-            "all": "completed"
+            "week": "نکمیل شده",
+            "all": "تکمیل شده"
           }
         },
         "unit": {
-          "today": "Today",
-          "yesterday": "Yesterday",
-          "between": "Between",
-          "before": "Before",
-          "after": "After",
+          "today": "امروز",
+          "yesterday": "دیروز",
+          "between": "بین",
+          "before": "قبل از",
+          "after": "بعد از",
           "this": "This...",
           "last": "Last...",
           "custom": "Rolling"
@@ -1389,42 +1389,42 @@
         "last": "last"
       },
       "variableModal": {
-        "inputLabel": "Variable name",
+        "inputLabel": "عنوان متغیر",
         "info": "Only display instances where...",
         "inputPlaceholder": "Select or search for a variable here",
-        "noVariables": "No variables found",
-        "loadMore": "Load more",
-        "or": "or",
+        "noVariables": "متغیری یافت نشد",
+        "loadMore": "بارگذاری بیش‌تر",
+        "or": "یا",
         "bool": {
-          "true": "is true",
-          "false": "is false",
+          "true": "درست است",
+          "false": "نادرست است",
           "isNullOrUndefined": "is null or undefined"
         },
         "enterValue": "Add a single value",
         "enterMultipleValues": "Add multiple values by separating with a tab",
-        "addValue": "Add value",
-        "invalidInput": "Input must be a number",
+        "addValue": "افزودن مقدار",
+        "invalidInput": "مقدار ورودی باید عدد باشد",
         "multiSelect": {
           "header": "Variable values",
-          "search": "Search for values",
-          "empty": "No values found"
+          "search": "جست‌وجوی مقادیر",
+          "empty": "مقدار یافت نشد"
         },
         "includeUndefined": "Include instances where the selected variable is <b>null</b> or <b>undefined</b>",
         "excludeUndefined": "Exclude instances where the selected variable is <b>null</b> or <b>undefined</b>",
         "customValue": "Add custom variable value",
-        "addToList": "Add to list",
-        "addedToList": "Value added to list"
+        "addToList": "افزودن به  فهرست",
+        "addedToList": "مقدار به فهرست اضافه شد"
       },
       "durationModal": {
         "includeInstance": "Only include process instances that ran for...",
-        "moreThan": "more than",
-        "lessThan": "less than"
+        "moreThan": "بیش‌تر از",
+        "lessThan": "کم‌تر از"
       },
       "nodeModal": {
-        "executedFlowNodes": "Running, canceled, or completed",
-        "notExecutedFlowNodes": "Not executed",
-        "canceledFlowNodes": "Canceled",
-        "executingFlowNodes": "Running",
+        "executedFlowNodes": "در حال اجرا، لغو شده یا تکمیل شده",
+        "notExecutedFlowNodes": "اجرا نشده",
+        "canceledFlowNodes": "لغو شده",
+        "executingFlowNodes": "در حال اجرا",
         "preview": {
           "executedFlowNodes": "Running, canceled, or completed flow nodes",
           "notExecutedFlowNodes": "Not executed flow nodes",
@@ -1455,8 +1455,8 @@
           "assignee": "Assignees",
           "candidateGroup": "Candidate groups"
         },
-        "unassigned": "unassigned",
-        "selectValue": "Filter for ID"
+        "unassigned": "اختصاص نیافته",
+        "selectValue": "ID فیلتر برای"
       },
       "dropdownLabel": {
         "instance": "Filter process instances",
@@ -1483,41 +1483,41 @@
       "noDefinition": "No definitions found",
       "limitReached": "Process definition limit reached. Only {maxNumProcesses} processes allowed.",
       "select": {
-        "process": "Select process",
-        "decision": "Select decision",
-        "multiProcess": "Select one or more processes"
+        "process": "فرآیند را انتخاب کنید",
+        "decision": "تصمیم را انتخاب کنید",
+        "multiProcess": "یک یا چند فرآیند را انتخاب کنید"
       },
       "version": {
-        "label": "Version",
-        "alwaysLatest": "Always display latest",
+        "label": "نسخه",
+        "alwaysLatest": "همیشه آخرین نسخه را نشان بده",
         "specific": {
-          "label": "Specific version",
-          "label-plural": "Specific versions"
+          "label": "نسخه‌ی خاص",
+          "label-plural": "نسخه‌های خاص"
         }
       },
       "tenant": {
-        "includeData": "Include data from",
-        "notDefined": "Not defined"
+        "includeData": "ورود داده از",
+        "notDefined": "تعریف نشده"
       },
       "versionWarning": "Note: data from the older versions can deviate, therefore the report data can be inconsistent",
       "noSourcesWarning": "To enable selection, data sources must be added to the collection."
     },
     "deleter": {
       "types": {
-        "report": "Report",
-        "combined_report": "Combined report",
-        "dashboard": "Dashboard",
-        "alert": "Alert",
-        "user": "User",
-        "group": "Group",
-        "source": "Data source",
-        "collection": "Collection",
-        "process": "Process",
-        "processEvents": "Process events",
-        "ingestedEvents": "Events",
+        "report": "گزارش",
+        "combined_report": "گزارش ترکیبی",
+        "dashboard": "داشبورد",
+        "alert": "اعلان",
+        "user": "کاربر",
+        "group": "گروه",
+        "source": "منبع داده",
+        "collection": "مجموعه",
+        "process": "فرآیند",
+        "processEvents": "رویدادهای فرآیند",
+        "ingestedEvents": "رویدادها",
         "items": "Items",
-        "goals": "Goals",
-        "owner": "Owner"
+        "goals": "اهداف",
+        "owner": "مالک"
       },
       "permanent": "The '{name}' {type} will be permanently deleted.",
       "noUndo": "Warning: This action cannot be undone.",
@@ -1551,59 +1551,59 @@
       }
     },
     "csvLimit": {
-      "Warning": "Warning: CSV will not contain all requested data",
+      "Warning": "هشدار: فایل CSV تمام داده‌های درخواستی را در بر نخواهد داشت.",
       "info": "This download will contain the first {exportLimit} of {totalCount} records. Filter your data, or ask your administrator to increase the system limit to resolve this issue.",
       "exportApi": "You can also use the <a href='{docsLink}'>data export API</a> to export larger amounts of data from Optimize."
     },
     "unit": {
-      "automatic": "automatic",
+      "automatic": "خودکار",
       "milli": {
-        "label": "millisecond",
-        "label-plural": "milliseconds"
+        "label": "میلی ثانیه",
+        "label-plural": "میلی ثانیه"
       },
       "second": {
-        "label": "second",
-        "label-plural": "seconds"
+        "label": "ثانیه",
+        "label-plural": "ثانیه"
       },
       "minute": {
-        "label": "minute",
-        "label-plural": "minutes"
+        "label": "دقیقه",
+        "label-plural": "دقیقه"
       },
       "hour": {
-        "label": "hour",
-        "label-plural": "hours"
+        "label": "ساعت",
+        "label-plural": "ساعت"
       },
       "day": {
-        "label": "day",
-        "label-plural": "days"
+        "label": "روز",
+        "label-plural": "روز"
       },
       "week": {
-        "label": "week",
-        "label-plural": "weeks"
+        "label": "هفته",
+        "label-plural": "هفته"
       },
       "month": {
-        "label": "month",
-        "label-plural": "months"
+        "label": "ماه",
+        "label-plural": "ماه"
       },
       "quarter": {
-        "label": "quarter",
-        "label-plural": "quarters"
+        "label": "فصل",
+        "label-plural": "فصل"
       },
       "year": {
-        "label": "year",
-        "label-plural": "years"
+        "label": "سال",
+        "label-plural": "سال"
       },
       "thousand": {
-        "label": "thousand",
-        "label-plural": "thousand"
+        "label": "هزار",
+        "label-plural": "هزار"
       },
       "million": {
-        "label": "million",
-        "label-plural": "million"
+        "label": "میلیون",
+        "label-plural": "میلیون"
       },
       "billion": {
-        "label": "billion",
-        "label-plural": "billion"
+        "label": "میلیارد",
+        "label-plural": "میلیارد"
       },
       "trillion": {
         "label": "trillion",
@@ -1623,7 +1623,7 @@
     "carbon": {
       "table": {
         "batch": {
-          "cancel": "Cancel",
+          "cancel": "لغو",
           "items": {
             "selected": "{totalSelected} selected"
           },
@@ -1671,9 +1671,9 @@
       },
       "align": {
         "label": "Align",
-        "left": "Left",
-        "center": "Center",
-        "right": "Right"
+        "left": "چپ",
+        "center": "وسط",
+        "right": "راست"
       },
       "styles": {
         "bold": "Bold",
@@ -1683,36 +1683,36 @@
         "code": "Code"
       },
       "blockStyles": {
-        "bullet": "Bulleted list",
-        "code": "Code block",
+        "bullet": "فهرست موردی",
+        "code": "کد",
         "h1": "Heading 1",
         "h2": "Heading 2",
         "h3": "Heading 3",
-        "number": "Numbered list",
-        "paragraph": "Normal",
-        "quote": "Quote block"
+        "number": "فهرست عددی",
+        "paragraph": "معمولی",
+        "quote": "نقل قول"
       },
       "insert": {
         "label": "Insert",
         "horizontalRule": "Horizontal rule",
-        "image": "Image",
-        "link": "Link"
+        "image": "تصویر",
+        "link": "لینک"
       }
     },
     "plugins": {
       "images": {
-        "title": "Insert image",
-        "urlLabel": "Image URL",
+        "title": "وارد کردن تصویر",
+        "urlLabel": "عکس URL",
         "urlPlaceholder": "https://picture/some-picture.jpg",
-        "altTextLabel": "Image name (optional)",
+        "altTextLabel": "عنوان تصویر (اختیاری)",
         "altTextPlaceholder": "Some picture"
       },
       "link": {
-        "title": "Insert link",
-        "urlLabel": "Link URL",
+        "title": "وارد کردن لینک",
+        "urlLabel": "URL لینک",
         "urlPlaceholder": "https://example.com",
-        "altTextLabel": "Display text (optional)",
-        "altTextPlaceholder": "Link to example.com"
+        "altTextLabel": "نمایش متن (اختیاری)",
+        "altTextPlaceholder": "example.com لینک به"
       }
     }
   },
@@ -1721,16 +1721,16 @@
     "report": {
       "instancesCurrentlyInProgressName": "Currently in progress",
       "instancesCurrentlyInProgressDescription": "This report shows how busy your cluster currently is.",
-      "instancesStartedInLastSixMonthsName": "Started in the last 6 months",
+      "instancesStartedInLastSixMonthsName": "در ۶ ماه اخیر شروع شده",
       "instancesStartedInLastSixMonthsDescription": "This report provides insight into the overall adoption of process orchestration.",
-      "instancesEndedInLastSixMonthsName": "Ended in the last 6 months",
+      "instancesEndedInLastSixMonthsName": "در ۶ ماه اخیر به اتمام رسیده",
       "instancesEndedInLastSixMonthsDescription": "This report shows the total number of automated process instances ended."
     }
   },
   "instantDashboard": {
-    "IP_DashboardName": "Instant preview dashboard",
-    "IP_KpiDashboardName": "KPI dashboard",
-    "processDashboard": "Instant process dashboard",
+    "IP_DashboardName": "داشبورد پیش‌نمایش فوری",
+    "IP_KpiDashboardName": "KPI داشبورد",
+    "processDashboard": "داشبورد فوری فرآیند",
     "processDashboard-description": "This dashboard provides a competitive overview of metrics and use cases that can be covered with Optimize.",
     "processDashboard_text1_line1": "Report business metrics",
     "processDashboard_text1_line2": "Aggregate and group the process execution data into days, weeks, and months to monitor and report business metrics and key performance indicators (KPI).",
