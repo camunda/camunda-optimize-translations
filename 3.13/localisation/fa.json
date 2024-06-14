@@ -32,14 +32,14 @@
     "opensearchWarningText": "This is a preview release of Optimize with OpenSearch support. The data import is fully functional, however the data visualization and evaluation features are in an experimental stage and should not be used for production use-cases."
   },
   "login": {
-    "label": "Log in",
+    "label": "ورود",
     "appName": "Optimize",
-    "username": "Username",
-    "password": "Password",
-    "btn": "Log in",
-    "errorMessage": "An error occurred. Could not log you in.",
-    "closeError": "Close login error notification",
-    "timeout": "Your session timed out. Please log in again to complete the action.",
+    "username": "نام کاربری",
+    "password": "رمز عبور",
+    "btn": "ورود",
+    "errorMessage": "مشکلی رخ داده؛ نمی‌توانید وارد شوید.",
+    "closeError": "بستن اعلان مشکل در ورود",
+    "timeout": "نشست شما به پایان رسیده است. لطفاً برای تکمیل این کار مجدد وارد شوید.",
     "telemetry": "By logging in, you accept our <a href=\"https://camunda.com/legal/terms/\" target=\"_blank\" rel=\"noopener noreferrer\">T&C</a> and <a href=\"https://camunda.com/legal/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
   },
   "footer": {
@@ -54,22 +54,22 @@
   "license": {
     "label": "License",
     "licensedFor": "Licensed for",
-    "validUntil": "Valid until",
+    "validUntil": "معتبر تا",
     "redirectMessage": "You will be redirected to the login page shortly.",
     "clickToLogin": "Click here to go to the login page immediately",
     "licenseKey": "License Key",
     "enterLicense": "Please enter license key",
-    "submit": "Submit",
+    "submit": "ثبت",
     "nonProduction": "Non-Production License",
     "referTo": "If you would like information on production usage, please refer to our",
     "terms": "terms & conditions",
     "contactSales": "contact sales"
   },
   "saveGuard": {
-    "header": "Unsaved changes",
+    "header": "تغییرات ذخیره نشده",
     "text": "The {label} has unsaved changes. Save before continuing?",
-    "yes": "Save changes",
-    "no": "Don't save"
+    "yes": "تغییرات را ذخیره کن",
+    "no": "ذخیره نکن"
   },
   "whatsNew": {
     "buttonTitle": "What’s new",
@@ -87,11 +87,11 @@
     "privacyPolicy": "privacy policy"
   },
   "templates": {
-    "noProcessHint": "Create blank dashboard",
-    "noXmlHint": "Select process definition to display diagram",
+    "noProcessHint": "ساختن داشبورد خالی",
+    "noXmlHint": "برای نمایش نمودار، فرآیند را انتخاب کنید.",
     "blankSlate": {
       "selectProcess": "Select up to {maxNumProcesses} process definitions",
-      "selectTemplate": "Select a template",
+      "selectTemplate": "یک قالب انتخاب کنید.",
       "review": "Review your draft dashboard and remove unwanted reports",
       "refine": "Refine your dashboard and reports"
     },
@@ -102,35 +102,35 @@
       "editReport": "To change the version selection, edit the data source section of the created report(s)."
     },
     "templateGroups": {
-      "blankGroup": "Blank template",
-      "templatesGroup": "Templates",
-      "singleProcessGroup": "Single process templates",
-      "multiProcessGroup": "Multi-process templates"
+      "blankGroup": "قالب خالی",
+      "templatesGroup": "قالب‌ها",
+      "singleProcessGroup": "قالب‌های تک‌فرآیندی",
+      "multiProcessGroup": "قالب‌های چندفرآیندی"
     }
   },
   "home": {
     "createBtn": {
       "default": "Create new",
-      "collection": "Collection",
-      "dashboard": "Dashboard",
+      "collection": "مجموعه",
+      "dashboard": "داشبورد",
       "report": {
-        "default": "Report",
-        "process": "Process report",
+        "default": "گزارش",
+        "process": "گزارش فرآیند",
         "combined": "Combined process report",
-        "decision": "Decision report"
+        "decision": "گزارش تصمیم"
       }
     },
-    "title": "Collections, dashboards, and reports",
-    "contents": "Contents",
-    "members": "Members",
+    "title": "مجموعه‌ها، داشبوردها و گزارشات",
+    "contents": "محتواها",
+    "members": "اعضا",
     "search": {
       "generic": "Type to search....",
       "name": "Search for name..."
     },
-    "collectionTitle": "Dashboards and reports",
+    "collectionTitle": "داشبوردها و گزارشات",
     "collectionTitleWithAmpersand": "Dashboards & reports",
-    "userTitle": "Users",
-    "userGroupsTitle": "Users and user groups",
+    "userTitle": "کاربران",
+    "userGroupsTitle": "کاربران و گروه‌ها",
     "copy": {
       "subEntity": "This {entityType} contains 1 report. It will be copied, too.",
       "subEntities": "This {entityType} contains {number} reports. They will be copied, too.",
