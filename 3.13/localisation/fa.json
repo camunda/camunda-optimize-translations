@@ -63,11 +63,11 @@
     "nonProduction": "Non-Production License",
     "referTo": "If you would like information on production usage, please refer to our",
     "terms": "terms & conditions",
-    "contactSales": "contact sales"
+    "contactSales": "ارتباط با بخش فروش"
   },
   "saveGuard": {
     "header": "تغییرات ذخیره نشده",
-    "text": "The {label} has unsaved changes. Save before continuing?",
+    "text": "برای {label} تغییرات ذخیره‌ نشده وجود دارند. قبل از ادامه‌ی کار ذخیره می‌کنید؟",
     "yes": "تغییرات را ذخیره کن",
     "no": "ذخیره نکن"
   },
@@ -96,10 +96,10 @@
       "refine": "داشبورد و گزارشات خود را اصلاح کنید."
     },
     "disabledMessage": {
-      "noProcess": "Select process definition to be able to select a template.",
-      "multipleProcess": "This template is best suited for multiple processes.",
-      "singleProcess": "This template is best suited for single processes.",
-      "editReport": "To change the version selection, edit the data source section of the created report(s)."
+      "noProcess": "برای انتخاب قالب، ابتدا فرآیندی را انتخاب کنید.",
+      "multipleProcess": "این قالب برای فرآیندهای چندگانه مناسب است.",
+      "singleProcess": "این قالب برای فرآیندهای تکی مناسب است.",
+      "editReport": "برای تغییر نسخه، بخش منبع داده را از گزارش (های) ساخته شده ویرایش کنید."
     },
     "templateGroups": {
       "blankGroup": "قالب خالی",
@@ -116,7 +116,7 @@
       "report": {
         "default": "گزارش",
         "process": "گزارش فرآیند",
-        "combined": "Combined process report",
+        "combined": "گزارش فرآیند ترکیبی",
         "decision": "گزارش تصمیم"
       }
     },
@@ -124,8 +124,8 @@
     "contents": "محتواها",
     "members": "اعضا",
     "search": {
-      "generic": "Type to search....",
-      "name": "Search for name..."
+      "generic": "برای جست‌وجو بنویسید...",
+      "name": "عنوان را جست‌وجو کنید..."
     },
     "collectionTitle": "داشبوردها و گزارشات",
     "collectionTitleWithAmpersand": "داشبوردها و گزارشات",
@@ -139,7 +139,7 @@
       "noCollections": "هیچ مجموعه‌ای ساخته نشده است.",
       "pleaseSelect": "لطفاً انتخاب کنید.",
       "gotoNew": "Go to new location",
-      "copyCollectionInfo": "All items and users will be copied."
+      "copyCollectionInfo": "تمامی موارد و کاربران کپی خواهند شد"
     },
     "types": {
       "process": "گزارش فرآیند",
@@ -148,16 +148,16 @@
       "unknown": "موجودیت نامشخص"
     },
     "roles": {
-      "addUserTitle": "Add user",
-      "addUserGroupTitle": "Add user or user group",
+      "addUserTitle": "افزودن کاربر",
+      "addUserGroupTitle": "افزودن کاربر یا گروه کاربر",
       "userRole": "نقش کاربر",
       "role": "نقش",
       "viewer": "بیننده",
-      "viewer-description": "Read-only access to all objects",
+      "viewer-description": "به همه چیز فقط دسترسی مشاهده دارد",
       "editor": "ویرایشگر",
-      "editor-description": "Create, edit, and delete dashboards, reports, and alerts",
+      "editor-description": "می‌تواند داشبوردها، گزارشات و اعلان‌ها را بسازد، ویرایش و یا حذف کند",
       "manager": "مدیر",
-      "manager-description": "Full rights editing collections and users",
+      "manager-description": "در ویرایش مجموعه‌ها و کاربران دسترسی کامل دارد",
       "existing-identity": "کاربر یا گروهی با این شناسه در حال حاضر وجود دارد",
       "inCollection": "در این مجموعه",
       "deleteWarning": "The '{name}' {type} will be removed from the collection."
@@ -181,8 +181,8 @@
       },
       "unauthorizedTenant": "(Unauthorized tenant)"
     },
-    "empty": "There are no items created yet",
-    "contactEditor": "Please contact an Optimize editor to create new items",
+    "empty": "هنوز موردی ساخته نشده است",
+    "contactEditor": "لطفاً برای ساختن موارد جدید با یک ویرایشگر Optimize ارتباط بگیرید",
     "contactManager": "Please contact the collection manager to create new items",
     "emptyState": {
       "title": "Start by creating a dashboard",
