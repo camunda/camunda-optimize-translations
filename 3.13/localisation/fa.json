@@ -28,6 +28,7 @@
     "imprint": "Imprint",
     "academy": "Camunda Academy",
     "feedback": "بازخورد و پشتیبانی",
+
     "opensearchPreview": "Opensearch preview release",
     "opensearchWarningText": "This is a preview release of Optimize with OpenSearch support. The data import is fully functional, however the data visualization and evaluation features are in an experimental stage and should not be used for production use-cases."
   },
@@ -40,6 +41,7 @@
     "errorMessage": "مشکلی رخ داده؛ نمی‌توانید وارد شوید.",
     "closeError": "بستن اعلان مشکل در ورود",
     "timeout": "نشست شما به پایان رسیده است. لطفاً برای تکمیل این کار مجدد وارد شوید.",
+
     "telemetry": "By logging in, you accept our <a href=\"https://camunda.com/legal/terms/\" target=\"_blank\" rel=\"noopener noreferrer\">T&C</a> and <a href=\"https://camunda.com/legal/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
   },
   "footer": {
@@ -50,6 +52,7 @@
     "connectionError": "Connection Status Unknown (Cannot establish Websocket connection)",
     "timezone": "Date and time displayed in local timezone:",
     "database": "پایگاه داده"
+
   },
   "license": {
     "label": "License",
@@ -74,6 +77,7 @@
   "whatsNew": {
     "buttonTitle": "تغییرات جدید",
     "modalHeader": "تغییرات جدید Optimize"
+
   },
   "telemetry": {
     "updated": "Telemetry settings updated.",
@@ -106,6 +110,7 @@
       "templatesGroup": "قالب‌ها",
       "singleProcessGroup": "قالب‌های تک‌فرآیندی",
       "multiProcessGroup": "قالب‌های چندفرآیندی"
+
     }
   },
   "home": {
@@ -169,6 +174,7 @@
       "notCreated": "هنوز منبعی اضافه نشده است",
       "contactManager": "برای افزودن منابع جدید، لطفاً با مدیر مجموعه ارتباط بگیرید",
       "add": "افزودن منبع",
+
       "definitionName": "Definition name",
       "deleteWarning": "The '{name}' data source will be removed from the collection.",
       "saveConflict": {
@@ -183,6 +189,7 @@
     },
     "empty": "هنوز موردی ساخته نشده است",
     "contactEditor": "لطفاً برای ساختن موارد جدید با یک ویرایشگر Optimize ارتباط بگیرید",
+
     "contactManager": "Please contact the collection manager to create new items",
     "emptyState": {
       "title": "Start by creating a dashboard",
