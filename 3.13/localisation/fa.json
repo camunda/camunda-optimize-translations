@@ -5,16 +5,16 @@
     "analysis": "Analysis",
     "events": "Event-based processes",
     "telemetry": "Telemetry settings",
-    "logout": "Logout",
-    "logoutFailed": "Logout failed.",
-    "logoutSuccess": "You logged out successfully.",
-    "configLoadingError": "An error occurred while loading the UI configurations",
-    "userGuide": "User guide",
-    "help": "Help",
+    "logout": "خروج",
+    "logoutFailed": "خروج موفقیت‌آمیز نبود.",
+    "logoutSuccess": "شما با موفقیت خارج شدید.",
+    "configLoadingError": "هنگام بارگذاری پیکربندی‌های رابط کاربری خطایی پیش آمد.",
+    "userGuide": "راهنمای کاربر",
+    "help": "راهنما",
     "profile": "پروفایل",
     "appSwitcher": "App switcher",
     "dashboards": "داشبوردها",
-    "collections": "Collections",
+    "collections": "مجموعه‌ها",
     "apps": {
       "zeebe": "Zeebe",
       "operate": "Operate",
@@ -23,11 +23,11 @@
       "optimize": "Optimize",
       "modeler": "Modeler"
     },
-    "privacyPolicy": "Privacy policy",
-    "termsOfUse": "Terms of use",
+    "privacyPolicy": "خط مشی حفظ حریم خصوصی",
+    "termsOfUse": "شرایط استفاده",
     "imprint": "Imprint",
     "academy": "Camunda Academy",
-    "feedback": "Feedback and Support",
+    "feedback": "بازخورد و پشتیبانی",
     "opensearchPreview": "Opensearch preview release",
     "opensearchWarningText": "This is a preview release of Optimize with OpenSearch support. The data import is fully functional, however the data visualization and evaluation features are in an experimental stage and should not be used for production use-cases."
   },
@@ -44,19 +44,19 @@
   },
   "footer": {
     "importing": "is importing...",
-    "connected": "is connected",
-    "notConnected": "is not connected",
-    "rightsReserved": "All Rights Reserved",
+    "connected": "متصل است",
+    "notConnected": "متصل نیست",
+    "rightsReserved": "تمامی حقوق محفوظ است",
     "connectionError": "Connection Status Unknown (Cannot establish Websocket connection)",
     "timezone": "Date and time displayed in local timezone:",
-    "database": "Database"
+    "database": "پایگاه داده"
   },
   "license": {
     "label": "License",
     "licensedFor": "Licensed for",
     "validUntil": "معتبر تا",
-    "redirectMessage": "You will be redirected to the login page shortly.",
-    "clickToLogin": "Click here to go to the login page immediately",
+    "redirectMessage": "تا لحظاتی دیگر به صفحه‌ی ورود هدایت خواهید شد.",
+    "clickToLogin": "این جا کلیک کنید تا بلافاصله به صفحه‌ی ورود بروید",
     "licenseKey": "License Key",
     "enterLicense": "Please enter license key",
     "submit": "ثبت",
@@ -72,8 +72,8 @@
     "no": "ذخیره نکن"
   },
   "whatsNew": {
-    "buttonTitle": "What’s new",
-    "modalHeader": "What's new in Optimize"
+    "buttonTitle": "تغییرات جدید",
+    "modalHeader": "تغییرات جدید Optimize"
   },
   "telemetry": {
     "updated": "Telemetry settings updated.",
@@ -84,16 +84,16 @@
     "respectPrivacy": "We respect your privacy.",
     "personalData": "None of your personal information or stored data will be submitted. To learn more, read our",
     "orView": "or view our <a href='{link}' target='_blank' rel='noopener noreferrer'>{policy}</a>.",
-    "privacyPolicy": "privacy policy"
+    "privacyPolicy": "خط مشی حفظ حریم خصوصی"
   },
   "templates": {
     "noProcessHint": "ساختن داشبورد خالی",
     "noXmlHint": "برای نمایش نمودار، فرآیند را انتخاب کنید.",
     "blankSlate": {
-      "selectProcess": "Select up to {maxNumProcesses} process definitions",
+      "selectProcess": "حداکثر {maxNumProcesses} فرآیند انتخاب کنید",
       "selectTemplate": "یک قالب انتخاب کنید.",
-      "review": "Review your draft dashboard and remove unwanted reports",
-      "refine": "Refine your dashboard and reports"
+      "review": "داشبوردهای پیش‌نویس خود را بازبینی و گزارشات بلااستفاده‌ی خود را حذف کنید",
+      "refine": "داشبورد و گزارشات خود را اصلاح کنید."
     },
     "disabledMessage": {
       "noProcess": "Select process definition to be able to select a template.",
@@ -110,7 +110,7 @@
   },
   "home": {
     "createBtn": {
-      "default": "Create new",
+      "default": "ساختن جدید",
       "collection": "مجموعه",
       "dashboard": "داشبورد",
       "report": {
@@ -128,47 +128,47 @@
       "name": "Search for name..."
     },
     "collectionTitle": "داشبوردها و گزارشات",
-    "collectionTitleWithAmpersand": "Dashboards & reports",
+    "collectionTitleWithAmpersand": "داشبوردها و گزارشات",
     "userTitle": "کاربران",
     "userGroupsTitle": "کاربران و گروه‌ها",
     "copy": {
       "subEntity": "This {entityType} contains 1 report. It will be copied, too.",
       "subEntities": "This {entityType} contains {number} reports. They will be copied, too.",
-      "inputLabel": "Name of copy",
-      "moveLabel": "Move copy to …",
-      "noCollections": "No collections have been created",
-      "pleaseSelect": "Please select",
+      "inputLabel": "عنوان رونوشت",
+      "moveLabel": "انتقال رونوشت به ...",
+      "noCollections": "هیچ مجموعه‌ای ساخته نشده است.",
+      "pleaseSelect": "لطفاً انتخاب کنید.",
       "gotoNew": "Go to new location",
       "copyCollectionInfo": "All items and users will be copied."
     },
     "types": {
-      "process": "Process report",
-      "decision": "Decision report",
-      "combined": "Combined report",
-      "unknown": "Unknown entity"
+      "process": "گزارش فرآیند",
+      "decision": "گزارش تصمیم",
+      "combined": "گزارش ترکیبی",
+      "unknown": "موجودیت نامشخص"
     },
     "roles": {
       "addUserTitle": "Add user",
       "addUserGroupTitle": "Add user or user group",
-      "userRole": "User role",
-      "role": "Role",
-      "viewer": "Viewer",
+      "userRole": "نقش کاربر",
+      "role": "نقش",
+      "viewer": "بیننده",
       "viewer-description": "Read-only access to all objects",
-      "editor": "Editor",
+      "editor": "ویرایشگر",
       "editor-description": "Create, edit, and delete dashboards, reports, and alerts",
-      "manager": "Manager",
+      "manager": "مدیر",
       "manager-description": "Full rights editing collections and users",
-      "existing-identity": "A user or a group with this id already exists",
-      "inCollection": "in this collection",
+      "existing-identity": "کاربر یا گروهی با این شناسه در حال حاضر وجود دارد",
+      "inCollection": "در این مجموعه",
       "deleteWarning": "The '{name}' {type} will be removed from the collection."
     },
     "sources": {
-      "title": "Data sources",
-      "decision": "Decision table",
-      "process": "Process",
-      "notCreated": "There are no sources added yet",
-      "contactManager": "Please contact the collection manager to add new sources",
-      "add": "Add source",
+      "title": "منابع داده",
+      "decision": "جدول تصمیم",
+      "process": "فرایند",
+      "notCreated": "هنوز منبعی اضافه نشده است",
+      "contactManager": "برای افزودن منابع جدید، لطفاً با مدیر مجموعه ارتباط بگیرید",
+      "add": "افزودن منبع",
       "definitionName": "Definition name",
       "deleteWarning": "The '{name}' data source will be removed from the collection.",
       "saveConflict": {
