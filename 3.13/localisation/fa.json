@@ -343,7 +343,7 @@
       "eventName": "Type",
       "timestamp": "Timestamp",
       "eventSources": "External events",
-      "search": "Search for values",
+      "search": "جست‌وجو برای مقادیر",
       "deleteWarning": "Any processes using these events must be re-published to reflect the deleted state.",
       "deleteLimitReached": "Deleting more than 1000 entries at once is not possible",
       "noData": "No ingested events."
