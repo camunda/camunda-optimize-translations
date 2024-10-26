@@ -1,6 +1,6 @@
 {
   "alert": {
-    "activateInfo": "Pour activer l\u0027ajout d\u0027un e-mail ou d\u0027un système cible",
+    "activateInfo": "Pour activer l'ajout d'un e-mail ou d'un système cible",
     "apply": "Appliquer les modifications",
     "contactManager": "Veuillez contacter le gestionnaire de la collection pour créer de nouvelles alertes",
     "create": "Créer une alerte",
