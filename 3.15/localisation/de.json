@@ -14,14 +14,6 @@
     "appSwitcher": "App Switcher",
     "dashboards": "Dashboards",
     "collections": "Sammlungen",
-    "apps": {
-      "zeebe": "Zeebe",
-      "operate": "Operate",
-      "console": "Console",
-      "tasklist": "Tasklist",
-      "optimize": "Optimize",
-      "modeler": "Modeler"
-    },
     "privacyPolicy": "Datenschutzerklärung",
     "termsOfUse": "Nutzungsbedingungen",
     "imprint": "Impressum",
