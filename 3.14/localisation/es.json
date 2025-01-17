@@ -7,7 +7,7 @@
     "create": "Crear alerta",
     "description": "\"{name}\" tiene un valor {aboveOrBelow} {thresholdValue}",
     "edit": "Editar alerta",
-    "emailWarning": "El servicio de notificación por correo electrónico no está configurado. Optimize no podrá informarle sobre los valores críticos. Consulte la <a href='{docsLink}'>Optimize documentation</a> sobre cómo habilitar el servicio de notificación.",
+    "emailWarning": "El servicio de notificación por correo electrónico no está configurado. Optimize no podrá informarle sobre los valores críticos. Consulte la <a class='cds--link' href='{docsLink}'>Optimize documentation</a> sobre cómo habilitar el servicio de notificación.",
     "emptyStateDecription": "Use el boton abajo para crear una nueva alerta y recibir notificaciones de eventos importantes",
     "form": {
       "emailPlaceholder": "Separe las direcciones de correo electrónico con las teclas Intro o espacio",
