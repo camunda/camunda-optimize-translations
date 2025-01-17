@@ -191,7 +191,7 @@
     "creating": "Creando...",
     "csvLimit": {
       "Warning": "Advertencia: CSV no contendrá todos los datos solicitados",
-      "exportApi": "También puede utilizar la <a href='{docsLink}'>data export API</a> de exportación de datos para exportar grandes cantidades de datos desde Optimize.",
+      "exportApi": "También puede utilizar la <a class='cds--link' href='{docsLink}'>data export API</a> de exportación de datos para exportar grandes cantidades de datos desde Optimize.",
       "info": "Esta descarga contendrá el primer {exportLimit} de {totalCount} registros. Filtre sus datos o solicite a su administrador que aumente el límite del sistema para resolver este problema."
     },
     "dataSource": "Fuente de datos",
