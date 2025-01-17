@@ -1,0 +1,1791 @@
+{
+  "alert": {
+    "activateInfo": "Para agregar correo electrónico activo o sistema de destino",
+    "apply": "Aplicar los cambios",
+    "contactManager": "Póngase en contacto con el administrador de la colección para crear nuevas alertas",
+    "createNew": "Crear nueva alerta",
+    "create": "Crear alerta",
+    "description": "\"{name}\" tiene un valor {aboveOrBelow} {thresholdValue}",
+    "edit": "Editar alerta",
+    "emailWarning": "El servicio de notificación por correo electrónico no está configurado. Optimize no podrá informarle sobre los valores críticos. Consulte la <a class='cds--link' href='{docsLink}'>Optimize documentation</a> sobre cómo habilitar el servicio de notificación.",
+    "emptyStateDecription": "Use el boton abajo para crear una nueva alerta y recibir notificaciones de eventos importantes",
+    "form": {
+      "emailPlaceholder": "Separe las direcciones de correo electrónico con las teclas Intro o espacio",
+      "emailThreshold": "Se pueden agregar hasta 20 destinatarios",
+      "email": "Enviar el correo electrónico a",
+      "frequency": "Revisar reporte cada",
+      "invalidEmail": "Correo electrónico no válido agregado",
+      "name": "Nombre de alerta",
+      "noReports": "No se han creado reportes de un solo valor numérico",
+      "reminderFrequency": "cada",
+      "reminder": "Enviar notificación de recordatorio",
+      "reportInfo": "Alertas solo disponibles para reportes visualizados con un solo valor numérico",
+      "reportPlaceholder": "Seleccione un reporte",
+      "report": "Cuando el reporte",
+      "sendNotification": "Enviar notificación cuando se resuelva",
+      "threshold": "tiene un valor",
+      "value": "Valor del reporte: {value}",
+      "webhook": "Enviar a destino",
+      "webookPlaceholder": "Sistema destino"
+    },
+    "inactiveStatus": "Alerta inactiva",
+    "label-plural": "Alertas",
+    "label": "Alerta",
+    "newAlert": "Nueva alerta",
+    "notCreated": "No hay alertas creadas todavía",
+    "recipient": "Destinatario",
+    "removed": "\"{name}\" eliminado.",
+    "updated": "\"{name}\" actualizado."
+  },
+  "analysis": {
+    "branchAnalysis": "Análisis de ramas",
+    "branchDistribution": "<b>{count}</b> ({branchPercentage}%) tomó la <i class=\"branchName\" rama, <b>{reached}</b> ({reachedEndPercentage}%) de los que continuaron hasta llegar al evento final <i class=\"endEventName\"></i>",
+    "emptySelectionLabel": {
+      "endEvent": "Seleccionar elemento final",
+      "gateway": "Seleccionar compuerta"
+    },
+    "endEventLabel": "afectan la probabilidad de que una instancia alcance",
+    "endEventProbability": "Probabilidad de alcanzar el evento final <i class=\"endEventName\"></i> después de seleccionar una rama:",
+    "gatewayDistribution": "Distribución de Instancias en la compuerta <i class=\"gatewayName\"></i>:",
+    "gatewayInstances": "De todas <b>{totalGateway} las instancias</b> que pasaron por la compuerta <i class=\"gatewayName\"></i>",
+    "gatewayLabel": "analizar cómo las ramas de",
+    "instructionMessage": "Seleccione una definición de proceso, una compuerta y un evento final para realizar el análisis.",
+    "noInstances": "Ninguna instancia en el filtro actual pasó por la compuerta seleccionada.",
+    "selectLabel": "Para",
+    "task": {
+      "detailsModal": {
+        "axisLabels": {
+          "duration": "Duración",
+          "instanceCount": "Conteo de instancias"
+        },
+        "durationChart": "Gráfico de distribución de duración",
+        "table": {
+          "emptyTableMessage": "No se encontraron ocurrencias significativas de valores variables en instancias atípicas",
+          "ofOutliersPercentage": "% de instancias atípicas",
+          "ofTotalPercentage": "% de instancias totales",
+          "outliersNumber": "Número de instancias de valores atípicos"
+        },
+        "title": "Resultado por nodo de flujo \"{name}\"",
+        "variablesTable": "Tabla de variables significativas comunes"
+      },
+      "info": "Mapa de temperatura muestra la incidencia de valores atípicos más altos en función de la duración.",
+      "label": "Análisis de Tareas",
+      "notFound": "No se encontraron valores atípicos para el proceso seleccionado",
+      "onlyCompletedHint": "Nota: El análisis de valores atípicos se realiza solo en los nodos de flujo completados",
+      "result": "Número de instancias de nodo de flujo que cubren con el filtro: {count}",
+      "table": {
+        "flowNodeName": "Nombre del nodo de flujo",
+        "heading": "Valores atípicos",
+        "outliers": "Instancias de nodoo de flujo con valores atípicos"
+      },
+      "tooltip": {
+        "outlier": {
+          "label-plural": "Valores atípicos",
+          "label": "Valor atípico"
+        },
+        "tookDuration": {
+          "plural": "tomó una duración de",
+          "singular": "tomó una duración de"
+        },
+        "zScore": "Valores atípicos son calculados basados en la puntuación z. La puntuación z es una métrica estadísitca que describe el la relación del valor a la media de un grupo de valores. La puntuación z se mide en terminos de desviación estándar de la media."
+      },
+      "tooltipText": {
+        "plural": "{count} instancias tardaron {percentage}% más que el promedio.",
+        "singular": "La instancia de {count} tardó {percentage}% más que el promedio."
+      },
+      "totalFlowNodeInstances": "Instancias totales del nodo de flujo: {count}",
+      "totalInstances": "Número total de instancias de nodo de flujo"
+    },
+    "tooltip": {
+      "reachedEndPercentage": "de las instancias de proceso alcanzaron este estado",
+      "reachedEnd": "Las instancias de proceso alcanzaron este estado",
+      "totalInstances": "Total de instancias de proceso"
+    }
+  },
+  "apiErrors": {
+    "badRequestError": "El servidor no pudo procesar la solicitud.",
+    "collectionConflict": "No se pudieron aplicar los cambios a la colección debido a conflictos.",
+    "conflict": "No se pudieron aplicar los cambios debido a conflictos.",
+    "elasticsearchConnectionError": "El servidor encontro provblemas de conexión con Elasticseach.",
+    "elasticsearchError": "Elasticsearch encontró un error. Si este problema persiste, comuníquese con su administrador.",
+    "forbiddenError": "No está autorizado para realizar la acción solicitada.",
+    "importDefinitionDoesNotExist": "La importación falló porque la entidad importada requiere definiciones que no existen.",
+    "importDefinitionForbidden": "La importación falló porque no está autorizado para acceder a algunas de las definiciones requeridas para la entidad importada.",
+    "importDescriptionInvalid": "La importación falló porque la descripción proveida es inválida. Debe ser nula o no mayor a 400 caracteres.",
+    "importFileInvalid": "La importación falló porque el archivo proporcionado no era válido. Solo se pueden importar archivos JSON exportados desde Optimize.",
+    "importIndexVersionMismatch": "La importación falló porque la estructura de datos de las entidades importadas no coincide con la estructura de datos actual. Migre los datos en su Optimize de origen antes de exportar para asegurarse de que la versión de Optimize coincida.",
+    "invalidAlertEmailAddresses": "Los usuarios con las siguientes direcciones de correo electrónico no están disponibles para recibir alertas: {invalidAlertEmails}",
+    "invalidDashboardVariableFilter": "No se pudo guardar el tablero porque uno o más filtros de variables ya no son válidos. Es posible que los informes hayan cambiado desde que se agregó el filtro de variables.",
+    "invalidEventProcessState": "Esta operación no se puede realizar en el estado actual del proceso basado en eventos.",
+    "invalidLicenseError": "Licencia no válida proporcionada.",
+    "noLicenseStoredError": "No hay ninguna licencia almacenada en Optimize. Proporcione una licencia válida de Optimize.",
+    "nonDefinitionScopeCompliantConflict": "No se pudo aplicar la acción debido a conflictos con la fuente de datos de la colección. La definición del reporte no está definida en el origen de datos.",
+    "nonTenantScopeCompliantConflict": "No se pudo aplicar la acción debido a conflictos con la fuente de datos de la colección. La definición del reporte está disponible en el origen de datos, pero al menos un cliente definido en el reporte no está disponible en el origen de datos.",
+    "notAuthorizedError": "No se pudo autenticar, verifique sus credenciales.",
+    "notFoundError": "El servidor no pudo encontrar el recurso solicitado.",
+    "payloadTooLarge": "La petición tiene un tamaño muy grande.",
+    "reportConflict": "No se pudieron aplicar los cambios al reporte reporte debido a conflictos.",
+    "reportEvaluationError": "No se pudo evaluar el reporte.",
+    "reportNotSupportedForOpenSearch": "Este reporte no está soportado actualmente por Opensearch.",
+    "reportsNotCombinable": "No es posible combinar los reportes seleccionados.",
+    "serverError": "Ocurrió un error interno del servidor.",
+    "sharingNotAllowed": "No se pudo compartir porque esta funcionalidad está deshabilitada actualmente.",
+    "tooManyBuckets": "No se pudo evaluar el reporte porque el resultado tiene más de 10.000 puntos de datos. Agregue filtros o ajuste el tamaño del depósito para reducir el tamaño del resultado del reporte.",
+    "userOrGroupIdNotFound": "El ID de usuario o grupo proporcionado no existe en Optimize."
+  },
+  "appFullName": "Camunda Optimize",
+  "appName": "Optimize",
+  "common": {
+    "above": "arriba",
+    "addACopy": "agregar una copia",
+    "addName": "Agregar {name}",
+    "add": "Agregar",
+    "all": "Todo",
+    "and": "y",
+    "apply": "Aplicar",
+    "below": "abajo",
+    "cancel": "Cancelar",
+    "carbon": {
+      "table": {
+        "batch": {
+          "cancel": "Cancelar",
+          "item": {
+            "selected": "{totalSelected} seleccionado"
+          },
+          "items": {
+            "selected": "{totalSelected} seleccionados"
+          }
+        }
+      }
+    },
+    "change": "Cambiar",
+    "closeError": "Cerrar la notificación de error",
+    "close": "Cerrar",
+    "collapse": "Colapsar",
+    "collection": {
+      "addUserModal": {
+        "searchPlaceholder": "Busca por nombre, correo electrónico o identificador..."
+      },
+      "created": "Creada \"{name}\"",
+      "label-plural": "Colecciones",
+      "label": "Colección",
+      "modal": {
+        "addDataSources": "Agregar fuentes de datos",
+        "allTenants": "Todos los clientes",
+        "createBtn": "Crear colección",
+        "defaultName": "Nueva colección",
+        "editBtn": "Editar colección",
+        "info": "Una colección le permite limitar el acceso a los datos, agregar usuarios y crear alertas sobre reportes de números.",
+        "inputLabel": "Nombre de la colección",
+        "title": {
+          "edit": "Editar nombre de la colección",
+          "new": "Crear nueva colección"
+        }
+      }
+    },
+    "condition": "Condición",
+    "configure": "Configurar",
+    "copyLabel": "copiar",
+    "copyName": "Copiar nombre}",
+    "copy": "Copiar",
+    "creating": "Creando...",
+    "csvLimit": {
+      "Warning": "Advertencia: CSV no contendrá todos los datos solicitados",
+      "exportApi": "También puede utilizar la <a class='cds--link' href='{docsLink}'>data export API</a> de exportación de datos para exportar grandes cantidades de datos desde Optimize.",
+      "info": "Esta descarga contendrá el primer {exportLimit} de {totalCount} registros. Filtre sus datos o solicite a su administrador que aumente el límite del sistema para resolver este problema."
+    },
+    "dataSource": "Fuente de datos",
+    "decision": {
+      "label-plural": "Decisiones",
+      "label": "Decisión"
+    },
+    "definitionSelection": {
+      "latest": "Más reciente",
+      "limitReached": "Límite de definición de proceso alcanzado. Solo {maxNumProcesses} procesos permitidos.",
+      "multiple": "Múltiple",
+      "noDefinition": "No se encontraron definiciones",
+      "noSourcesWarning": "Para habilitar la selección, las fuentes de datos deben agregarse a la colección.",
+      "select": {
+        "decision": "Seleccionar decisión",
+        "multiProcess": "Seleccione uno o más procesos",
+        "process": "Seleccionar proceso"
+      },
+      "tenant": {
+        "includeData": "Incluir datos de",
+        "notDefined": "No definida"
+      },
+      "version": {
+        "alwaysLatest": "Mostrar siempre lo más reciente",
+        "label": "Versión",
+        "specific": {
+          "label-plural": "Versiones específicas",
+          "label": "Versión específica"
+        }
+      },
+      "versionWarning": "Nota: los datos de las versiones anteriores pueden diferir, por lo que los datos del reporte pueden ser inconsistentes"
+    },
+    "deleteEntity": "Eliminar {entidad}",
+    "delete": "Eliminado",
+    "deleter": {
+      "affectedMessage": {
+        "bulk": {
+          "process": "Al eliminar fuentes de datos, se eliminan todos los reportes asociados y sus alertas.",
+          "report": "Los reportes seleccionados se eliminarán de los tableros y reportes combinados asociados. Sus Alertas serán eliminadas."
+        },
+        "process": {
+          "alert": "También se eliminarán las siguientes alertas:",
+          "combined_report": "Los reportes borrados se eliminarán de los reportes combinados:",
+          "dashboard": "Los reportes borrados se eliminarán de los tableros:",
+          "report": "Se eliminarán los siguientes reportes:"
+        },
+        "report": {
+          "alert": "También se eliminarán las siguientes alertas:",
+          "combined_report": "Esto eliminará el reporte de los reportes combinados:",
+          "dashboard": "Esto eliminará el reporte de los tableros:"
+        },
+        "source": {
+          "alert": "También se eliminarán las siguientes alertas:",
+          "combined_report": "Los reportes borrados se eliminarán de los reportes combinados:",
+          "dashboard": "Los reportes borrados se eliminarán de los paneles:",
+          "report": "Los siguientes reportes se eliminarán de la colección:"
+        }
+      },
+      "areYouSureSelected": {
+        "delete": "¿Está seguro de que desea eliminar los elementos seleccionados?",
+        "remove": "¿Está seguro de que desea remover los elementos seleccionados?"
+      },
+      "areYouSure": "¿Está seguro que desea continuar?",
+      "noUndo": "Advertencia: esta acción no se puede deshacer.",
+      "permanent": "El '{name}' {type} se eliminará de forma permanente.",
+      "types": {
+        "alert": "Alerta",
+        "collection": "Colección",
+        "combined_report": "Reporte combinado",
+        "dashboard": "Tablero",
+	"goals": "Objetivos",
+	"group": "Grupo",
+        "ingestedEvents": "Eventos",
+        "items": "Elementos",
+        "owner": "Dueño",
+        "processEvents": "Procesar eventos",
+        "process": "Proceso",
+        "report": "Reporte",
+	"source": "Fuente de datos",
+	"user": "Usuario"
+      }
+    },
+    "description": "Descripción",
+    "deselectAll": "Deseleccionar todo",
+    "details": "Detalles",
+    "disableAll": "Deshabilitar todo",
+    "disabled": "deshabilitado",
+    "documentation": "documentación",
+    "download": "Descargar",
+    "editAccess": "Editar acceso",
+    "editName": "Editar {name}",
+    "editTenants": "Editar clientes",
+    "edit": "Editar",
+    "enableAll": "Habilitar todos",
+    "enabled": "habilitado",
+    "entity": {
+      "byModifier": "por {modifier}",
+      "createdBy": "Creado por",
+      "modifiedBy": "Modificado por",
+      "modifiedTitle": "Modificado",
+      "modified": "Última modificación",
+      "namePlaceholder": {
+        "Dashboard": "Nombre del tablero",
+        "Process": "Nombre del proceso",
+	"Report": "Nombre del reporte"
+      },
+      "type": "Tipo",
+      "viewModel": {
+        "decision": "Ver tabla de decisión",
+        "model": "Ver modelo",
+        "process": "Ver modelo de proceso"
+      },
+      "viewRawData": "Ver datos sin procesar"
+    },
+    "error": "Error",
+    "errors": {
+      "inValidLink": "Este enlace no es válido.",
+      "number": "Ingrese un número",
+      "percentage": "Introduzca un porcentaje válido",
+      "positiveInt": "Introduce un número entero positivo",
+      "positiveNum": "Introduce un número positivo"
+    },
+    "expand": "Expandir",
+    "export": "Exportar",
+    "filter": {
+      "UnselectFlowNodes": "Deseleccione los nodos de flujo para excluirlos de la visualización:",
+      "addFilter": "Añadir filtro",
+      "allVisible": {
+        "decision": "Visualizar todas las evaluaciones",
+        "instance": "Visualizar todas las instancias",
+        "view": "Visualizar todos los datos del nodo de flujo"
+      },
+      "assignee": {
+        "allowCustomValues": "Permitir al visualizador agregar filtros de valores"
+      },
+      "assigneeModal": {
+        "excludeOnly": "Excluir solo",
+        "includeOnly": "Incluir solo",
+        "selectValue": "Filtrar por identificación",
+        "type": {
+          "assignee": "Asignado",
+          "candidateGroup": "Grupos de candidatos"
+        },
+        "unassigned": "no asignado"
+      },
+      "dateModal": {
+        "endDateWarning": "Los reportes con un filtro activo de fecha de finalización solo mostrarán las instancias completadas.",
+        "info": {
+          "evaluationDateTime": "Instancias de decisión <b>evaluated</b>",
+          "instanceEndDate": "Instancias de proceso <b>ended</b>",
+          "instanceStartDate": "Instancias de proceso <b>started</b>"
+        },
+        "invalidDate": "Introduzca una fecha válida",
+        "last": "último",
+        "preview": {
+          "completed": {
+            "all": "completado",
+            "week": "completado"
+          },
+          "last": {
+            "all": "en el último",
+            "plural": "en el último",
+            "week": "en la última"
+          },
+          "this": {
+            "all": "en la actual",
+            "week": "en la actual"
+          }
+        },
+        "rollingInfo": "Nota: el rango continuo se calcula hasta la hora actual",
+        "to": "a",
+        "unit": {
+          "after": "Después",
+          "before": "Antes",
+          "between": "Entre",
+          "custom": "Continuo",
+          "last": "Ultimo...",
+          "this": "Este...",
+          "today": "Este Dia",
+          "yesterday": "El dia de ayer"
+        }
+      },
+      "decisionFilter": "Filtro de instancia de decisión",
+      "definitionSelection": {
+        "decisionFilter": "Filtro de instancia de decisión"
+      },
+      "dropdownLabel": {
+        "decision": "Filtrar evaluaciones de decisiones",
+        "instance": "Filtrar instancias de proceso",
+        "view": "Filtrar nodos de flujo"
+      },
+      "durationModal": {
+        "includeInstance": "Solo incluye instancias de proceso que se ejecutaron para...",
+        "lessThan": "menos que",
+        "moreThan": "más que"
+      },
+      "excludedFlowNodes": "nodos de flujo excluidos",
+      "flowNodeFilter": "Filtro de datos de nodo de flujo",
+      "incompatibleFilters": "No se muestran datos debido a filtros incompatibles",
+      "instanceFilter": "Filtro de instancia de proceso",
+      "label": "Filtros",
+      "linkingTip": "Los filtros están vinculados por la lógica 'y'",
+      "list": {
+        "appliedTo": "Aplicado a",
+        "invalidDefinition": "A la fuente de datos le falta la versión o la selección de inquilinos.",
+        "operators": {
+          "after": "después",
+	  "and": "y",
+          "before": "antes",
+          "between": "entre",
+          "contains": "contiene",
+          "greater": "es mayor que",
+          "isBetween": "está entre",
+          "is": "es",
+          "less": "es menos que",
+          "more": "Es más que",
+          "neither": "Es ninguno",
+          "nor": "ni",
+          "notContains": "no contiene",
+          "not": "no es",
+          "occurs": "ocurre",
+          "or": "o",
+          "was": "estaba",
+          "were": "fueron"
+	},
+	"totalInstanceWarning": "El filtro se aplica al conteo total de instancias"
+	},
+	"modalHeader": "{type} filtro",
+	"nodeDateModal": {
+        "info": {
+          "flowNodeEndDate": {
+            "instance": "Solo mostrar instancias donde al menos uno de los nodos de flujo seleccionados terminó",
+            "view": "Mostrar solo los datos de los nodos de flujo que terminaron"
+          },
+          "flowNodeStartDate": {
+            "instance": "Mostrar solo las instancias en las que se inició al menos uno de los nodos de flujo seleccionados",
+            "view": "Mostrar solo datos de nodos de flujo que comenzaron"
+          }
+        }
+      },
+      "nodeModal": {
+        "canceledFlowNodes": "Cancelado",
+        "executedFlowNodes": "En ejecución, cancelado o completado",
+        "executingFlowNodes": "En ejecución",
+        "notExecutedFlowNodes": "Sin ejecutar",
+        "preview": {
+          "canceledFlowNodes": "Nodos de flujo cancelados",
+          "executedFlowNodes": "Nodos de flujo en ejecución, cancelados o completados",
+          "executingFlowNodes": "Nodos de flujo en ejecución",
+          "notExecutedFlowNodes": "Nodos de flujo no ejecutados"
+        },
+        "selectFlowNode": "De clic en el nodo de flujo que quiera seleccionar:"
+      },
+      "selectedFlowNodes": "Nodo(s) de flujo seleccionado(s)",
+      "state": {
+        "flowNodesOnly": "<b>{type}</b> Solo nodos de flujo",
+        "incidents": "<b>{type}</b> incidentes",
+        "instancesOnly": "<b>{type}</b> Solo instancias",
+        "modalLabels": {
+          "canceledFlowNodesOnly": "Cancelado",
+          "canceledInstancesOnly": "Cancelada",
+          "completedFlowNodesOnly": "Completado",
+          "completedInstancesOnly": "Completada",
+          "completedOrCanceledFlowNodesOnly": "Completado o Cancelado",
+          "doesNotIncludeIncident": "Sin Incidentes",
+          "includesClosedIncident": "Incidents cerrados",
+          "includesOpenIncident": "Incidentes abiertos",
+          "includesResolvedIncident": "Incidentes Resueltos",
+          "nonCanceledInstancesOnly": "no cancelado",
+          "nonSuspendedInstancesOnly": "no suspendido",
+          "runningFlowNodesOnly": "En ejecución",
+          "runningInstancesOnly": "En ejecución",
+          "suspendedInstancesOnly": "Suspendido"
+        },
+        "modalPretext": {
+          "flowNodeStatus": "Mostrar solo los datos de nodos de flujo que son...",
+          "incidentInstances": "Mostrar solo instancias con…",
+          "incident": "Mostrar solo datos de nodos de flujo con...",
+          "instanceState": "Mostrar solo las instancias que son..."
+        },
+        "previewLabels": {
+          "canceledFlowNodesOnly": "Cancelado",
+          "canceledInstancesOnly": "Cancelada",
+          "completedFlowNodesOnly": "Completado",
+          "completedInstancesOnly": "Completada",
+          "completedOrCanceledFlowNodesOnly": "Completado o Cancelado",
+          "doesNotIncludeIncident": "No",
+          "includesClosedIncident": "Cerrado",
+          "includesOpenIncident": "Abierto",
+          "includesResolvedIncident": "Resuelto",
+          "nonCanceledInstancesOnly": "no cancelado",
+          "nonSuspendedInstancesOnly": "no suspendido",
+          "runningFlowNodesOnly": "En ejecución",
+          "runningInstancesOnly": "En ejecución",
+          "suspendedInstancesOnly": "Suspendido"
+        }
+      },
+      "tooltip": {
+        "instance": "Los filtros de instancia de proceso devuelven datos de instancias de proceso que coinciden con el requisito del filtro. Si el filtro se basa en un nodo de flujo, los datos devueltos mostrarán todas las instancias en las que se activó este nodo de flujo.",
+        "view": "Los filtros de nodos de flujo devuelven datos solo de nodos de flujo, donde el nodo de flujo o su propiedad coinciden con el requisito del filtro. Más útil en las vistas de nodo de flujo y tarea de usuario."
+      },
+      "types": {
+        "assignee": "Asignado",
+        "candidateGroup": "Grupo candidato",
+        "count-plural": "Conteos",
+        "count": "Conteo",
+        "date": "Fecha de instancia",
+        "dur-plural": "Duraciones de nodo de flujo",
+        "dur": "Duración de nodo de flujo",
+        "duration": "Duración",
+        "evaluationDateTime": "Evaluación Fecha Hora",
+        "flowNodeDate": "Fecha del nodo de flujo",
+        "flowNodeDuration": "Duración del nodo de flujo",
+        "flowNodeEndDate": "Fecha de finalización del nodo de flujo",
+        "flowNodeSelection": "Selección de nodo de flujo",
+        "flowNodeStartDate": "Fecha de inicio del nodo de flujo",
+        "flowNodeStatus": "Estado del nodo de flujo",
+        "flowNode": "Nodo de flujo",
+        "incident": "Incidente",
+        "inputVariable-plural": "Variables de entrada",
+        "instanceDuration": "Duración de instancia",
+        "instanceEndDate": "Fecha de fin",
+        "instanceStartDate": "Fecha de inicio",
+        "instanceState": "Estado de instancia de proceso",
+        "instance": "Instancia de proceso",
+        "multipleVariable": "Variable",
+        "openIncident": "Incidentes abiertos",
+	"outputVariable-plural": "Variables de salida",
+        "outputVariable": "Variable de salida",
+        "processIncident": "Incidente de proceso",
+        "processInstanceDuration": "Duración de instancia de proceso",
+        "resolvedIncident": "Incidentes resueltos",
+        "variable-plural": "Variables",
+        "variable": "Variable",
+        "viewIncident": "Incidentes de nodo de flujo"
+      },
+      "updateFilter": "Actualizar filtro",
+      "variableModal": {
+        "addToList": "Agregar a la lista",
+        "addValue": "Añadir valor",
+        "addedToList": "Valor agregado a la lista",
+        "bool": {
+          "false": "Es falso",
+          "isNullOrUndefined": "es nulo o indefinido",
+          "true": "es verdadero"
+        },
+        "customValue": "Agregar valor de variable personalizado",
+        "enterMultipleValues": "Agregue múltiples valores separándolos con una tabulación",
+        "enterValue": "Agregar un solo valor",
+        "excludeUndefined": "Excluir instancias donde la variable seleccionada es <b>null</b> o <b>undefined</b>",
+        "includeUndefined": "Incluir instancias donde la variable seleccionada es <b>null</b> o <b>undefined</b>",
+        "info": "Solo mostrar instancias donde...",
+        "inputLabel": "Nombre de la variable",
+        "inputPlaceholder": "Seleccione o busque una variable aquí",
+        "invalidInput": "La entrada debe ser un número",
+        "loadMore": "Carga más",
+        "multiSelect": {
+          "empty": "No se encontraron valores",
+          "header": "Valores de variables",
+          "search": "Buscar valores"
+        },
+        "noVariables": "No se encontraron variables",
+        "or": "o",
+        "undefinedValuesLabel": "<b>Null</b> or <b>undefined</b> values"
+      }
+    },
+    "flowNode": {
+      "label-plural": "Nodos de flujo",
+      "label": "Nodo de flujo"
+    },
+    "for": "para",
+    "goToHome": "Ir a la página principal",
+    "id": "ID",
+    "importReportDashboard": "Importar reporte/tablero",
+    "incident": {
+      "byFlowNode": "Incidentes por Nodo de Flujo",
+      "label-plural": "Incidentes",
+      "label": "Incidente"
+    },
+    "instance": {
+      "label-plural": "instancias",
+      "label": "instancia"
+    },
+    "instanceIds": "IDs de instancia",
+    "itemSelected": {
+      "label-plural": "elementos seleccionados",
+      "label": "elemento seleccionado"
+    },
+    "less": "menos",
+    "link": "enlace",
+    "more": "más",
+    "multiSelect": {
+      "available": "Elementos disponibles",
+      "empty": "No se encontraron elementos",
+      "search": "Buscar elementos",
+      "selectAll": "Seleccionar todos los elementos a la vista",
+      "selected": "Elementos seleccionados"
+    },
+    "name": "Nombre",
+    "new": "Nuevo",
+    "nextStep": "Siguiente paso",
+    "none": "Ninguno",
+    "notFound": "No se encontraron resultados",
+    "nullOrUndefined": "Nulo o indefinido",
+    "null": "nulo",
+    "off": "Apagado",
+    "on": "Encendido",
+    "open": "Abierto",
+    "or": "o",
+    "previousStep": "Paso previo",
+    "process": {
+      "label-plural": "Procesos",
+      "label": "Proceso"
+    },
+    "processInstance": {
+      "label-plural": "Instancias de procesos",
+      "label": "Instancia del Proceso"
+    },
+    "processInstanceIds": "IDs de instancias de proceso",
+    "removeEntity": "Remover {entity}",
+    "remove": "Remover",
+    "reset": "Resetear",
+    "saveContinue": "Guardar y continuar",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "searchForMore": "Desplegando {count} resultados únicos. Realizar una busqueda para refinar.",
+    "seeDocs": "Ver la documentación",
+    "selectAll": "Seleccionar todo",
+    "select": "Seleccionar...",
+    "selected": "Seleccionado",
+    "sharing": {
+      "buttonTitle": "Compartir",
+      "copyLabel": "Copiar enlace",
+      "disabled": "Compartir está deshabilitado por configuración",
+      "embedLabel": "Embeber enlace",
+      "filtersLabel": "Compartir con los filtros actuales aplicados",
+      "inputPlaceholder": "Habilitar compartir para crear enlace",
+      "notification": "enlace copiado al portapapeles",
+      "openInOptimize": "Abrir en Optimize",
+      "popoverTitle": "Habilitar compartir"
+    },
+    "sort": "Sortear",
+    "tenant": {
+      "label-plural": "Clientes",
+      "label": "Cliente"
+    },
+    "timeAt": "en",
+    "undefined": "indefinido",
+    "unit": {
+      "automatic": "automático",
+      "billion": {
+        "label-plural": "miles de millones",
+        "label": "mil millones"
+      },
+      "day": {
+        "label-plural": "días",
+        "label": "día"
+      },
+      "hour": {
+        "label-plural": "horas",
+        "label": "hora"
+      },
+      "milli": {
+        "label-plural": "milisegundos",
+        "label": "milisegundo"
+      },
+      "million": {
+        "label-plural": "millón",
+        "label": "millón"
+      },
+      "minute": {
+        "label-plural": "minutos",
+        "label": "minuto"
+      },
+      "month": {
+        "label-plural": "meses",
+        "label": "mes"
+      },
+      "quadrillion": {
+        "label-plural": "cuatrillón",
+        "label": "cuatrillón"
+      },
+      "quarter": {
+        "label-plural": "cuartos",
+        "label": "cuarto"
+      },
+      "quintillion": {
+        "label-plural": "quintillón",
+        "label": "quintillón"
+      },
+      "second": {
+        "label-plural": "segundos",
+        "label": "segundo"
+      },
+      "thousand": {
+        "label-plural": "mil",
+        "label": "mil"
+      },
+      "trillion": {
+        "label-plural": "billón",
+        "label": "billón"
+      },
+      "week": {
+        "label-plural": "semanas",
+        "label": "semana"
+      },
+      "year": {
+        "label-plural": "años",
+        "label": "año"
+      }
+    },
+    "units": "Unidades",
+    "update": "Actualizar",
+    "user": {
+      "id": "Identificador de Usuario",
+      "label-plural": "Usuarios",
+      "label": "Usuario"
+    },
+    "user-group": {
+      "id": "Identificador de grupo de usuarios",
+      "label-plural": "Grupos de Usuarios",
+      "label": "Grupo de usuarios"
+    },
+    "userTask": {
+      "label-plural": "Tareas de usuario",
+      "label": "Tarea de usuario"
+    },
+    "value": "Valor",
+    "viewDetails": "Ver detalles",
+    "viewDocumentation": "Ver documentación",
+    "viewLess": "Ver menos",
+    "viewMore": "Ver más",
+    "view": "Vista",
+    "zoomControls": {
+      "resetZoom": "Resetear la vista del diagrama",
+      "zoomIn": "Acercar en el diagrama",
+      "zoomOut": "Alejar en el diagrama"
+    }
+  },
+  "dashboard": {
+    "addButton": {
+      "addReportLabel": "Agregar reporte",
+      "addTileLabel": "Agregar reporte",
+      "addTile": "Agregar un reporte",
+      "externalWebsite": "Sitio web externo",
+      "newReport": "Nuevo reporte basado en una plantilla",
+      "noReports": "No se creo ningún reporte",
+      "optimizeReport": "Reporte de Optimize",
+      "selectReportPlaceholder": "Seleccione un reporte",
+      "text": "Texto"
+    },
+    "addName": "Nombre del tablero",
+    "autoRefresh": "Autorefrescar",
+    "cannotShare": "Prohibido compartir. Falta la autorización para el reporte contenido.",
+    "createNew": "Crear nuevo tablero",
+    "create": "Crear tablero",
+    "enterFullscreen": "Ir a pantalla completa",
+    "filter": {
+      "customValue": "Valor personalizado",
+      "date": {
+        "last": "Último",
+        "this": "Este",
+        "units": {
+          "months": "Mes",
+          "quarters": "Cuarto",
+          "weeks": "Semana",
+          "years": "Año"
+        }
+      },
+      "disabledAssignee": "Los filtros de grupos candidatos y asignados solo están disponibles para tableros que contienen al menos un reporte.",
+      "disabledVariable": "Los filtros de variables solo están disponibles para los tableros que contienen al menos un reporte.",
+      "label": "Añadir un filtro",
+      "modal": {
+        "allowCustomValues": "Permitir que el visualizador agregue valores de filtro",
+        "pretext": {
+          "Boolean": "Los valores verdadero y falso estarán disponibles en el filtro resultante.",
+          "Date": "La selección de fecha estará disponible en el filtro resultante.",
+          "default": "Las opciones seleccionadas estarán disponibles en el filtro resultante.",
+          "flowNodeData": "El filtro considerará los datos del nodo de flujo."
+        }
+      },
+      "multiple": "múltiple",
+      "operatorLink": "Valores vinculados por lógica de {operator}",
+      "resetAll": "Resetear todo",
+      "selectValue": "Seleccione el valor de la variable",
+      "types": {
+        "canceledInstancesOnly": "Cancelada",
+        "completedInstancesOnly": "Completada",
+	"instanceEndDate": "Fecha de fin",
+        "instanceStartDate": "Fecha de inicio",
+        "nonCanceledInstancesOnly": "No cancelada",
+        "nonSuspendedInstancesOnly": "No suspendida",
+        "runningInstancesOnly": "Ejecutandose",
+	"state": "Estado de instancia",
+        "suspendedInstancesOnly": "Suspendida",
+        "variable": "Variable"
+      },
+      "viewButtonText": "Filtros",
+      "viewLabel": "Filtrar datos del reporte"
+    },
+    "label-plural": "Tableros",
+    "label": "Tablero",
+    "leaveFullscreen": "Salir de pantalla completa",
+    "new": "Nuevo tablero",
+    "noAuthorization": "Autorización faltante",
+    "noReportAccess": "Sin acceso al reporte",
+    "saveModal": {
+      "text": "Guarde el tablero para continuar. Al guardar el tablero, se guardarán todos los reportes que contiene.",
+      "unsaved": "Tablero no guardado"
+    },
+    "templates": {
+      "acceleration-description": "Optimizar el tiempo de ejecución de las tareas en el proceso y monitorear los acuerdos de niveles de servicio para el proceso.",
+      "acceleration": "Incrementar la aceleración",
+      "acceleration_cycleTimeLast4Weeks": "Este reporte muestra el temporizador promedio de ciclo del mes actual.",
+      "acceleration_cycleTimeLast4Weeks": "Tiempo de ciclo en las últimas 4 semanas",
+      "acceleration_cycleTimeLast7Days-description": "Este reporte muestra el temporizador promedio de ciclo de los últimos 7 días. El reporte está marcado como KPI.",
+      "acceleration_cycleTimeLast7Days": "Tiempo de ciclo en los últimos 7 dias (KPI)",
+      "acceleration_cycleTimeLastWeeks-description": "Este reporte muestra como el tiempo de ciclo ha estado en las últimas semanas.",
+      "acceleration_cycleTimeLastWeeks": "Tiempo de ciclo en las últimas semanas",
+      "acceleration_deviationOfPlannedToAverageDuration-description": "Este reporte muestra el tiempo planeado para las tareas y la desviación sobre el plan.",
+      "acceleration_deviationOfPlannedToAverageDuration": "Desviación de lo planeado con la duración promedio.",
+      "acceleration_durationOfCriticalTasksInLastMonth-description": "Esta tabla muestra todas las tareas y su duración promedio.",
+      "acceleration_durationOfCriticalTasksInLastMonth": "Duración de las tareas críticas en el último mes",
+      "acceleration_taskBottlenecks-description": "Este reporte visualiza los nodos de flujo que tomas el mayor tiempo de la ejecución.",
+      "acceleration_taskBottlenecks": "Tareas que causan cuellos de botella",
+      "acceleration_text1_line10": "  filtrar por resultados esperados y no esperados de proceso",
+      "acceleration_text1_line1": "¿Cuánto toma al proceso promedio en llegar al final?",
+      "acceleration_text1_line2": " Objetivo",
+      "acceleration_text1_line3": "Terminar proceso en el tiempo objetivo definido.",
+      "acceleration_text1_line4": " Personalizar",
+      "acceleration_text1_line5": "Establecer objetivos ",
+      "acceleration_text1_line6": " para lo planeado ",
+      "acceleration_text1_line7": "Tiempo de ciclo",
+      "acceleration_text1_line8": "- Cambiar ",
+      "acceleration_text1_line9": "Selección de flujo de nodo",
+      "acceleration_text2_line1": "¿Cuánto tiempo tomo a la tarea para completar?",
+      "acceleration_text2_line2": " Objetivo",
+      "acceleration_text2_line3": "Reducir la duración del proceso usando mejor alojamiento de recursos u optimización de tarea.",
+      "acceleration_text3_line1": "¿Cuánto más tomo a la tarea de lo esperado?",
+      "acceleration_text3_line2": " Personalizar",
+      "acceleration_text3_line3": "- Definir ",
+      "acceleration_text3_line4": "duraciones objetivo para tareas",
+      "activeIncidentsByProcess": "Incidentes activos por proceso",
+      "activeIncidents": "Incidentes activos",
+      "blank": "Tablero en blanco",
+      "completedProcesses": "Procesos completados",
+      "durationSLI": "Rastreo de duración de proceso SLI",
+      "efficiency-description": "Incrementar el número de procesos que terminaron como se esperaba.",
+      "efficiency": "Incrementar la eficiencia",
+      "efficiency_incidentFreeRateInLast3Months-description": "Este reporte mide la tasa de procesos que terminaron sin ningún incidente.",
+      "efficiency_incidentFreeRateInLast3Months": "Tasa sin incidentes en los últimos 3 meses (KPI)",
+      "efficiency_incidentsInLast3Months-description": "Este repeorte lista todos los incidentes que ocurrieron en los últimos 3 meses.",
+      "efficiency_incidentsInLast3Months": "Incidentes en los últimos 3 meses",
+      "efficiency_nodesCausingIncidentsInLast3Months-description": "Este mapa de calor muestra en qué nodos de proceso han ocurrido incidentes.",
+      "efficiency_nodesCausingIncidentsInLast3Months": "Nodos de proceso que han causado incidentes en los últimos 3 meses",
+      "efficiency_outcomeInLast4Weeks-description": "Este repoerte provee un resumen de los resultados positivos en las últimas 4 semanas.",
+      "efficiency_outcomeInLast4Weeks": "Resultados en las últimas 4 semanas",
+      "efficiency_outcomeLastWeek-description": "Este reporte sumariza los elementos procesos de acuerdo a lo planeado en la última semana. El reporte está marcado como KPI.",
+      "efficiency_outcomeLastWeek": "Resultados en la última semana (KPI)",
+      "efficiency_outcomeThisWeek-description": "Este reporte contabiliza los elementos que ya terminaron de acuerdo a lo esperado en esta semana.",
+      "efficiency_outcomeThisWeek": "Resultados de esta semana",
+      "efficiency_processScattering-description": "Este reporte contabiliza el número de procesos que se desviaron de la ruta ideal.",
+      "efficiency_processScattering": "Procesos dispersos de la ruta ideal",
+      "efficiency_text1_line1": "¿Que incidentes ocurren?",
+      "efficiency_text1_line2": " Objetivo",
+      "efficiency_text1_line3": "Entender los incidentes más frecuentes e intentar resolverlos.",
+      "efficiency_text2_line1": "¿Cuántos proceso terminaron de acuerdo a lo deseado?",
+      "efficiency_text2_line2": " Objetivo",
+      "efficiency_text2_line3": "Incrementar los resultados deseados y reducir los no deseados.",
+      "efficiency_text2_line4": " Personalizar",
+      "efficiency_text2_line5": "- Cambiar ",
+      "efficiency_text2_line6": "Selección de nodo de flujo",
+      "efficiency_text2_line7": " para filtar resultados de proceso deseados y no deseados",
+      "efficiency_text3_line1": "¿Qué son los resultados inesperados?",
+      "efficiency_text3_line2": " Objetivo",
+      "efficiency_text3_line3": "Reducir el número de procesos que no están en la ruta ideal.",
+      "efficiency_text3_line4": " Personalizar",
+      "efficiency_text3_line5": "- Cambiar ",
+      "efficiency_text3_line6": "Selección de nodo de flujo",
+      "efficiency_text3_line7": " para filtrar resultados de proceso deseados y no deseados",
+      "efficiency_typesOfUnwantedOutcomeLas4tWeeks-description": "Este reporte muestra los tipos de resultados no deseados.",
+      "efficiency_typesOfUnwantedOutcomeLas4tWeeks": "Tipos de resultados no deseados en las últimas 4 semanas",
+      "efficiency_typesOfUnwantedOutcomeLastWeek-description": "Este reporte muestra los tipos de resultados no deseados.",
+      "efficiency_typesOfUnwantedOutcomeLastWeek": "Tipos de resultados no deseados en la última semana",
+      "efficiency_unwantedOutcomeLastWeek-description": "Este reporte muestra el resultado no deseado de la última semana. Este reporte está marcado como KPI.",
+      "efficiency_unwantedOutcomeLastWeek": "Resultado no deseado en la última semmana (KPI)",
+      "efficiency_unwantedOutcomeThisWeek-description": "Este reporte mide los resultados no deseados de esta semana. ",
+      "efficiency_unwantedOutcomeThisWeek": "Resultado no deseado de esta semana",
+      "incidentHandling": "¿Estamos resolviendo incidentes de manera suficientemente rápida?",
+      "incidentHistory": "Historial de incidentes",
+      "incidentSnapshot": "Captura de incidente",
+      "laborSavings": "¿Estamos ahorrando costos totales de trabajo?",
+      "longRunningProcesses": "Instancias de proceso de ejecución prolongada",
+      "operationsMonitoring-description": "Monitoreo de procesos activos e incidentes",
+      "operationsMonitoring": "Monitoreo de operaciones",
+      "portfolioPerformance-description": "Ver un resumen de hasta 10 procesos",
+      "portfolioPerformance": "Resumen del desempeño del portafolio",
+      "processAcceleration": "¿Son mis procesos cada vez más rápidos?",
+      "processDashboard-description": "Este tablero muestra una vista competitiva de las métricas y casos de uso que pueden ser cubiertos con Optimize.",
+      "processDashboard": "Tablero de proceso",
+      "processHistory": "Historial de proceso",
+      "processSnapshot": "Captura de proceso",
+      "processTotal": "¿Qué tanto estamos utilizando Camunda?",
+      "productivity-description": "Mejorae la utilización de recursos existentes para incrementar los resultados.",
+      "productivity": "Mejorar la productividad",
+      "productivity_currentlyInProgress-description": "Este reporte contabiliza los elementos que están trabajandose actualmente. Este reporte está marcado como KPI.",
+      "productivity_currentlyInProgress": "Elementos actualmente en progreso (KPI)",
+      "productivity_finishedInLast2Weeks-description": "Este reporte muestra la tasa de elementos completados en las últimas 2 semanas.",
+      "productivity_finishedInLast2Weeks": "Completados en las últimas 2 semanas",
+      "productivity_finishedThisWeek-description": "Este reporte muestra el número de elementos que terminaron esta semana. Este reporte está marcado como KPI.",
+      "productivity_finishedThisWeek": "Completados esta semana (KPI)",
+      "productivity_finishedYesterday-description": "Este reporte contabiliza los elementos terminados ayer.",
+      "productivity_finishedYesterday": "Completados ayer",
+      "productivity_incomingInLast2Weeks-description": "Este reporte provee un resumen de las peticiones entrantes en las últimas 2 semanas.",
+      "productivity_incomingInLast2Weeks": "Peticiones entrantes en las últimas 2 semanas",
+      "productivity_incomingThisWeek-description": "Este reporte contabiliza el número de peticiones entrantes que iniciaron un proceso esta semana. Este reporte está marcado como KPI.",
+      "productivity_incomingThisWeek": "Peticiones entrantes esta semana (KPI)",
+      "productivity_incomingToday-description": "Este reporte contabiliza el número de peticiones entrantes que inciaron un proceso",
+      "productivity_incomingToday": "Peticiones entrantes el día de hoy",
+      "productivity_maxNumberOfItemsInProgress-description": "Este reporte muestra el número máximo de elementos en progreso por día.",
+      "productivity_maxNumberOfItemsInProgress": "Máximo número de procesos en progreso por día",
+      "productivity_text1_line10": "Resumen de correos electrónicos",
+      "productivity_text1_line1": "¿Cuántos elementos entrantes iniciaron un proceso?",
+      "productivity_text1_line2": " Objetivo",
+      "productivity_text1_line3": "Reaccionar tempranamente a cargas inesperadas para poder cumplir con objetivos definidos.",
+      "productivity_text1_line4": " Personalizar",
+      "productivity_text1_line5": "- Establecer la entrada planeada como  ",
+      "productivity_text1_line6": "Objetivo de peticiones de entrada.",
+      "productivity_text1_line7": "- Marcar reporte como ",
+      "productivity_text1_line8": "Indicador Clave de Rendimiento por sus siglas en inglés (KPI)",
+      "productivity_text1_line9": " para obtener como parte de ",
+      "productivity_text2_line10": "Resumen de correos electrónicos",
+      "productivity_text2_line1": "¿Cuántos elementos están en progreso?",
+      "productivity_text2_line2": " Objetivo",
+      "productivity_text2_line3": "Balancear la cantidad de trabajo en prgoreso con los recursos disponibles para asegurar la estabilidad del proceso.",
+      "productivity_text2_line4": " Personalizar",
+      "productivity_text2_line5": "- Establecer el número planeado de elementos en progreso como ",
+      "productivity_text2_line6": "objetivo",
+      "productivity_text2_line7": "- Marcar reporte como ",
+      "productivity_text2_line8": "Indicador Clave de Rendimiento por sus siglas en ingles (KPI)",
+      "productivity_text2_line9": " para obtener como parte de ",
+      "productivity_text3_line10": "Resumen de correos electrónicos",
+      "productivity_text3_line1": "¿Cuántos elementos se han completado?",
+      "productivity_text3_line2": " Objetivo",
+      "productivity_text3_line3": "Asegurar el flujo continuo de elementos a través del sistema.",
+      "productivity_text3_line4": " Personalizar",
+      "productivity_text3_line5": "Establecer objetivos",
+      "productivity_text3_line6": " para la tasa planeada de finalización",
+      "productivity_text3_line7": "- Marcar reporte para obtenerlo como parte de ",
+      "productivity_text3_line8": "Indicador Clave de Rendimiento por sus siglas en ingles (KPI)",
+      "productivity_text3_line9": " para obtener como parte de ",
+      "runningProcesses": "¿Cuánes procesos están en ejecución?",
+      "runningTasks": "¿Cuáles tareas de usuario están en ejecución?",
+      "taskAutomation": "¿Qué tan rápido estamos automatizando las tareas de usuario?",
+      "taskLifecycle": "¿Qué tannto toman las tareas antes de ser asignadas?"
+    },
+    "textReportEditNotification": "Esta es una funcionalidad que estammos planeando agregar",
+    "toggleTheme": "Cambiar tema"
+  },
+  "events": {
+    "addedSources": "Fuentes añadidas",
+    "autogenerate": "Autogenerar",
+    "cancelPublish": "Cancelar Publicar",
+    "createProcess": "Comenzar por crear un proceso",
+    "createTip": "Dar clic en Nuevo Proceso para crear su primer proceso basado en eventos",
+    "deleteWarning": "El proceso '{name}' se eliminará de forma permanente. Esto dará como resultado la eliminación de cualquier reporte asociado, dentro y fuera de las colecciones.",
+    "generate": "Generar",
+    "generationInfo": "Agregar fuentes de eventos para generar automáticamente un proceso de principio a fin. Los procesos generados se basan en una muestra de datos y es posible que no representen todos los eventos. Edite el proceso generado para refinar manualmente.",
+    "generationWarning": "Los procesos generados automáticamente se basan en una muestra de datos y es posible que no representen todos los eventos. Edite el proceso generado para refinar manualmente.",
+    "ingested": {
+      "deleteLimitReached": "No es posible eliminar más de 1000 entradas a la vez",
+      "deleteWarning": "Cualquier proceso que use estos eventos debe volver a publicarse para reflejar el estado eliminado.",
+      "eventName": "Tipo",
+      "eventSources": "Eventos externos",
+      "group": "Grupo",
+      "id": "Identificador de evento",
+      "label": "Eventos externos ingeridos",
+      "noData": "No hay eventos ingeridos.",
+      "search": "Buscar valores",
+      "source": "Fuente",
+      "timestamp": "Indicación de fecha y hora",
+      "traceId": "Identificador de seguimiento"
+    },
+    "label": "Proceso basado en eventos",
+    "list": "Lista de eventos",
+    "modelProcess": "Modelar un Proceso",
+    "new": "Nuevo proceso",
+    "parseError": "No se pudo analizar el archivo. Asegúrese de cargar un archivo BPMN válido.",
+    "permissions": {
+    "description": "Permitir a los siguientes usuarios y grypos crear reportes basados en este proceso",
+      "noUsers": "No hay usuarios agregados",
+      "private": "Privado - Solo usted",
+      "userGranted": "Acceso de usuario concedido",
+      "whoHasAccess": "¿Quién puede utilizar este proceso?"
+    },
+    "publishModal": {
+      "head": "Proceso de publicación",
+      "republishHead": "Proceso de reedición",
+      "republishText": "La reedición actualizará los datos en todos los reportes asociados.",
+      "text": "Los procesos basados en eventos publicados estarán disponibles para su uso en reportes por parte de usuarios seleccionados."
+    },
+    "publishStart": "Proceso de publicación. Esto puede tomar algo de tiempo.",
+    "publishSuccess": "{name} ha sido publicado.",
+    "publish": "Publicar",
+    "sources": {
+      "addEvents": "Agregar eventos de proceso",
+      "addExternalInfo": "Se agregarán todos los eventos externos ingeridos.",
+      "add": "Añadir fuente de eventos",
+      "allEvents": "Todos los eventos de nodo de flujo",
+      "allExternal": "todos los eventos",
+      "allInOne": "Combinar todos los eventos en un solo grupo",
+      "alreadyExists": "El proceso seleccionado ya está agregado",
+      "byKey": "Llave de negocio",
+      "byVariable": "Variable",
+      "camundaEvents": "Eventos de Camunda",
+      "camundaProcess": "Proceso de Camunda",
+      "defineTrace": "Ubicación de identificador de seguimiento",
+      "definitionChangeWarning": "Cambiar la definición del proceso puede agregar o eliminar eventos. Las asignaciones de eventos existentes podrían ser eliminadas.",
+      "deleteWarning": "Al eliminar los eventos de este origen de eventos, se eliminará cualquier asignación que se haya creado.",
+      "display": "Seleccionar eventos para mostrar",
+      "editScope": "Editar lista de eventos",
+      "editSource": "Editar fuente de eventos",
+      "empty": "No hay fuentes de eventos añadidas",
+      "eventGroups": "Grupos de eventos",
+      "eventListChangeWarning": "Cambiar la lista de eventos puede agregar o eliminar eventos. Las asignaciones de eventos existentes podrían ser eliminadas.",
+      "eventListTip": "Configure qué eventos se muestran en la tabla.",
+      "eventSource": "Fuente del evento",
+      "externalEvents": "Eventos externos",
+      "flownodeEvents": "Iniciar y finalizar eventos de nodo de flujo",
+      "generatedEvents": "Seleccionar eventos para autogenerar",
+      "hide": "Ocultar en la tabla",
+      "learnMore": "Aprenda más",
+      "noGroups": "No se encontraron grupos de eventos",
+      "remove": "Eliminar fuente",
+      "search": "buscar grupos de eventos",
+      "selectExternal": "Seleccionar eventos externos",
+      "selectProcess": "Seleccione una definición de proceso",
+      "show": "Mostrar en la tabla",
+      "startAndEnd": "Proceso de inicio y fin",
+      "ungrouped": "Desagrupado",
+      "variables": "Variables"
+    },
+    "state": {
+      "mapped": "Mapeado",
+      "publish_pending": "Publicación {publishingProgress}%",
+      "published": "Publicado",
+      "unmapped": "sin mapear",
+      "unpublished_changes": "Cambios no publicados"
+    },
+    "stateColumn": "Estado",
+    "table": {
+      "allMapped": "No hay eventos disponibles.",
+      "count": "Conteo",
+      "documentation": "Documentación",
+      "end": "Fin",
+      "group": "Grupo",
+      "mapping": "Mapeado como…",
+      "name": "Nombre del evento",
+      "noResults": "No hay resultados que coincidan con su búsqueda",
+      "seeDocs": "No hay eventos disponibles. Para agregar eventos, consulte ",
+      "showSuggestions": "Mostrar eventos sugeridos",
+      "source": "Fuente",
+      "start": "Inicio"
+    },
+    "upload": "Cargar .bpmn"
+  },
+  "footer": {
+    "connected": "está conectado",
+    "connectionError": "Estado de conexión desconocido (no se puede establecer la conexión Websocket)",
+    "database": "Base de datos",
+    "importing": "está importando...",
+    "notConnected": "no está conectado",
+    "rightsReserved": "Todos los derechos reservados",
+    "timezone": "Fecha y hora se muestran en zona horaria local:"
+  },
+  "home": {
+    "collectionTitleWithAmpersand": "Tableros & reportes",
+    "collectionTitle": "Tableros y reportes",
+    "contactEditor": "Póngase en contacto con un editor de Optimize para crear nuevos elementos.",
+    "contactManager": "Póngase en contacto con el administrador de la colección para crear nuevos elementos.",
+    "contents": "Contenido",
+    "copy": {
+      "copyCollectionInfo": "Se copiarán todos los elementos y usuarios.",
+      "gotoNew": "Ir a nueva ubicación",
+      "inputLabel": "Nombre de la copia",
+      "moveLabel": "Mover copia a...",
+      "noCollections": "No se han creado colecciones.",
+      "pleaseSelect": "Por favor seleccione",
+      "subEntities": "Este {entityType} contiene {number} reportes. También se copiarán.",
+      "subEntity": "Este {entityType} contiene 1 reporte. También se copiará."
+    },
+    "createBtn": {
+      "collection": "Nueva colección",
+      "dashboard": "Nuevo tablero",
+      "default": "Crear nuevo",
+      "report": {
+        "combined": "reporte de proceso combinado",
+        "decision": "reporte de decisión",
+        "default": "Nuevo reporte",
+        "process": "reporte de proceso"
+      }
+    },
+    "emptyState": {
+      "description": "Clic en Crear Nuevo Tablero para obtener perspectivas de los procesos de negocio",
+      "title": "Comenzar por crear un tablero"
+    },
+    "empty": "Aún no hay elementos creados",
+    "members": "Miembros",
+    "roles": {
+      "addUserGroupTitle": "Agregar usuario o grupo de usuarios",
+      "addUserTitle": "Agregar usuario",
+      "deleteWarning": "El '{name}' {type} se eliminará de la colección.",
+      "editor-description": "Crear, editar y eliminar tableros, reportes y alertas",
+      "editor": "Editor",
+      "existing-identity": "Ya existe un usuario o un grupo con esta identificación",
+      "inCollection": "en esta colección",
+      "manager-description": "Todos los derechos de edición de Colección y Usuarios",
+      "manager": "Administrador",
+      "role": "Rol",
+      "userRole": "Rol de usuario",
+      "viewer-description": "Acceso de solo lectura a todos los objetos",
+      "viewer": "Visualizador"
+    },
+    "search": {
+      "generic": "Escriba para buscar....",
+      "name": "Buscar nombre"
+    },
+    "sources": {
+      "addSources": "Puede  agregar una o más fuentes de datos a la colección",
+      "add": "Agregar fuente de datos",
+      "contactManager": "Póngase en contacto con el administrador de la colección para agregar fuentes de datos",
+      "decision": "Tabla de decisión",
+      "definition": {
+        "label-plural": "Definiciones",
+        "label": "Definición"
+      },
+      "definitionName": "Nombre de la definición",
+      "deleteWarning": "La fuente de datos '{name}' se eliminará de la colección.",
+      "notCreated": "No hay fuentes de datos añadidas todavía",
+      "process": "Proceso",
+      "saveConflict": {
+        "header": "Estos cambios son incompatibles con el/los reportes:",
+        "message": "Advertencia: Al guardar, se eliminarán los usuarios de los reportes."
+      },
+      "title": "Fuentes de datos",
+      "unauthorizedTenant": "(Usuario no autorizado)"
+    },
+    "title": "Colecciones, tableros y reportes",
+    "types": {
+      "combined": "Reporte combinado",
+      "decision": "Reporte de decisión",
+      "process": "Reporte de proceso",
+      "unknown": "Entidad desconocida"
+    },
+    "userGroupsTitle": "Usuarios y grupos de usuarios",
+    "userTitle": "Users"
+      },
+    "instantDashboard": {
+    "IP_DashboardName": "Tablero de vista precia instantánea",
+    "IP_KpiDashboardName": "Tablero de valores clave de rendimiento (KPI)",
+    "processDashboard-description": "Este tablero provee una descripción competitiva de las métricas y casos de uso que pueden cubrirse con Optimize.",
+    "processDashboard": "Tablero instantáneo de proceso",
+    "processDashboard_text1_line1": "Reporte de métricas de negocio",
+    "processDashboard_text1_line2": "Agregago y agrupación de la ejecución del proxeso en días, semanas y meses para monitorear y reportar las métricas de negocio y los valores clave de rendimiento (KPI).",
+    "processDashboard_text1_line3": "Suscribirse al resumen via correo electrónico para obtener un reporte semanal de sus métricas de proceso y valores clave de rendimiento (KPI)",
+    "processDashboard_text2_line1": "Investigar problemas e identificar mejoras",
+    "processDashboard_text2_line2": "Use all gathered process execution data to investigate problems or kick off new process improvements.",
+    "processDashboard_text2_line3": "Utilizar el análisis de valores atípicos de Optimize para encontrar mejoras potenciales en su proceso",
+    "processDashboard_text3_line1": "Monitorear el estado de salud del proceso casi en tiempo real",
+    "processDashboard_text3_line2": "Visualizar los datos de ejecución del proceso en los últimos minutos, horas, y días en casi tiempo real para tomar acciones correctivas si es necesario.",
+    "processDashboard_text3_line3": "Crear una copia de este tablero para poder ajustarlo a sus necesidades",
+    "report": {
+      "30DayThroughput": "Rendimiento (Throughput (30-días consecutivos)",
+      "activeIncidentsHeatmap": "¿Dónde se encuentran los incidentes activos?",
+      "controlChart": "¿Está bajo control mi proceso?",
+      "flownodeDuration": "¿Cuáles pasos del proceso toman mucho tiempo? (Tarea Pendiente: Agregar valores objetivos para estos pasos del proceso)",
+      "flownodeFrequency": "¿Con qué frecuencia es ejecutado cada paso del proceso?",
+      "incidentDurationHeatmap": "¿Dónde se encuentran los peores incidentes?",
+      "incidentDurationTrend": "¿Estamos mejorando el manejo de incidentes?",
+      "instanceTrends": "¿Con qué frecuencia se ejecuta este proceso?",
+      "p75Duration": "Duración del percentil 75",
+      "p99Duration": "Duración del percentil 99",
+      "percentNoIncidents": "Tasa libre de incidentes",
+      "percentSLAMet": "% de acuerdo de nivel de servicio cumplido",
+      "processDashboard_bottlenecksInTheProcess-description": "El mapa de calor sobresalta los nodos de flujo que consumen en promedio el mayor tiempo en ser completados.",
+      "processDashboard_bottlenecksInTheProcess": "Cuellos de botella del proceso completados en los últimos 6 meses",
+      "processDashboard_currentlyInProgress-description": "Este reporte contabiliza todos los procesos actuales en ejecución.",
+      "processDashboard_currentlyInProgress": "Actualmente en progreso",
+      "processDashboard_currentlyOpenIncidents-description": "Este reporte muestra los nodos de flujo que actualmente tienen incidentes abiertos.",
+      "processDashboard_currentlyOpenIncidents": "Incidentes actuales abiertos",
+      "processDashboard_currentlyRunningProcesses-description": "Este reporte provee un resumen de progrso de todos los procesos en ejecución. ",
+      "processDashboard_currentlyRunningProcesses": "Procesos actualmente en ejecución",
+      "processDashboard_endedInLast7Days-description": "Este reporte contabiliza todos los procesos que se completaron en los últimos 7 días.",
+      "processDashboard_endedInLast7Days": "Completados en los últimos 7 días",
+      "processDashboard_incomingInLast7Days-description": "Este reporte contabiliza el número de peticiones entrantes que iniciaron un proceso.",
+      "processDashboard_incomingInLast7Days": "Peticiones entrantes en los últimos 7 días",
+      "processDashboard_openIncidents-description": "Este reporte muestra el número de incidentes abiertos.",
+      "processDashboard_openIncidents": "Incidentes abiertos",
+      "processDashboard_processEndedGroupedByMonth-description": "Este reporte provee un resumen de la utilización del proceso en los últimos meses. ",
+      "processDashboard_processEndedGroupedByMonth": "Procesos completados agrupados por mes"
+    }
+  },
+  "license": {
+    "clickToLogin": "De clic aquí para ir a la página de inicio de sesión inmediatamente",
+    "contactSales": "póngase en contacto con ventas",
+    "enterLicense": "Introduzca la clave de licencia",
+    "label": "Licencia",
+    "licenseKey": "Clave de licencia",
+    "licensedFor": "Con licencia para",
+    "nonProduction": "Licencia de uso no-productivo",
+    "redirectMessage": "Será redirigido a la página de inicio de sesión momentariamente.",
+    "referTo": "Si desea información sobre el uso en producción, consulte nuestro",
+    "submit": "Enviar",
+    "terms": "Términos y condiciones",
+    "validUntil": "Válido hasta"
+  },
+  "login": {
+    "appName": "Optimize",
+    "btn": "Iniciar sesión",
+    "closeError": "Error de notificación de cierre de inicio de sesión",
+    "errorMessage": "Un error ha ocurrido. No se pudo iniciar sesión.",
+    "label": "Iniciar sesión",
+    "password": "Password",
+    "timeout": "Su sesión ha terminado. Por favor inicie sesión de nuevo para completar la acción.",
+    "username": "Nombre de usuario"
+  },
+  "managementDashboard": {
+    "dashboardName": "Adopción",
+    "report": {
+      "instancesCurrentlyInProgressDescription": "Este reporte muestra qué tan ocupado está el cluster actualmente.",
+      "instancesCurrentlyInProgressName": "Actualmente en ejecución",
+      "instancesEndedInLastSixMonthsDescription": "Este reporte muestra el número total de instancias de proceso automatizadas que se han completado.",
+      "instancesEndedInLastSixMonthsName": "Completados en los últimos 6 meses",
+      "instancesStartedInLastSixMonthsDescription": "Este reporte provee detalles sobre la adopción general de orquestación de procesos.",
+      "instancesStartedInLastSixMonthsName": "Iniciados en los últimos 6 meses"
+    }
+  },
+  "navigation": {
+    "academy": "Camunda Academy",
+    "analysis": "Análisis",
+    "appSwitcher": "Cambiador de aplicación",
+    "apps": {
+      "console": "Console",
+      "modeler": "Modeler",
+      "operate": "Operate",
+      "optimize": "Optimize",
+      "tasklist": "Tasklist",
+      "zeebe": "Zeebe"
+    },
+    "collections": "Colecciones",
+    "configLoadingError": "Ocurrió un error al cargar las configuraciones de la interfaz gráfica",
+    "dashboards": "Tableros",
+    "documentation": "Documentación",
+    "events": "Procesos basados en eventos",
+    "feedback": "Retroalimentación y Soporte",
+    "help": "Ayuda",
+    "imprint": "Firma",
+    "logoutFailed": "Fallo en cierre de sesión.",
+    "logoutSuccess": "Inicio de sesión exitoso.",
+    "logout": "Cerrar sesión",
+    "opensearchPreview": "Información de OpenSearch",
+    "opensearchWarningText": "Esta versión de Optimize para OpenSearch se puede utilizar en producción. La función de importación de datos es completa, sin embsargo, las funcionalidades de visualización y evaluación son limitadas.",
+    "privacyPolicy": "Política de privacidad",
+    "profile": "Perfil",
+    "termsOfUse": "Terminos de uso"
+  },
+  "processes": {
+    "adoptionDashboard": "Adopción",
+    "analysing": "{count} {label} son orchestrados.",
+    "configureKpis": "Aprender más sobre indicadores clave de rendimiento (KPIs)",
+    "configureProcess": "Configurar proceso",
+    "createDashboardMessage": "No existe un tablero  para este proceso aún. ¿Le gustaría que Optimize creara un tablero automáticamente basado en una plantilla de proceso por usted?",
+    "createDefaultDashboard": "Crear un tablero nuevo por defecto",
+    "defaultDashboardAndKPI": "Tableros de proceso e indicadores clave de rendimiento (KPIs)",
+    "digestConfigured": "Su resumen de proceso ha sido configurado exitosamente. Un correo electrónico ha sido enviado a {name}.",
+    "digestInfo": "El resumen de proceso envía periódicamente correos electrónicos con el estado actual de los valores clave de rendimiento al dueño del proceso. Por defecto, el resumen se enviará cada lunes a las 9:00 AM (Para cambiaar el tiempo de envío por defecto, por favor contacte a su administrador).",
+    "editGoal": "Editar objetivo",
+    "emailDigest": "Correo electrónico de resumen",
+    "empty": "Todavía no hay procesos importados",
+    "goalRemoved": "Objetivos eliminados para el proceso {processName}",
+    "goals": "Objetivos",
+    "kpiInfo": "Valores clave de rendimiento (KPI) están basados en ciertos reportes.",
+    "label-plural": "procesos",
+    "label": "proceso",
+     "ownerInfo": "El dueño del proceso es responsable por las métricas de negocio del proceso. Puede utilizar al dueño del proceso para ordenar y filtrar los procesos.",
+     "ownerRemoveWarning": "El dueño {owner} será removido del proceso",
+     "owner": "Dueño",
+     "processOwner": "Dueño del proceso",
+    "processesListedOf": "{count} de {total} {label} listado.",
+    "processesListed": "{total} {label} listado.",
+    "qualityKpi": "Valor clave de rendimiento (KPI): Calidad",
+    "setGoal": "Establecer objetivo",
+    "timeGoals": {
+      "availableGoals": "Puede usar objetivos de duración para rastrear cuántas instancias están completamente automatizadas (duración objetivo) o cumplir con sus acuerdos de nivel de servicio (SLA).",
+      "configure": "Configurar objetivos de duración",
+      "displayGoal": "Mostrar objetivo",
+      "durationDistributionInfo": "Este gráfico muestra la duración de las instancias de proceso que terminan en el mes actual.",
+      "durationDistribution": "Distribución de la duración",
+      "instancesTake": "de instancias de proceso toman",
+      "instancesThisMonth": "Instancias finalizadas en los últimos 30 días",
+      "instancesTook": "de las instancias tomó menos de",
+      "label": "Objetivos de tiempo",
+      "lessThan": "menos que",
+      "noInstances": "No se produjeron instancias en el intervalo de tiempo.",
+      "resultInfo": "Esta vista previa muestra el estado de cada objetivo según su configuración actual.",
+      "resultPreview": "Vista previa del resultado:",
+      "saveGoals": "Guardar objetivos",
+      "setDuration": "Establezca un objetivo de duración estableciendo un porcentaje de instancias de proceso que deberían tardar menos de una determinada duración en completarse.",
+      "setGoals": "Establezca metas para las duraciones esperadas.",
+      "slaDuration": "SLA",
+      "targetDuration": "Objetivo",
+      "updateGoals": "Actualizar objetivos"
+
+    },
+    "timeKpi": "Indicador Clave de Rendimiento (KPI): Tiempo"
+  },
+  "report": {
+    "addDescription": "Agregar descripción",
+    "addGrouping": "Agraegar agrupación",
+    "addMeasure": "Agregar medida",
+    "addName": "Nombre del reporte",
+    "combined": {
+      "multiSelect": {
+        "available": "reportes disponibles:",
+        "empty": "No se encontraron reportes",
+        "search": "Buscar reportes",
+        "selected": "reportes seleccionados:"
+	}
+    },
+    "combinedEmptyMessage": "Para mostrar un reporte, seleccione uno o más reportes de la lista.",
+    "config": {
+      "aggregation": {
+        "avg": "Promedio",
+        "durationLegend": "Agregaciones básicas",
+        "label": "Agregación",
+        "max": "Máximo",
+        "median": "Mediana",
+        "min": "Mínimo",
+        "p50": "P50 (mediana)",
+        "percentileLegend": "Agregaciones de percentiles",
+        "sum": "Suma",
+        "userTaskLegend": "Duración de tarea de usuario",
+        "variableLegend": "Agregaciones de variables"
+      },
+      "aggregationShort": {
+        "avg": "Promedio",
+        "max": "Max",
+	"median": "Med",
+	"min": "Min",
+        "min": "Min",
+        "percentile": "P{value}",
+        "sum": "Suma"
+      },
+      "axisSettings": {
+        "legend": "Ajustes de eje",
+        "logScale": "Escala logarítimica (base 10)",
+        "xAxis": "Etiqueta del eje X",
+        "yAxis": "Etiqueta del eje Y"
+      },
+      "barLine": {
+        "bar": "Barra",
+        "line": "Línea",
+        "visualizationSettings": "Configuración de visualización"
+
+      },
+      "bucket": {
+        "baseline": "Base",
+        "bucketSize": "Tamaño del cubo",
+        "buckets": "cubos",
+        "invalidNumber": "Debe ser un número válido",
+	"size": "Tamaño"
+      },
+      "buttonTooltip": "Opciones de configuración",
+      "colorPicker": {
+        "legend": "Color"
+      },
+      "display": {
+        "enableStackedBars": "Barras apiladas",
+        "horizontalBars": "Barras horizontales",
+        "legend": "Mostrar"
+      },
+      "goal": {
+        "baseline": "Base",
+        "goalValue": "Valor del objetivo",
+        "invalidInput": "Introduzca un número positivo",
+        "kpiDescription": "El estado de esta métrica se mostrará directamente en el proceso, en la página de proceso.",
+        "legend": "Establecer un objetivo",
+        "lessThanTargetError": "El objetivo debe ser mayor que la línea de base",
+	"markTargets": "Marcar objetivos",
+	"setKpi": "Mostrar como un indicador clave de rendimiento (KPI)",
+	"target": "Objetivo"
+      },
+      "includeNewVariables": "Mostrar datos de nuevas variables",
+      "includeTableColumn": "Columnas de tabla a incluir",
+      "limitPrecision": {
+        "legend": "Precisión personalizada",
+        "numberOf": {
+          "digits": "Número de digitos",
+          "units": "Número de unidades"
+        },
+        "tooltip": "La precisión de los valores se muestra en la información de recomendaciones de la gráfica."
+      },
+      "pointMarkers": {
+        "enableMarkers": "Habilitar marcadores puntuales",
+        "legend": "Puntos de linea"
+      },
+      "reset": "Restablecer los valores por defecto",
+      "showCount": {
+        "evaluation": "Mostrar conteo de evaluaciones",
+        "instance": "Mostrar conteo de instancias"
+      },
+      "showGradientBars": "Mostrar barras de gradiente",
+      "tooltips": {
+        "legend": "Información de recomendaciones",
+        "showAbsolute": "Mostrar valores absolutos",
+        "showRelative": {
+          "decision": "Mostrar valor relativo basado en el conteo de evaluación de decisiones",
+          "process": "Mostrar valor relativo basado en el conteo de instancias de proceso"
+	  }
+      },
+      "userTaskDuration": {
+        "idle": "No asignado",
+        "total": "Total",
+	"work": "Asignado"
+      }
+    },
+    "copyTooltip": "Copiar {entity} para comparar y analizar variantes.<br/><a class='cds--link' href='{docsLink}' target='_blank' rel='noopener noreferrer'>Documentation</a>",
+    "createNew": "Crear nuevo reporte",
+    "create": "Crear reporte",
+    "definition": {
+      "add": "Agregar {type}",
+      "decision-plural": "Definiciones de decisiones",
+      "decision": "Definicion de decisión",
+      "process-plural": "Definiciones del procesos",
+      "process": "Definición del Proceso",
+      "search": "Buscar {type}",
+
+      "variables": {
+        "followGuidelines": "Siga estas guías para evitar comportamientos inesperados.",
+        "globalChanges": "Los cambios actualizarán todos los reportes utilizando esta definición de proceso",
+        "important": "Importante!",
+        "newName": "Nombre nuevo",
+        "renameInfo": "Puede proporcionar un alias único de interfaz de usuario que se muestre en lugar del nombre de variable definido en Modeler.",
+        "rename": "Renombrar variables",
+        "type": "Tipo",
+        "useSameVariable": "Use el mismo alias para las variables que aparecen en múltiples definiciones de procesos",
+	"variableName": "Nombre de variable"
+      }
+    },
+    "displayNamePlaceholder": "Agregar nombre opcional para mostrar",
+    "displayName": "Nombre para mostrar",
+    "downloadCSV": "Descargar CSV",
+    "editSetupMessage": "Para mostrar este reporte, edite la configuración de su reporte.",
+    "errorNotice": "Error al cargar datos",
+    "externalUrl": "URL externo",
+    "groupBy": {
+      "automatic": "Automático",
+      "day": "Día",
+      "duration": "Duración",
+      "endDate": "Fecha de fin",
+      "evaluationDate": "Fecha de evaluación",
+      "flowNodes": "Nodos de flujo",
+      "hour": "Hora",
+      "inputVariable": "Variable de entrada",
+      "label": "Agrupar por",
+      "month": "Mes",
+      "none": "Ninguno",
+      "outputVariable": "Variable de salida",
+      "rules": "Reglas",
+      "runningDate": "Fecha de ejecución",
+      "searchForVariable": "Buscar variable…",
+      "startDate": "Fecha de inicio",
+      "userAssignee": "Asignado",
+      "userGroup": "Grupo candidato",
+      "userTasks": "Tareas de usuario",
+      "variable": "Variable",
+      "week": "Semana",
+      "year": "Año"
+
+    },
+    "heatTarget": {
+      "actualDuration": "<b>{duration}</b><br/>{percentage}% del valor objetivo",
+      "duration": {
+        "avg": "Duración promedio:",
+        "max": "Duración máxima:",
+        "median": "Duración media:",
+        "min": "Duración mínima:",
+	"percentile": "Duración P{value}: ",
+        "sum": "Duración total: "
+      },
+      "exceededInstances": "Instancias excedidas-{name}",
+      "invalidValue": "Todos los campos deben tener un valor numérico",
+      "label": "Valor objetivo",
+      "noValueAvailable": "No hay valor real disponible.<br/>No se puede comparar el valor objetivo con el actual.",
+       "table": {
+        "activity": "Actividad",
+	"target": "Valor objetivo",
+	"value": "Valor actual"
+
+      },
+      "targetDuration": "Duración objetivo",
+      "title": "Comparación de valor objetivo"
+
+    },
+    "incompleteNotice": "La configuración del reporte está incompleta",
+    "instanceCount": {
+      "additionalFiltersHeading": "Filtros a nivel de tablero",
+      "appliedFilters": "filtros aplicados",
+      "decision": {
+        "label-plural-withFilter": "Mostrando datos de {count} de {totalCount} evaluaciones.",
+	"label-plural": "Mostrando de datos de {count} evaluaciones.",
+	"label-withFilter": "Mostrando datos de {count} de {totalCount} evaluación.",
+        "label": "Mostrando datos de la evaluación {count}."
+	},
+      "process": {
+        "label-plural-withFilter": "Mostrando datos de {count} de {totalCount} instancias.",
+        "label-plural": "Mostrando datos de {count} instancias.",
+        "label-withFilter": "Mostrando datos de {count} de {totalCount} instancia.",
+        "label": "Mostrando datos de la instancia {count}."
+
+      },
+      "reportFiltersHeading": "Filtros a nivel de reporte"
+    },
+     "invalidCombinationError": "No se pueden mostrar datos para la configuración de reporte dada. ¡Por favor, elija otra combinación!",
+    "kpiTemplates": {
+      "automationRate-description": "La tasa de automatización mide qué porcentaje del prceos es ejecutado sin interacción humana.",
+      "automationRate-filter1": "Seleccione los eventos finales que indican el proceso está completamente automatizado",
+      "automationRate-filter2": "Seleccione el período de tiempo por el eque se evaluó la tasa de automatización",
+      "automationRate": "Tasa de automatización",
+      "create": "Crear indicador clave de rendimiento (KPI) de proceso",
+      "filters": {
+        "endDate": "Seleccione período de tiempo",
+        "nodeSelection": "Seleccione evento final"
+      },
+      "filtersLabel": "Filtros",
+      "mandatoryFields": "Campos mandatorios",
+      "preview": "Vista previa",
+      "processKpi": "Indicador clave de rendimiento (KPI) de proceso",
+      "selectKpi": "Seleccione indicador clave de rendimiento (KPI) de proceso",
+      "setTargetAndFilters": "Establecer objetivos y filtros",
+      "step": "{count} de pasos",
+      "throughput-description": "El tiempo de rendimiento indica cuanto necesita en promedio un proceso en el camino ideal para finalizar",
+      "throughput-filter1": "Seleccione los eventos finales que indican el proceso está completamente automatizado",
+      "throughput-filter2": "Seleccione el período de tiempo en el cual se evaluó el rendimiento",
+      "throughput": "Tiempo de rendimiento"
+    },
+    "label-plural": "Reportes",
+    "label": "Reporte",
+    "measure": "Medición",
+    "missingAssignee": "No asignado",
+    "missingVariableValue": "nulo / indefinido",
+    "missingVariable": "Variable faltante",
+    "new": "Nuevo reporte",
+    "noDataNotice": "Sin datos",
+    "noDefinitionMessage": {
+      "decision": "Seleccione una <b>Definición de Decisión</b>.",
+      "process": "Seleccione una <b>Definición de Proceso</b>."
+	    },
+    "noGroupByMessage": "Seleccione qué <b>Agrupar Por</b>.",
+    "noSources": "No hay fuentes de datos",
+    "noViewMessage": "Seleccione una opción para <b>Visualizar</b>.",
+    "noVisualizationMessage": "Seleccione una opción para <b>Visualización</b> arriba.",
+    "nonExistingFlowNode": "Nodo(s) de flujo no existen",
+    "nonExistingVariable": "variable no existe",
+    "percentageOfInstances": "% del total de instancias que coinciden con el filtro",
+    "processPart": {
+      "description": "Solo considera la parte entre",
+      "label": "Parte de instancia de proceso",
+      "noPathWarning": "Seleccionó dos nodos, pero no hay una conexión obvia entre esos nodos. Los resultados del reporte pueden estar vacíos o ser erróneos.",
+      "selectEnd": "Seleccionar fin",
+      "selectStart": "Seleccionar inicio",
+      "title": "Establecer parte de instancia de proceso"
+
+    },
+    "progressBar": {
+      "goal": "Objetivo",
+      "invalid": "Configuración no válida"
+
+    },
+    "reportSetup": "Configuración del reporte",
+    "runningEndedFlowNodeWarning": "Solo se tienen en cuenta los nodos de flujo completados cuando se agrupan por fecha de finalización. Por lo tanto, agregar el filtro de estado del nodo de flujo 'en ejecución' no mostrará resultados",
+    "saveConflict": {
+      "alert": {
+        "header": "Estos cambios son incompatibles con las alertas:",
+        "message": "Advertencia: al guardar se eliminarán las alertas."
+
+      },
+      "combined_report": {
+        "header": "Estos cambios son incompatibles con los reportes combinados:",
+        "message": "Advertencia: Guardar eliminará este reporte de los reportes combinados."
+
+      },
+      "header": "Cambios Destructivos"
+    },
+    "setupNotice": "Configure su reporte",
+    "sorting": {
+      "label": "Orden de sorteo",
+      "order": {
+        "asc": "Ascendente",
+        "desc": "Descendente"
+      }
+    },
+    "table": {
+      "info": "Mostrando {firstRowIndex} a {lastRowIndex} de {totalRows}",
+      "nextPage": "Página siguiente",
+      "noData": "Debe habilitar al menos una columna de la tabla",
+      "of": "de",
+      "pageError": "Solo se pueden mostrar las primeras 10.000 instancias",
+      "page": "página",
+      "previousPage": "Página previa",
+      "rawData": {
+        "businessKey": "Llave de negocio",
+        "count": "Conteo",
+        "decisionDefinitionId": "Identificador de definición de decisión",
+        "decisionDefinitionKey": "Llave de la definición de decisión",
+        "decisionInstanceId": "Identificador de instancia de decisión",
+        "duration": "Duración",
+
+        "endDate": "Fecha de fin",
+        "engineName": "Nombre del motor",
+
+        "evaluationDateTime": "Fecha de evaluación",
+        "flowNodeDuration": "Duración",
+        "incidents": "Incidentes",
+        "inputVariable": "Variable de entrada",
+        "multipleVariable": "Variables",
+        "objectVariable": "Variable de objeto",
+        "openIncidents": "Incidentes abiertos",
+        "outputVariable": "Variable de salida",
+        "processDefinitionId": "Identificador de definición de proceso",
+        "processDefinitionKey": "Llave de la definición del proceso",
+        "processInstanceId": "Identificador de instancia de proceso",
+        "startDate": "Fecha de inicio",
+        "tenantId": "Identificación del usuario",
+
+        "userTasks": "Tareas de usuario",
+        "variable": "Variable"
+      },
+      "relativeFrequency": "Frecuencia relativa",
+      "rows": "Renglones por página"
+
+    },
+    "templates": {
+      "analyzeOrExportRawDataFromATable-description": "Analizar datos crudos directamente en Optimize o exportarlos para casos de uso de aprendizaje automático.",
+      "analyzeOrExportRawDataFromATable": "Analizar o exportar datos crudos de una tabla",
+      "analyzeSharesAsPieChart-description": "Análizar distribuciones por conteo o duración de procesos.",
+      "analyzeSharesAsPieChart": "Análizar distribuciones en gráfica circular",
+      "blank": "Reporte en blanco",
+      "compareProcessesAndVersionsInABarChart-description": "Comparar procesos y versiones de proceso en un reporte. (Seleccionar al menos dos procesos)",
+      "compareProcessesAndVersionsInABarChart": "Comparar procesos y versiones en una gráfica de barras",
+      "correlateDurationAndCountInPieChart-description": "Correlacionar la duración y conteo de un proceso, incidentes, tareas de usuario o nodos de flujo.",
+      "correlateDurationAndCountInPieChart": "Correlacionar la duración y conteo en una gráfica circular",
+      "correlateMetricsInLineBarChart-description": "Correlacionar la duración, porcentaje y conteo de un proceso.",
+      "correlateMetricsInLineBarChart": "Correlacionar métricas en una gráfica de lineas/barras",
+      "listIncidentsAsTable-description": "Visualizar tabla de todos los incidentes por nodo de flujo.",
+      "listIncidentsAsTable": "Listado de incidentes en forma de tabla",
+      "localeIncidentHotspotsOnAHeatmap-description": "Localización de incidentes recurrentes visualizados como mapa de calor de incidentes.",
+      "localeIncidentHotspotsOnAHeatmap": "Localización de incidentes recurrentes en un mapa de calor",
+      "locateBottlenecsOnAHitmap-description": "Localización de duración o conteo de cuellos de botella visualizados en un mapa de calor por nodos de flujo.",
+      "locateBottlenecsOnAHitmap": "Localización de cuellos de botella en un mapa de calor",
+      "monitorTargetAsKpi-description": "Monitoreo de objeticos como métricas basadas en duración, porcentaje y conteo de un proceso. La métrica se clasifica como indicador clave de rendimiento (KPI).",
+      "monitorTargetAsKpi": "Monitoreo de objetivos como indicadores clave de rendimiento (KPI)",
+      "monitorTargetAsMetric-description": "Monitoreo de objetivos para métricas basadas en duración, porcentaje y conteo de un proceso.",
+      "monitorTargetAsMetric": "Monitoreo de objetivos como métricas",
+      "monitorTargetsOverTime-description": "Monitoreo de objetivos a través de duración, porcentaje y conteo de un proceso.",
+      "monitorTargetsOverTime": "Monitoreo de objetivos a través del tiempo"
+    },
+    "textTile": "Título de mosaico",
+    "totalCount": {
+     "evaluation": "Evaluación Total</br> Count: <b>{count}</b>",
+      "instance": "Instancia total</br> Count: <b>{count}</b>"
+
+    },
+    "updateReportPreview": {
+      "buttonLabel": "Ejecutar",
+      "cannotUpdate": "Esta función solo funciona cuando las actualizaciones de vista previa automática están habilitadas.",
+      "switchLabel": "Actualizar la vista previa automáticamente"
+    },
+    "variables": {
+      "default": "Variables",
+      "input": "Variables de entrada",
+      "output": "Variables de salida"
+      },
+    "view": {
+      "count": "Conteo",
+      "decision": "Vista de decisión",
+      "duration": "Duración",
+      "evaluationCount": "Conteo de evaluación",
+      "fn": "Nodo de flujo",
+      "in": "Incidente",
+      "label": "Vista",
+      "multi": "Conteo y duración",
+      "percentage": "Porcentaje",
+      "pi": "Instancia de Proceso",
+      "process": "Vista de proceso",
+      "rawData": "Datos sin procesar",
+      "resolutionDuration": "Duración de la resolución",
+      "userTask": "Tarea de usuario",
+      "variable": "Variable"
+
+    },
+    "viewByGroup": "{view} por {group}",
+    "visualization": {
+      "barLine": "Gráfico de barras/líneas",
+      "bar": "Gráfico de barras",
+      "heat": "Mapa de calor",
+      "label": "Visualización",
+      "line": "Gráfico de linea",
+      "number": "Número",
+      "pie": "Gráfico circular",
+      "table": "Tabla"
+
+    }
+  },
+  "saveGuard": {
+    "header": "Cambios no guardados",
+    "no": "No guardar",
+    "text": "El {label} tiene cambios sin guardar. ¿Guardar antes de continuar?",
+    "yes": "Guardar cambios"
+
+  },
+  "templates": {
+    "blankSlate": {
+      "refine": "Refine su tablero y reportes",
+      "review": "Revise su borrador del tablero y elimine los reportes no deseados",
+      "selectProcess": "Seleccione hasta {maxNumProcesses} definiciones de proceso",
+      "selectTemplate": "Seleccione una plantilla"
+    },
+    "disabledMessage": {
+      "editReport": "Para cambiar este valor, edite la sección de fuente de datos de los reportes creados.",
+      "multipleProcess": "Esta plantilla es la más adecuada para múltiples procesos.",
+      "noProcess": "Seleccione la definición del proceso para poder seleccionar una plantilla.",
+      "singleProcess": "Esta plantilla es la más adecuada para procesos individuales."
+       },
+    "noProcessHint": "Crear tablero en blanco",
+    "noXmlHint": "Seleccione la definición del proceso para mostrar el diagrama",
+    "templateGroups": {
+      "blankGroup": "Plantilla en blanco",
+      "multiProcessGroup": "Plantillas multiproceso",
+      "singleProcessGroup": "Plantillas de un solo proceso",
+      "templatesGroup": "Plantillas"
+      }
+  },
+  "textEditor": {
+    "plugins": {
+      "images": {
+        "altTextLabel": "Nombre de la imagen (opcional)",
+        "altTextPlaceholder": "Alguna imagen",
+        "title": "Insertar imagen",
+        "urlLabel": "URL de imagen",
+        "urlPlaceholder": "https://picture/some-picture.jpg"
+      },
+      "link": {
+        "altTextLabel": "Deslegar texto (opcional)",
+        "altTextPlaceholder": "Liga a example.com",
+        "title": "Insertar liga",
+        "urlLabel": "URL de liga",
+        "urlPlaceholder": "https://example.com"
+      }
+    },
+    "toolbar": {
+      "align": {
+        "center": "Centrada",
+        "label": "Alineada",
+        "left": "Izquierda",
+        "right": "Derecha"
+      },
+      "blockStyles": {
+        "bullet": "Lista con viñetas",
+        "code": "Bloque de código",
+        "h1": "Título 1",
+        "h2": "Título 2",
+        "h3": "Título 3",
+        "number": "Lista numerada",
+        "paragraph": "Normal",
+        "quote": "Bloque en comillas"
+      },
+      "history": {
+        "redo": "Rehacer",
+        "undo": "Deshacer"
+      },
+      "insert": {
+        "horizontalRule": "Linea horizontal",
+        "image": "Imagen",
+        "label": "Insertar",
+        "link": "Liga"
+      },
+      "styles": {
+        "bold": "Negrita",
+        "code": "Código",
+        "italic": "Itálico",
+        "strikethrough": "Tachado",
+        "underline": "Subrayado"
+      }
+    }
+  }
+}
