@@ -18,7 +18,14 @@
     "termsOfUse": "Nutzungsbedingungen",
     "imprint": "Impressum",
     "academy": "Camunda Academy",
-    "feedback": "Feedback und Support"
+    "feedback": "Feedback und Support",
+    "slack": "Slack-Community-Kanal",
+    "info" : {
+      "open": "Info öffnen"
+    },
+    "user" : {
+      "open": "Benutzer öffnen"
+    }
   },
   "login": {
     "label": "Einloggen",
@@ -342,7 +349,7 @@
       "analyzeSharesAsPieChart": "Analysiere Verteilung als Kuchendiagramm",
       "analyzeSharesAsPieChart-description": "Analysiere Verteilung von Anzahl oder Dauer als Kuchendiagramm.",
       "analyzeOrExportRawDataFromATable": "Analysiere oder exportiere Rohdaten aus einer Tabelle",
-      "analyzeOrExportRawDataFromATable-description": "Analysiere Rohdaten direkt in Optimize oder exportiere diese für Anwednungsfälle mit maschinellem Lernen.",
+      "analyzeOrExportRawDataFromATable-description": "Analysiere Rohdaten direkt in Optimize oder exportiere diese für Anwendungsfälle mit maschinellem Lernen.",
       "compareProcessesAndVersionsInABarChart": "Vergleiche Prozesse und Versionen in einem Balken Diagramm",
       "compareProcessesAndVersionsInABarChart-description": "Vergleiche Prozesse und Versionen in einem Balken Diagramm. (Wähle mindestens zwei Prozesse)",
       "correlateDurationAndCountInPieChart": "Korreliere Metriken in einem Kuchendiagram",
@@ -1103,6 +1110,8 @@
     "nextStep": "nächster Schritt",
     "previousStep": "Vorheriger Schritt",
     "sort": "Sortieren",
+    "filterTable": "Filtertabelle",
+    "options": "Optionen",
     "process": {
       "label": "Prozess",
       "label-plural": "Prozesse"
@@ -1213,7 +1222,11 @@
       "filtersLabel": "Mit aktuellen Filtern teilen",
       "copyLabel": "Link kopieren",
       "embedLabel": "Link einbetten",
-      "openInOptimize": "In Optimize öffnen"
+      "openInOptimize": "In Optimize öffnen",
+      "toggle": {
+        "enabled": "An",
+        "disabled": "Aus"
+      }
     },
     "filter": {
       "label": "Filter",
@@ -1604,6 +1617,7 @@
     "carbon": {
       "table": {
         "batch": {
+          "selectAll": "Alle auswählen ({totalCount})",
           "cancel": "Abbrechen",
           "items": {
             "selected": "{totalSelected} Ausgewählt"
