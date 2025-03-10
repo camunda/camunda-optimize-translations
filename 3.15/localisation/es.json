@@ -142,12 +142,15 @@
     "add": "Agregar",
     "all": "Todo",
     "and": "y",
+    "filterTable": "Filtrar tabla",
+    "options": "Opciones",
     "apply": "Aplicar",
     "below": "abajo",
     "cancel": "Cancelar",
     "carbon": {
       "table": {
         "batch": {
+	  "selectAll": "Seleccionar todo ({totalCount})",
           "cancel": "Cancelar",
           "item": {
             "selected": "{totalSelected} seleccionado"
@@ -631,6 +634,10 @@
       "inputPlaceholder": "Habilitar compartir para crear enlace",
       "notification": "enlace copiado al portapapeles",
       "openInOptimize": "Abrir en Optimize",
+      "toggle": {
+        "enabled": "Encendido",
+        "disabled": "Apagado"
+      },
       "popoverTitle": "Habilitar compartir"
     },
     "sort": "Sortear",
@@ -1247,6 +1254,13 @@
     "documentation": "Documentación",
     "events": "Procesos basados en eventos",
     "feedback": "Retroalimentación y Soporte",
+    "slack": "Canal de la comunidad en Slack",
+    "info" : {
+      "open": "Abrir información"
+    },
+    "user" : {
+      "open": "Abrir usuario"
+    },
     "help": "Ayuda",
     "imprint": "Firma",
     "logoutFailed": "Fallo en cierre de sesión.",
