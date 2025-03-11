@@ -18,7 +18,14 @@
     "termsOfUse": "Terms of use",
     "imprint": "Imprint",
     "academy": "Camunda Academy",
-    "feedback": "Feedback and Support"
+    "feedback": "Feedback and Support",
+    "slack": "Slack Community Channel",
+    "info" : {
+      "open": "Open Info"
+    },
+    "user" : {
+      "open": "Open User"
+    }
   },
   "login": {
     "label": "Log in",
@@ -1103,6 +1110,8 @@
     "nextStep": "Next step",
     "previousStep": "Previous step",
     "sort": "Sort",
+    "filterTable": "Filter table",
+    "options": "Options",
     "process": {
       "label": "Process",
       "label-plural": "Processes"
@@ -1213,7 +1222,11 @@
       "filtersLabel": "Share with current filters applied",
       "copyLabel": "Copy link",
       "embedLabel": "Embed link",
-      "openInOptimize": "Open in Optimize"
+      "openInOptimize": "Open in Optimize",
+      "toggle": {
+        "enabled": "On",
+        "disabled": "Off"
+      }
     },
     "filter": {
       "label": "Filters",
@@ -1604,6 +1617,7 @@
     "carbon": {
       "table": {
         "batch": {
+          "selectAll": "Select All ({totalCount})",
           "cancel": "Cancel",
           "items": {
             "selected": "{totalSelected} selected"
